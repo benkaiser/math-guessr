@@ -165,49 +165,61 @@ const Sound = (() => {
 
   function startTicking(totalTime) {
     stopTicking();
-    let elapsed = 0;
+    const startTime = performance.now();
+    let warningPlayed = false;
+    let graceTimeout = null;
+
     const scheduleNextTick = () => {
+      const elapsed = (performance.now() - startTime) / 1000;
       const fraction = elapsed / totalTime;
+
+      if (fraction >= 1) return; // Timer done
+
+      // Determine tick interval based on how far through the timer we are
       let interval;
       if (fraction < 0.5) {
-        // First half: slow ticks
         interval = 1000;
       } else if (fraction < 0.7) {
-        // Speeding up
         interval = 600;
-      } else if (fraction < 0.85) {
+      } else if (fraction < 0.8) {
         interval = 400;
-      } else if (fraction < 0.95) {
+      } else if (fraction < 0.9) {
         interval = 250;
       } else {
-        // Final moments: rapid
         interval = 150;
       }
 
       tickInterval = setTimeout(() => {
-        const urgent = fraction > 0.7;
+        const now = (performance.now() - startTime) / 1000;
+        const frac = now / totalTime;
+        const urgent = frac > 0.6;
         tick(urgent);
-        if (fraction >= 0.8 && fraction < 0.81) {
+
+        // Play warning sound once at ~75%
+        if (!warningPlayed && frac >= 0.75) {
           warning();
+          warningPlayed = true;
         }
-        elapsed += interval / 1000;
+
         scheduleNextTick();
       }, interval);
     };
+
     // Start after 1 second grace period
-    setTimeout(() => {
-      if (tickInterval !== null || elapsed > 0) return; // already stopped
+    graceTimeout = setTimeout(() => {
+      graceTimeout = null;
       scheduleNextTick();
     }, 1000);
-    // Mark as active with a sentinel
-    tickInterval = -1;
+
+    // Store grace timeout so stopTicking can clear it
+    tickInterval = graceTimeout;
   }
 
   function stopTicking() {
-    if (tickInterval && tickInterval !== -1) {
+    if (tickInterval) {
       clearTimeout(tickInterval);
+      tickInterval = null;
     }
-    tickInterval = null;
   }
 
   // --- Toggle ---

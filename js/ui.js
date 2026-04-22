@@ -36,30 +36,22 @@ const UI = (() => {
       }
     }
 
-    // Background urgency on game screen
-    const gameScreen = document.getElementById('screen-game');
-    if (gameScreen) {
-      gameScreen.classList.remove('urgency-low', 'urgency-medium', 'urgency-high', 'urgency-critical');
-      if (fraction <= 0.15) {
-        gameScreen.classList.add('urgency-critical');
-      } else if (fraction <= 0.3) {
-        gameScreen.classList.add('urgency-high');
-      } else if (fraction <= 0.5) {
-        gameScreen.classList.add('urgency-medium');
-      } else {
-        gameScreen.classList.add('urgency-low');
-      }
+    // Background urgency on body
+    document.body.classList.remove('urgency-medium', 'urgency-high', 'urgency-critical');
+    if (fraction <= 0.15) {
+      document.body.classList.add('urgency-critical');
+    } else if (fraction <= 0.3) {
+      document.body.classList.add('urgency-high');
+    } else if (fraction <= 0.5) {
+      document.body.classList.add('urgency-medium');
     }
 
     text.textContent = Math.ceil(timeRemaining);
   }
 
-  // Clear urgency classes from game screen
+  // Clear urgency classes from body
   function clearUrgency() {
-    const gameScreen = document.getElementById('screen-game');
-    if (gameScreen) {
-      gameScreen.classList.remove('urgency-low', 'urgency-medium', 'urgency-high', 'urgency-critical');
-    }
+    document.body.classList.remove('urgency-medium', 'urgency-high', 'urgency-critical');
     const container = document.querySelector('.timer-ring');
     if (container) {
       container.classList.remove('timer-urgent');

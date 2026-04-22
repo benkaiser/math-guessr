@@ -313,51 +313,41 @@ body {
 }
 
 /* === Game Screen — Urgency System === */
-#screen-game {
-  transition: background-color 0.5s ease;
-  border-radius: var(--radius);
-  position: relative;
+/* Urgency classes applied to <body> so background covers entire viewport */
+body.urgency-medium {
+  background-color: #1a1520;
 }
 
-#screen-game.urgency-low {
-  background-color: transparent;
+body.urgency-high {
+  background-color: #1f1318;
 }
 
-#screen-game.urgency-medium {
-  background-color: rgba(249, 115, 22, 0.06);
+body.urgency-critical {
+  background-color: #2a1215;
 }
 
-#screen-game.urgency-high {
-  background-color: rgba(239, 68, 68, 0.1);
+body {
+  transition: background-color 0.8s ease;
 }
 
-#screen-game.urgency-critical {
-  background-color: rgba(239, 68, 68, 0.18);
-}
-
-/* Vignette overlay for urgency */
-#screen-game::before {
+/* Vignette overlay for urgency — covers full viewport */
+body::after {
   content: '';
   position: fixed;
   inset: 0;
   pointer-events: none;
-  transition: opacity 0.5s ease;
+  transition: opacity 0.8s ease;
   opacity: 0;
-  background: radial-gradient(ellipse at center, transparent 50%, rgba(239, 68, 68, 0.2) 100%);
-  z-index: 0;
+  background: radial-gradient(ellipse at center, transparent 40%, rgba(239, 68, 68, 0.25) 100%);
+  z-index: 9999;
 }
 
-#screen-game.urgency-high::before {
+body.urgency-high::after {
   opacity: 0.5;
 }
 
-#screen-game.urgency-critical::before {
+body.urgency-critical::after {
   opacity: 1;
-}
-
-#screen-game > * {
-  position: relative;
-  z-index: 1;
 }
 
 .game-topbar {
