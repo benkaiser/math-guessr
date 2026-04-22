@@ -7,7 +7,7 @@ const Questions = (() => {
       label: 'Easy',
       description: 'Addition, subtraction, simple multiplication',
       timer: 30,
-      color: '#4ade80',
+      color: '#22c55e',
       generators: [
         generateEasyAddition,
         generateEasySubtraction,
@@ -18,7 +18,7 @@ const Questions = (() => {
       label: 'Medium',
       description: 'Larger numbers, two-digit multiplication',
       timer: 25,
-      color: '#facc15',
+      color: '#fbbf24',
       generators: [
         generateMediumAddition,
         generateMediumSubtraction,
