@@ -241,18 +241,31 @@ const Questions = (() => {
   }
 
   // Generate slider range for a question
+  // Answer is placed off-center so the midpoint is NOT the correct answer
   function generateSliderRange(answer) {
     const absAnswer = Math.abs(answer);
-    const spread = Math.max(10, Math.floor(absAnswer * 0.5));
-    const min = Math.max(0, answer - spread);
-    const max = answer + spread;
+    const totalSpread = Math.max(20, Math.floor(absAnswer * 0.8));
+
+    // Randomly shift the answer away from center
+    // Answer will sit between 20%-80% of the range (never dead center)
+    const bias = 0.2 + Math.random() * 0.6; // 0.2 to 0.8
+    // Flip direction randomly
+    const leftShare = Math.random() < 0.5 ? bias : (1 - bias);
+    const rightShare = 1 - leftShare;
+
+    const min = Math.max(0, Math.round(answer - totalSpread * leftShare));
+    const max = Math.round(answer + totalSpread * rightShare);
+
     // Step size based on magnitude
     let step = 1;
     if (absAnswer > 10000) step = 100;
     else if (absAnswer > 1000) step = 10;
     else if (absAnswer > 100) step = 5;
 
-    return { min, max, step, defaultValue: Math.round((min + max) / 2) };
+    // Default to the midpoint of the range (which is NOT the answer)
+    const defaultValue = Math.round((min + max) / 2 / step) * step;
+
+    return { min, max, step, defaultValue };
   }
 
   function getConfig(difficulty) {
