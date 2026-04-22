@@ -290,9 +290,14 @@ const App = (() => {
     showResult(scoreData, q);
   }
 
+  // Track when result screen was shown to prevent Enter key from
+  // immediately advancing (same keypress that submitted the answer)
+  let resultScreenShownAt = 0;
+
   // --- Screen: Result ---
   function showResult(scoreData, question) {
     UI.showScreen('screen-result');
+    resultScreenShownAt = performance.now();
     UI.renderQuestionResult(scoreData, question.expression);
 
     const nextBtn = document.getElementById('btn-next');
@@ -414,8 +419,13 @@ const App = (() => {
     // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
       // Enter on result screen → next question
+      // Guard: ignore if result screen was shown less than 300ms ago
+      // (prevents the same Enter keypress that submitted the answer
+      // from immediately skipping the result screen)
       if (e.key === 'Enter' && document.getElementById('screen-result').classList.contains('active')) {
-        nextQuestion();
+        if (performance.now() - resultScreenShownAt > 300) {
+          nextQuestion();
+        }
       }
     });
   }
