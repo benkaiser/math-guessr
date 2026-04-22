@@ -26,7 +26,7 @@ const UI = (() => {
       circle.classList.add('warning');
     }
 
-    // Urgency animation
+    // Urgency animation on timer ring
     const container = document.querySelector('.timer-ring');
     if (container) {
       if (fraction <= 0.2) {
@@ -36,7 +36,34 @@ const UI = (() => {
       }
     }
 
+    // Background urgency on game screen
+    const gameScreen = document.getElementById('screen-game');
+    if (gameScreen) {
+      gameScreen.classList.remove('urgency-low', 'urgency-medium', 'urgency-high', 'urgency-critical');
+      if (fraction <= 0.15) {
+        gameScreen.classList.add('urgency-critical');
+      } else if (fraction <= 0.3) {
+        gameScreen.classList.add('urgency-high');
+      } else if (fraction <= 0.5) {
+        gameScreen.classList.add('urgency-medium');
+      } else {
+        gameScreen.classList.add('urgency-low');
+      }
+    }
+
     text.textContent = Math.ceil(timeRemaining);
+  }
+
+  // Clear urgency classes from game screen
+  function clearUrgency() {
+    const gameScreen = document.getElementById('screen-game');
+    if (gameScreen) {
+      gameScreen.classList.remove('urgency-low', 'urgency-medium', 'urgency-high', 'urgency-critical');
+    }
+    const container = document.querySelector('.timer-ring');
+    if (container) {
+      container.classList.remove('timer-urgent');
+    }
   }
 
   // --- Bullseye SVG ---
@@ -161,6 +188,109 @@ const UI = (() => {
     };
   }
 
+  // --- Animated score breakdown ---
+  function renderAnimatedScore(scoreData) {
+    const breakdown = document.getElementById('result-breakdown');
+    const ring = Scoring.getBullseyeRing(scoreData.percentError);
+
+    breakdown.innerHTML = `
+      <div class="score-anim-container">
+        <div class="score-anim-row" id="anim-accuracy">
+          <span class="label">Accuracy</span>
+          <span class="value" id="anim-accuracy-val">0 / ${Scoring.MAX_POINTS}</span>
+        </div>
+        <div class="score-anim-row" id="anim-speed">
+          <span class="label">Speed Bonus</span>
+          <span class="value" id="anim-speed-val">×${scoreData.speedMultiplier.toFixed(2)}</span>
+        </div>
+        <div class="score-anim-divider" id="anim-divider"></div>
+        <div class="score-anim-total" id="anim-total">
+          <span class="label">Total</span>
+          <span class="value" id="anim-total-val">0 pts</span>
+        </div>
+      </div>
+    `;
+
+    // Animate sequence
+    const STEP_DELAY = 400;
+    let step = 0;
+
+    // Step 1: Show accuracy, count up
+    setTimeout(() => {
+      const row = document.getElementById('anim-accuracy');
+      if (row) row.classList.add('visible');
+      animateCount('anim-accuracy-val', 0, scoreData.accuracy, 600,
+        (v) => `${v} / ${Scoring.MAX_POINTS}`);
+
+      // Play result sound based on accuracy
+      if (scoreData.percentError <= 1) {
+        Sound.resultPerfect();
+      } else if (scoreData.percentError <= 10) {
+        Sound.resultGood();
+      } else if (scoreData.percentError <= 25) {
+        Sound.resultOk();
+      } else {
+        Sound.resultBad();
+      }
+    }, STEP_DELAY);
+
+    // Step 2: Show speed multiplier with animation
+    setTimeout(() => {
+      const row = document.getElementById('anim-speed');
+      if (row) row.classList.add('visible');
+      Sound.multiplierApply();
+
+      const val = document.getElementById('anim-speed-val');
+      if (val) val.classList.add('multiplier-animate');
+    }, STEP_DELAY + 800);
+
+    // Step 3: Divider
+    setTimeout(() => {
+      const div = document.getElementById('anim-divider');
+      if (div) div.classList.add('visible');
+    }, STEP_DELAY + 1200);
+
+    // Step 4: Total — count up from accuracy to final
+    setTimeout(() => {
+      const row = document.getElementById('anim-total');
+      if (row) row.classList.add('visible');
+      animateCount('anim-total-val', scoreData.accuracy, scoreData.total, 500,
+        (v) => `${v} pts`);
+    }, STEP_DELAY + 1400);
+  }
+
+  // Animate a number counting up
+  function animateCount(elementId, from, to, duration, formatter) {
+    const el = document.getElementById(elementId);
+    if (!el) return;
+
+    const startTime = performance.now();
+    const diff = to - from;
+    let lastSoundTick = 0;
+
+    function update(now) {
+      const elapsed = now - startTime;
+      const progress = Math.min(1, elapsed / duration);
+      // Ease out cubic
+      const eased = 1 - Math.pow(1 - progress, 3);
+      const current = Math.round(from + diff * eased);
+
+      el.textContent = formatter(current);
+
+      // Tick sound every ~80ms
+      if (now - lastSoundTick > 80 && progress < 1) {
+        Sound.scoreCount();
+        lastSoundTick = now;
+      }
+
+      if (progress < 1) {
+        requestAnimationFrame(update);
+      }
+    }
+
+    requestAnimationFrame(update);
+  }
+
   // --- Result display ---
   function renderQuestionResult(scoreData, expression) {
     const ring = Scoring.getBullseyeRing(scoreData.percentError);
@@ -172,6 +302,9 @@ const UI = (() => {
     const feedback = document.getElementById('result-feedback');
     feedback.textContent = ring.label;
     feedback.style.color = ring.color;
+    feedback.classList.remove('score-reveal');
+    // Force reflow to restart animation
+    void feedback.offsetWidth;
     feedback.classList.add('score-reveal');
 
     // Numbers
@@ -191,22 +324,8 @@ const UI = (() => {
       </div>
     `;
 
-    // Breakdown
-    const breakdown = document.getElementById('result-breakdown');
-    breakdown.innerHTML = `
-      <div class="result-breakdown-row">
-        <span class="label">Accuracy Score</span>
-        <span>${scoreData.accuracy} / ${Scoring.MAX_POINTS}</span>
-      </div>
-      <div class="result-breakdown-row">
-        <span class="label">Speed Multiplier</span>
-        <span>×${scoreData.speedMultiplier.toFixed(2)}</span>
-      </div>
-      <div class="result-breakdown-row">
-        <span class="label" style="font-weight:700">Total</span>
-        <span style="font-weight:700; color:var(--accent)">${scoreData.total} pts</span>
-      </div>
-    `;
+    // Animated breakdown (replaces static)
+    renderAnimatedScore(scoreData);
   }
 
   // --- Summary display ---
@@ -215,6 +334,9 @@ const UI = (() => {
     const maxPossible = results.length * Scoring.MAX_POINTS;
     const grade = Scoring.getGrade(totalScore, maxPossible);
 
+    // Play grade reveal sound
+    Sound.gradeReveal();
+
     // Header
     const gradeEl = document.getElementById('summary-grade');
     gradeEl.textContent = grade.grade;
@@ -222,6 +344,8 @@ const UI = (() => {
                           grade.grade === 'A' ? '#4ade80' :
                           grade.grade === 'B' ? '#3b82f6' :
                           grade.grade === 'F' ? '#ef4444' : 'var(--text)';
+    gradeEl.classList.remove('score-reveal');
+    void gradeEl.offsetWidth;
     gradeEl.classList.add('score-reveal');
 
     document.getElementById('summary-grade-label').textContent = `${grade.emoji} ${grade.label}`;
@@ -271,6 +395,7 @@ const UI = (() => {
   return {
     showScreen,
     updateTimerRing,
+    clearUrgency,
     renderBullseye,
     renderFreeEntry,
     renderMultipleChoice,

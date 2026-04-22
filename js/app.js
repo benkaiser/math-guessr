@@ -29,6 +29,9 @@ const App = (() => {
         if (saved.difficulty) state.difficulty = saved.difficulty;
         if (saved.answerMode) state.answerMode = saved.answerMode;
         if (saved.questionsPerRound) state.questionsPerRound = saved.questionsPerRound;
+        if (saved.soundEnabled !== undefined) {
+          if (!saved.soundEnabled) Sound.toggle();
+        }
       }
     } catch (e) {}
   }
@@ -38,6 +41,7 @@ const App = (() => {
       difficulty: state.difficulty,
       answerMode: state.answerMode,
       questionsPerRound: state.questionsPerRound,
+      soundEnabled: Sound.isEnabled(),
     }));
   }
 
@@ -141,6 +145,9 @@ const App = (() => {
 
   // --- Screen: Game ---
   function startGame() {
+    // Ensure audio context is unlocked on user interaction
+    Sound.ensureContext();
+
     state.currentIndex = 0;
     state.results = [];
     state.totalScore = 0;
@@ -168,6 +175,7 @@ const App = (() => {
 
   function showQuestion() {
     UI.showScreen('screen-game');
+    UI.clearUrgency();
 
     const q = state.questions[state.currentIndex];
 
@@ -199,13 +207,18 @@ const App = (() => {
     // Answer input
     setupAnswerInput(q);
 
+    // Start audio ticking
+    Sound.startTicking(q.timer);
+
     // Timer
     Timer.start(q.timer,
       (remaining, total, fraction) => {
         UI.updateTimerRing(fraction, remaining);
       },
       () => {
-        // Time's up — auto-submit with null answer
+        // Time's up — play sound and auto-submit
+        Sound.stopTicking();
+        Sound.timeUp();
         submitAnswer(null);
       }
     );
@@ -217,6 +230,7 @@ const App = (() => {
       const { buttons } = UI.renderMultipleChoice(choices);
       buttons.forEach(btn => {
         btn.addEventListener('click', () => {
+          Sound.submit();
           submitAnswer(parseFloat(btn.dataset.value));
         });
       });
@@ -224,6 +238,7 @@ const App = (() => {
       const range = Questions.generateSliderRange(question.answer);
       const { getAnswer } = UI.renderSlider(range);
       document.getElementById('submit-btn').addEventListener('click', () => {
+        Sound.submit();
         submitAnswer(getAnswer());
       });
     } else {
@@ -233,6 +248,7 @@ const App = (() => {
       submitBtn.addEventListener('click', () => {
         const val = getAnswer();
         if (val === null) return; // Empty input
+        Sound.submit();
         submitAnswer(val);
       });
       // Enter key to submit
@@ -240,6 +256,7 @@ const App = (() => {
         if (e.key === 'Enter') {
           const val = getAnswer();
           if (val === null) return;
+          Sound.submit();
           submitAnswer(val);
         }
       });
@@ -247,6 +264,8 @@ const App = (() => {
   }
 
   function submitAnswer(guess) {
+    Sound.stopTicking();
+    UI.clearUrgency();
     const timeRemaining = Timer.stop();
     const q = state.questions[state.currentIndex];
 
@@ -311,10 +330,20 @@ const App = (() => {
     }
   }
 
+  // --- Sound toggle ---
+  function updateSoundButton() {
+    const btn = document.getElementById('sound-toggle');
+    if (btn) {
+      btn.textContent = Sound.isEnabled() ? '🔊' : '🔇';
+      btn.title = Sound.isEnabled() ? 'Mute sounds' : 'Unmute sounds';
+    }
+  }
+
   // --- Event binding ---
   function bindEvents() {
     // Home
     document.getElementById('btn-practice').addEventListener('click', () => {
+      Sound.ensureContext();
       state.mode = 'practice';
       showSettings();
     });
@@ -370,15 +399,17 @@ const App = (() => {
 
     // Summary
     document.getElementById('btn-play-again').addEventListener('click', () => {
-      if (state.mode === 'daily') {
-        state.mode = 'daily';
-        startGame();
-      } else {
-        startGame();
-      }
+      startGame();
     });
 
     document.getElementById('btn-go-home').addEventListener('click', showHome);
+
+    // Sound toggle
+    document.getElementById('sound-toggle').addEventListener('click', () => {
+      Sound.toggle();
+      updateSoundButton();
+      saveSettings();
+    });
 
     // Keyboard shortcuts
     document.addEventListener('keydown', (e) => {
@@ -393,6 +424,7 @@ const App = (() => {
   function init() {
     loadSettings();
     bindEvents();
+    updateSoundButton();
     showHome();
   }
 
