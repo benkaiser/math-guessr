@@ -6,24 +6,29 @@
   <title>Math Guessr — Sharpen Your Estimation Skills</title>
   <meta name="description" content="A GeoGuessr-inspired game for mental math estimation. Sharpen your back-of-the-envelope arithmetic skills.">
   <link rel="stylesheet" href="css/style.css">
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🎯</text></svg>">
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 24 24%22 fill=%22none%22 stroke=%22%23818cf8%22 stroke-width=%222%22 stroke-linecap=%22round%22 stroke-linejoin=%22round%22><circle cx=%2212%22 cy=%2212%22 r=%2210%22/><circle cx=%2212%22 cy=%2212%22 r=%226%22/><circle cx=%2212%22 cy=%2212%22 r=%222%22/></svg>">
 </head>
 <body>
+  <!-- Icons must load first -->
+  <script src="js/icons.js"></script>
+
   <div class="app">
     <!-- Sound toggle -->
-    <button class="sound-toggle" id="sound-toggle" title="Toggle sound">🔊</button>
+    <button class="sound-toggle" id="sound-toggle" title="Toggle sound"></button>
 
     <!-- ===== HOME SCREEN ===== -->
     <div class="screen active" id="screen-home">
       <div class="home-header">
-        <div class="home-logo">🎯</div>
+        <div class="home-logo">
+          <svg class="icon-xl" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><circle cx="12" cy="12" r="10"/><circle cx="12" cy="12" r="6"/><circle cx="12" cy="12" r="2"/></svg>
+        </div>
         <h1 class="home-title">Math Guessr</h1>
         <p class="home-tagline">Sharpen your estimation skills</p>
       </div>
 
       <div class="home-buttons">
         <button class="home-btn" id="btn-practice">
-          <span class="home-btn-icon">🏋️</span>
+          <span class="home-btn-icon" id="icon-practice"></span>
           <div class="home-btn-text">
             <h3>Practice</h3>
             <p>Choose your difficulty and answer mode</p>
@@ -31,7 +36,7 @@
         </button>
 
         <button class="home-btn" id="btn-daily">
-          <span class="home-btn-icon">📅</span>
+          <span class="home-btn-icon" id="icon-daily"></span>
           <div class="home-btn-text">
             <h3>Daily Challenge <span id="daily-badge"></span></h3>
             <p id="daily-subtitle">5 questions, same for everyone</p>
@@ -43,7 +48,7 @@
     <!-- ===== SETTINGS SCREEN ===== -->
     <div class="screen" id="screen-settings">
       <div class="settings-header">
-        <button class="back-btn" id="btn-back-settings">←</button>
+        <button class="back-btn" id="btn-back-settings"></button>
         <h2>Practice Setup</h2>
       </div>
 
@@ -58,15 +63,15 @@
         <h3>Answer Mode</h3>
         <div class="mode-grid" id="mode-grid">
           <button class="mode-card selected" data-mode="free">
-            <div class="mode-icon">⌨️</div>
+            <div class="mode-icon" id="icon-mode-free"></div>
             <div class="mode-label">Free Entry</div>
           </button>
           <button class="mode-card" data-mode="choice">
-            <div class="mode-icon">🔘</div>
+            <div class="mode-icon" id="icon-mode-choice"></div>
             <div class="mode-label">Multiple Choice</div>
           </button>
           <button class="mode-card" data-mode="slider">
-            <div class="mode-icon">🎚️</div>
+            <div class="mode-icon" id="icon-mode-slider"></div>
             <div class="mode-label">Slider</div>
           </button>
         </div>
@@ -112,7 +117,7 @@
       </div>
 
       <div class="scratch-pad">
-        <button class="scratch-toggle" id="scratch-toggle">📝 Scratch Pad</button>
+        <button class="scratch-toggle" id="scratch-toggle"><span id="icon-scratch"></span> Scratch Pad</button>
         <div class="scratch-area" id="scratch-area">
           <textarea class="scratch-textarea" id="scratch-textarea"
                     placeholder="Rough working..."></textarea>
@@ -135,7 +140,7 @@
     <div class="screen" id="screen-summary">
       <div class="summary-header">
         <div class="summary-grade score-reveal" id="summary-grade">A</div>
-        <div class="summary-grade-label" id="summary-grade-label">🌟 Excellent</div>
+        <div class="summary-grade-label" id="summary-grade-label"></div>
         <div class="summary-total-score" id="summary-total-score">4,200 / 5,000 points</div>
       </div>
 
@@ -144,9 +149,9 @@
       </div>
 
       <div class="summary-actions">
-        <button class="share-btn" id="share-btn" style="display:none">📋 Copy Results</button>
+        <button class="share-btn" id="share-btn" style="display:none"></button>
         <button class="secondary-btn" id="btn-play-again">Play Again</button>
-        <button class="secondary-btn" id="btn-go-home">← Back to Home</button>
+        <button class="secondary-btn" id="btn-go-home">Back to Home</button>
       </div>
     </div>
 

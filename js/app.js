@@ -109,7 +109,7 @@ const App = (() => {
     }
 
     if (isTodayCompleted()) {
-      badge.innerHTML = '<span class="daily-badge">Completed ✓</span>';
+      badge.innerHTML = `<span class="daily-badge">${Icons.check} Completed</span>`;
       const scores = getDailyScores();
       const todayScore = scores[challenge.date];
       subtitle.textContent = `Score: ${todayScore.score.toLocaleString()} / ${(5 * Scoring.MAX_POINTS).toLocaleString()}`;
@@ -130,7 +130,7 @@ const App = (() => {
       <button class="difficulty-card ${d.key === state.difficulty ? 'selected' : ''}" data-diff="${d.key}">
         <div class="diff-label" style="color: ${d.color}">${d.label}</div>
         <div class="diff-desc">${d.description}</div>
-        <div class="diff-timer">⏱ ${d.timer}s per question</div>
+        <div class="diff-timer">${Icons.clock} ${d.timer}s per question</div>
       </button>
     `).join('');
 
@@ -273,7 +273,8 @@ const App = (() => {
       guess !== null ? guess : 0,
       q.answer,
       timeRemaining,
-      q.timer
+      q.timer,
+      state.answerMode
     );
 
     // If they didn't answer (timeout), override
@@ -339,9 +340,24 @@ const App = (() => {
   function updateSoundButton() {
     const btn = document.getElementById('sound-toggle');
     if (btn) {
-      btn.textContent = Sound.isEnabled() ? '🔊' : '🔇';
+      btn.innerHTML = Sound.isEnabled() ? Icons.speakerOn : Icons.speakerOff;
       btn.title = Sound.isEnabled() ? 'Mute sounds' : 'Unmute sounds';
     }
+  }
+
+  // --- Inject static icons ---
+  function injectIcons() {
+    const set = (id, svg) => {
+      const el = document.getElementById(id);
+      if (el) el.innerHTML = svg;
+    };
+    set('icon-practice', Icons.dumbbell);
+    set('icon-daily', Icons.calendar);
+    set('icon-mode-free', Icons.textCursor);
+    set('icon-mode-choice', Icons.grid);
+    set('icon-mode-slider', Icons.sliders);
+    set('icon-scratch', Icons.pencil);
+    set('btn-back-settings', Icons.arrowLeft);
   }
 
   // --- Event binding ---
@@ -420,8 +436,6 @@ const App = (() => {
     document.addEventListener('keydown', (e) => {
       // Enter on result screen → next question
       // Guard: ignore if result screen was shown less than 300ms ago
-      // (prevents the same Enter keypress that submitted the answer
-      // from immediately skipping the result screen)
       if (e.key === 'Enter' && document.getElementById('screen-result').classList.contains('active')) {
         if (performance.now() - resultScreenShownAt > 300) {
           nextQuestion();
@@ -433,6 +447,7 @@ const App = (() => {
   // --- Init ---
   function init() {
     loadSettings();
+    injectIcons();
     bindEvents();
     updateSoundButton();
     showHome();

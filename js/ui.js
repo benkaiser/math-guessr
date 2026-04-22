@@ -364,15 +364,15 @@ const UI = (() => {
     const shareBtn = document.getElementById('share-btn');
     if (isDaily) {
       shareBtn.style.display = '';
-      shareBtn.textContent = '📋 Copy Results';
+      shareBtn.innerHTML = `${Icons.clipboard} Copy Results`;
       shareBtn.classList.remove('copied');
       shareBtn.onclick = () => {
         const shareText = Scoring.generateShareText(dayNumber, results, totalScore, maxPossible);
         navigator.clipboard.writeText(shareText).then(() => {
-          shareBtn.textContent = '✓ Copied!';
+          shareBtn.innerHTML = `${Icons.check} Copied!`;
           shareBtn.classList.add('copied');
           setTimeout(() => {
-            shareBtn.textContent = '📋 Copy Results';
+            shareBtn.innerHTML = `${Icons.clipboard} Copy Results`;
             shareBtn.classList.remove('copied');
           }, 2000);
         });

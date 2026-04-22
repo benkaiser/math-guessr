@@ -50,14 +50,27 @@ const Scoring = (() => {
 
   /**
    * Calculate total score for a question.
+   * @param {string} answerMode - 'free', 'slider', or 'choice'
+   *   For 'choice': binary scoring (correct = 1000, wrong = 0, speed still applies)
    */
-  function calculateScore(guess, answer, timeRemaining, totalTime) {
-    const accuracy = calculateAccuracy(guess, answer);
+  function calculateScore(guess, answer, timeRemaining, totalTime, answerMode) {
+    let accuracy;
+    let percentError;
+
+    if (answerMode === 'choice') {
+      // Multiple choice: exact match required
+      const isCorrect = guess === answer;
+      accuracy = isCorrect ? MAX_POINTS : 0;
+      percentError = isCorrect ? 0 : 100;
+    } else {
+      accuracy = calculateAccuracy(guess, answer);
+      percentError = answer !== 0
+        ? Math.abs(guess - answer) / Math.abs(answer) * 100
+        : (guess === 0 ? 0 : 100);
+    }
+
     const speedMultiplier = calculateSpeedMultiplier(timeRemaining, totalTime);
     const total = Math.round(accuracy * speedMultiplier);
-    const percentError = answer !== 0
-      ? Math.abs(guess - answer) / Math.abs(answer) * 100
-      : (guess === 0 ? 0 : 100);
 
     return {
       accuracy,

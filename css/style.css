@@ -31,6 +31,24 @@ html {
   font-size: 16px;
 }
 
+/* === SVG Icons === */
+.icon {
+  width: 1.2em;
+  height: 1.2em;
+  vertical-align: -0.15em;
+  flex-shrink: 0;
+}
+
+.icon-lg {
+  width: 2rem;
+  height: 2rem;
+}
+
+.icon-xl {
+  width: 3rem;
+  height: 3rem;
+}
+
 body {
   font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, 'Helvetica Neue', Arial, sans-serif;
   background: var(--bg);
@@ -73,8 +91,15 @@ body {
 }
 
 .home-logo {
-  font-size: 2.5rem;
   margin-bottom: 0.25rem;
+  color: var(--accent);
+  display: flex;
+  justify-content: center;
+}
+
+.home-logo .icon-xl {
+  width: 3.5rem;
+  height: 3.5rem;
 }
 
 .home-title {
@@ -123,6 +148,15 @@ body {
 .home-btn-icon {
   font-size: 2rem;
   flex-shrink: 0;
+  color: var(--accent);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.home-btn-icon .icon {
+  width: 2rem;
+  height: 2rem;
 }
 
 .home-btn-text h3 {
@@ -161,11 +195,17 @@ body {
   background: none;
   border: none;
   color: var(--text-muted);
-  font-size: 1.5rem;
   cursor: pointer;
   padding: 0.25rem;
   line-height: 1;
   transition: color 0.2s;
+  display: flex;
+  align-items: center;
+}
+
+.back-btn .icon {
+  width: 1.5rem;
+  height: 1.5rem;
 }
 
 .back-btn:hover {
@@ -257,8 +297,20 @@ body {
 }
 
 .mode-card .mode-icon {
-  font-size: 1.5rem;
   margin-bottom: 0.25rem;
+  color: var(--text-muted);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.mode-card .mode-icon .icon {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+.mode-card.selected .mode-icon {
+  color: var(--accent);
 }
 
 .mode-card .mode-label {
@@ -810,6 +862,10 @@ body.urgency-critical::after {
   font-weight: 700;
   cursor: pointer;
   transition: all 0.2s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
 }
 
 .share-btn:hover {
