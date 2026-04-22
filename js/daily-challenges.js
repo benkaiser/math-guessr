@@ -5,9958 +5,7 @@
 const DAILY_CHALLENGES = [
   {
     "day": 1,
-    "date": "2026-01-01",
-    "questions": [
-      {
-        "expression": "63 + 82",
-        "answer": 145,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "75 × 15",
-        "answer": 1125,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "479 − 127",
-        "answer": 352,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "282 × 86",
-        "answer": 24252,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2776 × 819",
-        "answer": 2273544,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 2,
-    "date": "2026-01-02",
-    "questions": [
-      {
-        "expression": "82 + 18",
-        "answer": 100,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "501 − 151",
-        "answer": 350,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "285 + 888",
-        "answer": 1173,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "3564 + 9868 − 458",
-        "answer": 12974,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "8951 × 392",
-        "answer": 3508792,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 3,
-    "date": "2026-01-03",
-    "questions": [
-      {
-        "expression": "7 × 12",
-        "answer": 84,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "934 − 428",
-        "answer": 506,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "18 × 43",
-        "answer": 774,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "7332 + 2061 − 741",
-        "answer": 8652,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2238 × 414",
-        "answer": 926532,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 4,
-    "date": "2026-01-04",
-    "questions": [
-      {
-        "expression": "82 − 57",
-        "answer": 25,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "245 + 881",
-        "answer": 1126,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "357 − 222",
-        "answer": 135,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "7379 + 8962 − 126",
-        "answer": 16215,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "106,004 ÷ 69",
-        "answer": 1536.3,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 5,
-    "date": "2026-01-05",
-    "questions": [
-      {
-        "expression": "35 − 15",
-        "answer": 20,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "677 + 615",
-        "answer": 1292,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "985 + 155",
-        "answer": 1140,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "107 × 26",
-        "answer": 2782,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "7575 × 471",
-        "answer": 3567825,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 6,
-    "date": "2026-01-06",
-    "questions": [
-      {
-        "expression": "78 + 97",
-        "answer": 175,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "211 + 976",
-        "answer": 1187,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "200 + 725",
-        "answer": 925,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "405 × 13 − 574",
-        "answer": 4691,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "787 × 60 + 43 × 787",
-        "answer": 81061,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 7,
-    "date": "2026-01-07",
-    "questions": [
-      {
-        "expression": "72 − 20",
-        "answer": 52,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "446 + 275",
-        "answer": 721,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "26 × 26",
-        "answer": 676,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "348 × 13",
-        "answer": 4524,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "390,510 ÷ 91",
-        "answer": 4291.3,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 8,
-    "date": "2026-01-08",
-    "questions": [
-      {
-        "expression": "66 + 11",
-        "answer": 77,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "370 − 286",
-        "answer": 84,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "133 + 376",
-        "answer": 509,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "596 × 94",
-        "answer": 56024,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "434,981 ÷ 51",
-        "answer": 8529,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 9,
-    "date": "2026-01-09",
-    "questions": [
-      {
-        "expression": "46 − 45",
-        "answer": 1,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "887 − 464",
-        "answer": 423,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "23 × 35",
-        "answer": 805,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "469 × 33 + 214",
-        "answer": 15691,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "190,625 ÷ 33",
-        "answer": 5776.5,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 10,
-    "date": "2026-01-10",
-    "questions": [
-      {
-        "expression": "5 × 2",
-        "answer": 10,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "453 + 271",
-        "answer": 724,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "15 × 40",
-        "answer": 600,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "653 × 19",
-        "answer": 12407,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "457,924 ÷ 49",
-        "answer": 9345.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 11,
-    "date": "2026-01-11",
-    "questions": [
-      {
-        "expression": "57 − 26",
-        "answer": 31,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "404 − 127",
-        "answer": 277,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "501 − 387",
-        "answer": 114,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4685 + 3320 − 621",
-        "answer": 7384,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "8944 × 571",
-        "answer": 5107024,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 12,
-    "date": "2026-01-12",
-    "questions": [
-      {
-        "expression": "9 × 10",
-        "answer": 90,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "83 × 12",
-        "answer": 996,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "77 × 47",
-        "answer": 3619,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4031 + 8457 − 726",
-        "answer": 11762,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "214,449 ÷ 22",
-        "answer": 9747.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 13,
-    "date": "2026-01-13",
-    "questions": [
-      {
-        "expression": "69 − 25",
-        "answer": 44,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "506 − 268",
-        "answer": 238,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "39 × 33",
-        "answer": 1287,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "996 × 94",
-        "answer": 93624,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "367 × 17 + 52 × 367",
-        "answer": 25323,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 14,
-    "date": "2026-01-14",
-    "questions": [
-      {
-        "expression": "56 − 44",
-        "answer": 12,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "97 × 36",
-        "answer": 3492,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "353 + 235",
-        "answer": 588,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2722 + 8429 − 753",
-        "answer": 10398,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "382,395 ÷ 40",
-        "answer": 9559.9,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 15,
-    "date": "2026-01-15",
-    "questions": [
-      {
-        "expression": "86 − 30",
-        "answer": 56,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "621 + 885",
-        "answer": 1506,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "347 − 135",
-        "answer": 212,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "996 × 99",
-        "answer": 98604,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "390,262 ÷ 44",
-        "answer": 8869.6,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 16,
-    "date": "2026-01-16",
-    "questions": [
-      {
-        "expression": "12 + 45",
-        "answer": 57,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "72 × 20",
-        "answer": 1440,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "265 + 839",
-        "answer": 1104,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "236 × 87",
-        "answer": 20532,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3512 × 498",
-        "answer": 1748976,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 17,
-    "date": "2026-01-17",
-    "questions": [
-      {
-        "expression": "12 × 8",
-        "answer": 96,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "60 × 21",
-        "answer": 1260,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "212 + 290",
-        "answer": 502,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "198 × 20 − 262",
-        "answer": 3698,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5611 × 890",
-        "answer": 4993790,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 18,
-    "date": "2026-01-18",
-    "questions": [
-      {
-        "expression": "33 − 22",
-        "answer": 11,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "398 − 143",
-        "answer": 255,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "591 + 163",
-        "answer": 754,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2822 + 1714 − 460",
-        "answer": 4076,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "4246 × 148",
-        "answer": 628408,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 19,
-    "date": "2026-01-19",
-    "questions": [
-      {
-        "expression": "59 + 95",
-        "answer": 154,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "688 + 952",
-        "answer": 1640,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "70 × 23",
-        "answer": 1610,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "87 × 44 − 791",
-        "answer": 3037,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "460 × 87 + 90 × 460",
-        "answer": 81420,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 20,
-    "date": "2026-01-20",
-    "questions": [
-      {
-        "expression": "92 + 41",
-        "answer": 133,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "97 × 19",
-        "answer": 1843,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "353 + 264",
-        "answer": 617,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1360 + 8000 − 275",
-        "answer": 9085,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "30,984 ÷ 7",
-        "answer": 4426.3,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 21,
-    "date": "2026-01-21",
-    "questions": [
-      {
-        "expression": "63 + 81",
-        "answer": 144,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "112 + 752",
-        "answer": 864,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "40 × 17",
-        "answer": 680,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8754 + 1922 − 905",
-        "answer": 9771,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "658 × 704",
-        "answer": 463232,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 22,
-    "date": "2026-01-22",
-    "questions": [
-      {
-        "expression": "42 − 38",
-        "answer": 4,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "67 × 29",
-        "answer": 1943,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "815 + 354",
-        "answer": 1169,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "992 × 31",
-        "answer": 30752,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "118,822 ÷ 38",
-        "answer": 3126.9,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 23,
-    "date": "2026-01-23",
-    "questions": [
-      {
-        "expression": "2 × 7",
-        "answer": 14,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "820 − 686",
-        "answer": 134,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "425 + 226",
-        "answer": 651,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "232 × 64",
-        "answer": 14848,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "6238 × 803",
-        "answer": 5009114,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 24,
-    "date": "2026-01-24",
-    "questions": [
-      {
-        "expression": "77 + 42",
-        "answer": 119,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "573 + 554",
-        "answer": 1127,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "26 × 36",
-        "answer": 936,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "9969 + 2536 − 273",
-        "answer": 12232,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "783,459 ÷ 87",
-        "answer": 9005.3,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 25,
-    "date": "2026-01-25",
-    "questions": [
-      {
-        "expression": "11 × 9",
-        "answer": 99,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "308 − 250",
-        "answer": 58,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "48 × 35",
-        "answer": 1680,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "646 × 38",
-        "answer": 24548,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "119,123 ÷ 14",
-        "answer": 8508.8,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 26,
-    "date": "2026-01-26",
-    "questions": [
-      {
-        "expression": "32 + 78",
-        "answer": 110,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "578 − 186",
-        "answer": 392,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "99 × 27",
-        "answer": 2673,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "143 × 82",
-        "answer": 11726,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "149,209 ÷ 32",
-        "answer": 4662.8,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 27,
-    "date": "2026-01-27",
-    "questions": [
-      {
-        "expression": "85 + 46",
-        "answer": 131,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "70 × 20",
-        "answer": 1400,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "607 + 715",
-        "answer": 1322,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "580 × 74",
-        "answer": 42920,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "197 × 547",
-        "answer": 107759,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 28,
-    "date": "2026-01-28",
-    "questions": [
-      {
-        "expression": "87 − 37",
-        "answer": 50,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "57 × 22",
-        "answer": 1254,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "190 + 552",
-        "answer": 742,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "306 × 81",
-        "answer": 24786,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "105,407 ÷ 82",
-        "answer": 1285.5,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 29,
-    "date": "2026-01-29",
-    "questions": [
-      {
-        "expression": "58 − 51",
-        "answer": 7,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "892 + 612",
-        "answer": 1504,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "55 × 36",
-        "answer": 1980,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "888 × 51",
-        "answer": 45288,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "318 × 37 + 65 × 318",
-        "answer": 32436,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 30,
-    "date": "2026-01-30",
-    "questions": [
-      {
-        "expression": "56 − 45",
-        "answer": 11,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "994 + 226",
-        "answer": 1220,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "569 − 150",
-        "answer": 419,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "321 × 76",
-        "answer": 24396,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "604,552 ÷ 98",
-        "answer": 6168.9,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 31,
-    "date": "2026-01-31",
-    "questions": [
-      {
-        "expression": "46 − 34",
-        "answer": 12,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "603 + 303",
-        "answer": 906,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "950 − 122",
-        "answer": 828,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8936 + 9048 − 551",
-        "answer": 17433,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5437 × 823",
-        "answer": 4474651,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 32,
-    "date": "2026-02-01",
-    "questions": [
-      {
-        "expression": "7 × 5",
-        "answer": 35,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "634 − 397",
-        "answer": 237,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "667 + 484",
-        "answer": 1151,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "342 × 41",
-        "answer": 14022,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2631 × 768",
-        "answer": 2020608,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 33,
-    "date": "2026-02-02",
-    "questions": [
-      {
-        "expression": "22 + 17",
-        "answer": 39,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "230 + 189",
-        "answer": 419,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "11 × 12",
-        "answer": 132,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "180 × 41 + 125",
-        "answer": 7505,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "6796 × 129",
-        "answer": 876684,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 34,
-    "date": "2026-02-03",
-    "questions": [
-      {
-        "expression": "80 + 54",
-        "answer": 134,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "388 − 320",
-        "answer": 68,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "765 − 700",
-        "answer": 65,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "254 × 77",
-        "answer": 19558,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "9824 × 732",
-        "answer": 7191168,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 35,
-    "date": "2026-02-04",
-    "questions": [
-      {
-        "expression": "11 × 9",
-        "answer": 99,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "40 × 28",
-        "answer": 1120,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "531 + 298",
-        "answer": 829,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2261 + 6600 − 561",
-        "answer": 8300,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "260,834 ÷ 40",
-        "answer": 6520.9,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 36,
-    "date": "2026-02-05",
-    "questions": [
-      {
-        "expression": "30 − 29",
-        "answer": 1,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "36 × 16",
-        "answer": 576,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "250 − 112",
-        "answer": 138,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "580 × 79",
-        "answer": 45820,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3680 × 441",
-        "answer": 1622880,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 37,
-    "date": "2026-02-06",
-    "questions": [
-      {
-        "expression": "82 − 68",
-        "answer": 14,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "543 − 461",
-        "answer": 82,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "97 × 35",
-        "answer": 3395,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6191 + 4889 − 825",
-        "answer": 10255,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "6645 × 773",
-        "answer": 5136585,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 38,
-    "date": "2026-02-07",
-    "questions": [
-      {
-        "expression": "7 × 12",
-        "answer": 84,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "27 × 43",
-        "answer": 1161,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "854 − 111",
-        "answer": 743,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "3912 + 2038 − 440",
-        "answer": 5510,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "158,417 ÷ 62",
-        "answer": 2555.1,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 39,
-    "date": "2026-02-08",
-    "questions": [
-      {
-        "expression": "6 × 7",
-        "answer": 42,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "87 × 11",
-        "answer": 957,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "90 × 28",
-        "answer": 2520,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "418 × 94",
-        "answer": 39292,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5961 × 541",
-        "answer": 3224901,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 40,
-    "date": "2026-02-09",
-    "questions": [
-      {
-        "expression": "45 + 41",
-        "answer": 86,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "824 + 258",
-        "answer": 1082,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "804 + 659",
-        "answer": 1463,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "140 × 41 + 949",
-        "answer": 6689,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "799 × 83 + 97 × 799",
-        "answer": 143820,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 41,
-    "date": "2026-02-10",
-    "questions": [
-      {
-        "expression": "12 × 11",
-        "answer": 132,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "51 × 49",
-        "answer": 2499,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "961 − 234",
-        "answer": 727,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6206 + 3565 − 496",
-        "answer": 9275,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "884 × 65 + 84 × 884",
-        "answer": 131716,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 42,
-    "date": "2026-02-11",
-    "questions": [
-      {
-        "expression": "37 − 25",
-        "answer": 12,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "513 − 340",
-        "answer": 173,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "491 + 412",
-        "answer": 903,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "243 × 50 + 587",
-        "answer": 12737,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "665 × 65 + 60 × 665",
-        "answer": 83125,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 43,
-    "date": "2026-02-12",
-    "questions": [
-      {
-        "expression": "63 − 18",
-        "answer": 45,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "55 × 24",
-        "answer": 1320,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "51 × 44",
-        "answer": 2244,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2102 + 6567 − 723",
-        "answer": 7946,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "4124 × 367",
-        "answer": 1513508,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 44,
-    "date": "2026-02-13",
-    "questions": [
-      {
-        "expression": "80 − 12",
-        "answer": 68,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "81 × 28",
-        "answer": 2268,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "133 + 518",
-        "answer": 651,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "340 × 35",
-        "answer": 11900,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "25,359 ÷ 13",
-        "answer": 1950.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 45,
-    "date": "2026-02-14",
-    "questions": [
-      {
-        "expression": "4 × 7",
-        "answer": 28,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "532 + 502",
-        "answer": 1034,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "581 − 322",
-        "answer": 259,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "395 × 18 − 473",
-        "answer": 6637,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "501 × 212",
-        "answer": 106212,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 46,
-    "date": "2026-02-15",
-    "questions": [
-      {
-        "expression": "10 × 5",
-        "answer": 50,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "832 − 754",
-        "answer": 78,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "53 × 28",
-        "answer": 1484,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "197 × 17 + 414",
-        "answer": 3763,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "540,113 ÷ 64",
-        "answer": 8439.3,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 47,
-    "date": "2026-02-16",
-    "questions": [
-      {
-        "expression": "43 − 17",
-        "answer": 26,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "881 − 768",
-        "answer": 113,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "27 × 19",
-        "answer": 513,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "488 × 40 + 710",
-        "answer": 20230,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "245,813 ÷ 77",
-        "answer": 3192.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 48,
-    "date": "2026-02-17",
-    "questions": [
-      {
-        "expression": "98 − 68",
-        "answer": 30,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "97 × 39",
-        "answer": 3783,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "334 − 157",
-        "answer": 177,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "170 × 34",
-        "answer": 5780,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "24,983 ÷ 63",
-        "answer": 396.6,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 49,
-    "date": "2026-02-18",
-    "questions": [
-      {
-        "expression": "69 − 27",
-        "answer": 42,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "395 + 828",
-        "answer": 1223,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "706 + 701",
-        "answer": 1407,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8319 + 5216 − 908",
-        "answer": 12627,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "4849 × 408",
-        "answer": 1978392,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 50,
-    "date": "2026-02-19",
-    "questions": [
-      {
-        "expression": "93 − 84",
-        "answer": 9,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "204 + 379",
-        "answer": 583,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "954 + 363",
-        "answer": 1317,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "576 × 53",
-        "answer": 30528,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "33,828 ÷ 14",
-        "answer": 2416.3,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 51,
-    "date": "2026-02-20",
-    "questions": [
-      {
-        "expression": "77 + 85",
-        "answer": 162,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "44 × 20",
-        "answer": 880,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "59 × 45",
-        "answer": 2655,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "171 × 15",
-        "answer": 2565,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "229 × 35 + 83 × 229",
-        "answer": 27022,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 52,
-    "date": "2026-02-21",
-    "questions": [
-      {
-        "expression": "34 + 83",
-        "answer": 117,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "79 × 21",
-        "answer": 1659,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "25 × 32",
-        "answer": 800,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8834 + 9837 − 394",
-        "answer": 18277,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1805 × 927",
-        "answer": 1673235,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 53,
-    "date": "2026-02-22",
-    "questions": [
-      {
-        "expression": "87 − 21",
-        "answer": 66,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "971 + 836",
-        "answer": 1807,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "836 + 387",
-        "answer": 1223,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "7886 + 1151 − 491",
-        "answer": 8546,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5026 × 276",
-        "answer": 1387176,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 54,
-    "date": "2026-02-23",
-    "questions": [
-      {
-        "expression": "29 + 27",
-        "answer": 56,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "81 × 46",
-        "answer": 3726,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "885 − 498",
-        "answer": 387,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "429 × 30 + 458",
-        "answer": 13328,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5639 × 325",
-        "answer": 1832675,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 55,
-    "date": "2026-02-24",
-    "questions": [
-      {
-        "expression": "72 − 42",
-        "answer": 30,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "378 + 323",
-        "answer": 701,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "723 − 211",
-        "answer": 512,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6392 + 1685 − 925",
-        "answer": 7152,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "278 × 93 + 35 × 278",
-        "answer": 35584,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 56,
-    "date": "2026-02-25",
-    "questions": [
-      {
-        "expression": "51 + 90",
-        "answer": 141,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "299 − 144",
-        "answer": 155,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "68 × 13",
-        "answer": 884,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "861 × 78",
-        "answer": 67158,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3,287 ÷ 7",
-        "answer": 469.6,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 57,
-    "date": "2026-02-26",
-    "questions": [
-      {
-        "expression": "8 × 12",
-        "answer": 96,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "564 + 871",
-        "answer": 1435,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "554 − 340",
-        "answer": 214,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "254 × 29",
-        "answer": 7366,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "114 × 13 + 55 × 114",
-        "answer": 7752,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 58,
-    "date": "2026-02-27",
-    "questions": [
-      {
-        "expression": "5 × 12",
-        "answer": 60,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "496 + 757",
-        "answer": 1253,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "291 − 227",
-        "answer": 64,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "293 × 10 + 312",
-        "answer": 3242,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "388 × 33 + 10 × 388",
-        "answer": 16684,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 59,
-    "date": "2026-02-28",
-    "questions": [
-      {
-        "expression": "90 − 66",
-        "answer": 24,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "692 − 538",
-        "answer": 154,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "287 + 223",
-        "answer": 510,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "280 × 32 − 976",
-        "answer": 7984,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "689 × 961",
-        "answer": 662129,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 60,
-    "date": "2026-03-01",
-    "questions": [
-      {
-        "expression": "81 + 61",
-        "answer": 142,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "276 + 304",
-        "answer": 580,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "991 − 736",
-        "answer": 255,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "447 × 42 − 307",
-        "answer": 18467,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "6085 × 712",
-        "answer": 4332520,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 61,
-    "date": "2026-03-02",
-    "questions": [
-      {
-        "expression": "72 + 46",
-        "answer": 118,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "590 − 368",
-        "answer": 222,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "78 × 29",
-        "answer": 2262,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "105 × 84",
-        "answer": 8820,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "567 × 76 + 54 × 567",
-        "answer": 73710,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 62,
-    "date": "2026-03-03",
-    "questions": [
-      {
-        "expression": "34 + 97",
-        "answer": 131,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "678 + 805",
-        "answer": 1483,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "861 − 588",
-        "answer": 273,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "7293 + 4188 − 789",
-        "answer": 10692,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1537 × 232",
-        "answer": 356584,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 63,
-    "date": "2026-03-04",
-    "questions": [
-      {
-        "expression": "82 − 13",
-        "answer": 69,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "86 × 42",
-        "answer": 3612,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "23 × 24",
-        "answer": 552,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "199 × 49 − 590",
-        "answer": 9161,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "145,152 ÷ 21",
-        "answer": 6912,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 64,
-    "date": "2026-03-05",
-    "questions": [
-      {
-        "expression": "8 × 11",
-        "answer": 88,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "15 × 23",
-        "answer": 345,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "30 × 49",
-        "answer": 1470,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2737 + 8649 − 967",
-        "answer": 10419,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "177,100 ÷ 49",
-        "answer": 3614.3,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 65,
-    "date": "2026-03-06",
-    "questions": [
-      {
-        "expression": "61 − 38",
-        "answer": 23,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "685 + 311",
-        "answer": 996,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "503 − 395",
-        "answer": 108,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "80 × 32 − 358",
-        "answer": 2202,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "807 × 78 + 16 × 807",
-        "answer": 75858,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 66,
-    "date": "2026-03-07",
-    "questions": [
-      {
-        "expression": "43 + 33",
-        "answer": 76,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "98 × 38",
-        "answer": 3724,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "87 × 30",
-        "answer": 2610,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "7320 + 4994 − 926",
-        "answer": 11388,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "13,689 ÷ 8",
-        "answer": 1711.1,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 67,
-    "date": "2026-03-08",
-    "questions": [
-      {
-        "expression": "29 + 93",
-        "answer": 122,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "40 × 16",
-        "answer": 640,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "304 + 902",
-        "answer": 1206,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8140 + 3096 − 117",
-        "answer": 11119,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "75,060 ÷ 23",
-        "answer": 3263.5,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 68,
-    "date": "2026-03-09",
-    "questions": [
-      {
-        "expression": "7 × 4",
-        "answer": 28,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "482 − 190",
-        "answer": 292,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "31 × 27",
-        "answer": 837,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "486 × 36 − 655",
-        "answer": 16841,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3579 × 330",
-        "answer": 1181070,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 69,
-    "date": "2026-03-10",
-    "questions": [
-      {
-        "expression": "2 × 6",
-        "answer": 12,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "947 − 631",
-        "answer": 316,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "48 × 43",
-        "answer": 2064,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "9468 + 5394 − 419",
-        "answer": 14443,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "920 × 26 + 46 × 920",
-        "answer": 66240,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 70,
-    "date": "2026-03-11",
-    "questions": [
-      {
-        "expression": "13 + 72",
-        "answer": 85,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "59 × 39",
-        "answer": 2301,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "158 + 355",
-        "answer": 513,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "870 × 60",
-        "answer": 52200,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "569 × 474",
-        "answer": 269706,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 71,
-    "date": "2026-03-12",
-    "questions": [
-      {
-        "expression": "48 + 53",
-        "answer": 101,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "569 − 372",
-        "answer": 197,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "91 × 23",
-        "answer": 2093,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "177 × 38 − 296",
-        "answer": 6430,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2961 × 511",
-        "answer": 1513071,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 72,
-    "date": "2026-03-13",
-    "questions": [
-      {
-        "expression": "58 + 83",
-        "answer": 141,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "378 + 643",
-        "answer": 1021,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "928 + 213",
-        "answer": 1141,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "477 × 48 + 552",
-        "answer": 23448,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "489,533 ÷ 54",
-        "answer": 9065.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 73,
-    "date": "2026-03-14",
-    "questions": [
-      {
-        "expression": "46 + 35",
-        "answer": 81,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "992 + 258",
-        "answer": 1250,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "38 × 39",
-        "answer": 1482,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "278 × 34 − 350",
-        "answer": 9102,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "6067 × 554",
-        "answer": 3361118,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 74,
-    "date": "2026-03-15",
-    "questions": [
-      {
-        "expression": "9 × 3",
-        "answer": 27,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "489 + 901",
-        "answer": 1390,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "902 − 465",
-        "answer": 437,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "270 × 48 − 789",
-        "answer": 12171,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "7291 × 800",
-        "answer": 5832800,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 75,
-    "date": "2026-03-16",
-    "questions": [
-      {
-        "expression": "36 − 24",
-        "answer": 12,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "576 + 695",
-        "answer": 1271,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "353 − 222",
-        "answer": 131,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "495 × 26",
-        "answer": 12870,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "143,722 ÷ 54",
-        "answer": 2661.5,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 76,
-    "date": "2026-03-17",
-    "questions": [
-      {
-        "expression": "29 + 21",
-        "answer": 50,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "750 + 330",
-        "answer": 1080,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "407 + 581",
-        "answer": 988,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6141 + 6501 − 137",
-        "answer": 12505,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1868 × 996",
-        "answer": 1860528,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 77,
-    "date": "2026-03-18",
-    "questions": [
-      {
-        "expression": "12 × 8",
-        "answer": 96,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "175 + 196",
-        "answer": 371,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "855 − 226",
-        "answer": 629,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "108 × 38 − 487",
-        "answer": 3617,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "996 × 63 + 57 × 996",
-        "answer": 119520,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 78,
-    "date": "2026-03-19",
-    "questions": [
-      {
-        "expression": "78 + 95",
-        "answer": 173,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "29 × 23",
-        "answer": 667,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "213 − 142",
-        "answer": 71,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "54 × 12 − 164",
-        "answer": 484,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "357 × 768",
-        "answer": 274176,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 79,
-    "date": "2026-03-20",
-    "questions": [
-      {
-        "expression": "15 + 25",
-        "answer": 40,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "824 + 619",
-        "answer": 1443,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "905 + 642",
-        "answer": 1547,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "209 × 28 − 481",
-        "answer": 5371,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "49,515 ÷ 16",
-        "answer": 3094.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 80,
-    "date": "2026-03-21",
-    "questions": [
-      {
-        "expression": "62 + 57",
-        "answer": 119,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "99 × 12",
-        "answer": 1188,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "468 − 124",
-        "answer": 344,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "7924 + 5209 − 623",
-        "answer": 12510,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "940 × 12 + 87 × 940",
-        "answer": 93060,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 81,
-    "date": "2026-03-22",
-    "questions": [
-      {
-        "expression": "39 − 35",
-        "answer": 4,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "403 − 227",
-        "answer": 176,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "85 × 11",
-        "answer": 935,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "399 × 24 + 918",
-        "answer": 10494,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "594 × 49 + 25 × 594",
-        "answer": 43956,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 82,
-    "date": "2026-03-23",
-    "questions": [
-      {
-        "expression": "8 × 5",
-        "answer": 40,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "859 + 129",
-        "answer": 988,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "12 × 29",
-        "answer": 348,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6953 + 2823 − 386",
-        "answer": 9390,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2291 × 164",
-        "answer": 375724,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 83,
-    "date": "2026-03-24",
-    "questions": [
-      {
-        "expression": "7 × 3",
-        "answer": 21,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "452 − 265",
-        "answer": 187,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "822 + 715",
-        "answer": 1537,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "767 × 11",
-        "answer": 8437,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "553 × 97 + 63 × 553",
-        "answer": 88480,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 84,
-    "date": "2026-03-25",
-    "questions": [
-      {
-        "expression": "5 × 3",
-        "answer": 15,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "252 − 161",
-        "answer": 91,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "948 − 704",
-        "answer": 244,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "115 × 50 − 553",
-        "answer": 5197,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2200 × 370",
-        "answer": 814000,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 85,
-    "date": "2026-03-26",
-    "questions": [
-      {
-        "expression": "40 − 23",
-        "answer": 17,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "736 + 437",
-        "answer": 1173,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "37 × 24",
-        "answer": 888,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "148 × 28",
-        "answer": 4144,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "593 × 17 + 55 × 593",
-        "answer": 42696,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 86,
-    "date": "2026-03-27",
-    "questions": [
-      {
-        "expression": "87 − 42",
-        "answer": 45,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "365 − 244",
-        "answer": 121,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "37 × 25",
-        "answer": 925,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "428 × 19 + 531",
-        "answer": 8663,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "392 × 55 + 87 × 392",
-        "answer": 55664,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 87,
-    "date": "2026-03-28",
-    "questions": [
-      {
-        "expression": "54 + 54",
-        "answer": 108,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "58 × 27",
-        "answer": 1566,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "703 − 175",
-        "answer": 528,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "476 × 25",
-        "answer": 11900,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "259,413 ÷ 72",
-        "answer": 3603,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 88,
-    "date": "2026-03-29",
-    "questions": [
-      {
-        "expression": "9 × 10",
-        "answer": 90,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "387 − 224",
-        "answer": 163,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "282 − 158",
-        "answer": 124,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1681 + 8903 − 999",
-        "answer": 9585,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "313,253 ÷ 58",
-        "answer": 5400.9,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 89,
-    "date": "2026-03-30",
-    "questions": [
-      {
-        "expression": "62 + 42",
-        "answer": 104,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "777 − 205",
-        "answer": 572,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "33 × 47",
-        "answer": 1551,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6724 + 6291 − 266",
-        "answer": 12749,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "7953 × 942",
-        "answer": 7491726,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 90,
-    "date": "2026-03-31",
-    "questions": [
-      {
-        "expression": "40 − 32",
-        "answer": 8,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "598 + 581",
-        "answer": 1179,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "68 × 33",
-        "answer": 2244,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "7696 + 1533 − 618",
-        "answer": 8611,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "923 × 72 + 23 × 923",
-        "answer": 87685,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 91,
-    "date": "2026-04-01",
-    "questions": [
-      {
-        "expression": "3 × 10",
-        "answer": 30,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "320 − 177",
-        "answer": 143,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "296 + 221",
-        "answer": 517,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "915 × 12",
-        "answer": 10980,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "266 × 79 + 27 × 266",
-        "answer": 28196,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 92,
-    "date": "2026-04-02",
-    "questions": [
-      {
-        "expression": "84 − 66",
-        "answer": 18,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "88 × 29",
-        "answer": 2552,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "535 + 896",
-        "answer": 1431,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2630 + 4082 − 530",
-        "answer": 6182,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "9228 × 329",
-        "answer": 3036012,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 93,
-    "date": "2026-04-03",
-    "questions": [
-      {
-        "expression": "98 + 82",
-        "answer": 180,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "491 − 118",
-        "answer": 373,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "956 − 535",
-        "answer": 421,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "3951 + 6413 − 666",
-        "answer": 9698,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "442 × 98 + 27 × 442",
-        "answer": 55250,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 94,
-    "date": "2026-04-04",
-    "questions": [
-      {
-        "expression": "17 + 59",
-        "answer": 76,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "715 − 292",
-        "answer": 423,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "742 − 458",
-        "answer": 284,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "801 × 91",
-        "answer": 72891,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "606 × 69 + 12 × 606",
-        "answer": 49086,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 95,
-    "date": "2026-04-05",
-    "questions": [
-      {
-        "expression": "51 − 35",
-        "answer": 16,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "736 + 565",
-        "answer": 1301,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "535 + 400",
-        "answer": 935,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "954 × 28",
-        "answer": 26712,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3211 × 478",
-        "answer": 1534858,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 96,
-    "date": "2026-04-06",
-    "questions": [
-      {
-        "expression": "8 × 10",
-        "answer": 80,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "981 + 366",
-        "answer": 1347,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "889 − 491",
-        "answer": 398,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "238 × 95",
-        "answer": 22610,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "811 × 17 + 21 × 811",
-        "answer": 30818,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 97,
-    "date": "2026-04-07",
-    "questions": [
-      {
-        "expression": "54 − 15",
-        "answer": 39,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "66 × 47",
-        "answer": 3102,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "787 + 306",
-        "answer": 1093,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "345 × 31 + 470",
-        "answer": 11165,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "399 × 472",
-        "answer": 188328,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 98,
-    "date": "2026-04-08",
-    "questions": [
-      {
-        "expression": "45 + 12",
-        "answer": 57,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "960 + 238",
-        "answer": 1198,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "737 − 395",
-        "answer": 342,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "380 × 41 − 655",
-        "answer": 14925,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5719 × 666",
-        "answer": 3808854,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 99,
-    "date": "2026-04-09",
-    "questions": [
-      {
-        "expression": "56 − 48",
-        "answer": 8,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "54 × 34",
-        "answer": 1836,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "43 × 28",
-        "answer": 1204,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "9397 + 4336 − 880",
-        "answer": 12853,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1761 × 256",
-        "answer": 450816,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 100,
-    "date": "2026-04-10",
-    "questions": [
-      {
-        "expression": "44 − 10",
-        "answer": 34,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "56 × 41",
-        "answer": 2296,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "612 + 423",
-        "answer": 1035,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "473 × 39 + 547",
-        "answer": 18994,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "6813 × 977",
-        "answer": 6656301,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 101,
-    "date": "2026-04-11",
-    "questions": [
-      {
-        "expression": "84 + 95",
-        "answer": 179,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "986 + 631",
-        "answer": 1617,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "547 − 238",
-        "answer": 309,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "699 × 38",
-        "answer": 26562,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "429,044 ÷ 75",
-        "answer": 5720.6,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 102,
-    "date": "2026-04-12",
-    "questions": [
-      {
-        "expression": "32 − 21",
-        "answer": 11,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "212 − 136",
-        "answer": 76,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "532 − 386",
-        "answer": 146,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "405 × 70",
-        "answer": 28350,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "391,540 ÷ 78",
-        "answer": 5019.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 103,
-    "date": "2026-04-13",
-    "questions": [
-      {
-        "expression": "22 − 14",
-        "answer": 8,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "557 − 259",
-        "answer": 298,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "27 × 41",
-        "answer": 1107,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "9223 + 1800 − 302",
-        "answer": 10721,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "526 × 93 + 19 × 526",
-        "answer": 58912,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 104,
-    "date": "2026-04-14",
-    "questions": [
-      {
-        "expression": "10 × 5",
-        "answer": 50,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "428 − 126",
-        "answer": 302,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "53 × 38",
-        "answer": 2014,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "409 × 43 − 319",
-        "answer": 17268,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "277,621 ÷ 89",
-        "answer": 3119.3,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 105,
-    "date": "2026-04-15",
-    "questions": [
-      {
-        "expression": "66 + 54",
-        "answer": 120,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "887 − 483",
-        "answer": 404,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "673 + 104",
-        "answer": 777,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "919 × 21",
-        "answer": 19299,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "110 × 17 + 91 × 110",
-        "answer": 11880,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 106,
-    "date": "2026-04-16",
-    "questions": [
-      {
-        "expression": "7 × 6",
-        "answer": 42,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "692 − 193",
-        "answer": 499,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "24 × 25",
-        "answer": 600,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4097 + 2002 − 984",
-        "answer": 5115,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "820 × 41 + 82 × 820",
-        "answer": 100860,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 107,
-    "date": "2026-04-17",
-    "questions": [
-      {
-        "expression": "3 × 9",
-        "answer": 27,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "454 + 232",
-        "answer": 686,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "802 − 602",
-        "answer": 200,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8039 + 6014 − 261",
-        "answer": 13792,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "708 × 62 + 87 × 708",
-        "answer": 105492,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 108,
-    "date": "2026-04-18",
-    "questions": [
-      {
-        "expression": "10 + 88",
-        "answer": 98,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "71 × 24",
-        "answer": 1704,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "463 − 363",
-        "answer": 100,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "9641 + 6572 − 461",
-        "answer": 15752,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "9643 × 506",
-        "answer": 4879358,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 109,
-    "date": "2026-04-19",
-    "questions": [
-      {
-        "expression": "8 × 12",
-        "answer": 96,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "34 × 12",
-        "answer": 408,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "968 − 222",
-        "answer": 746,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "847 × 89",
-        "answer": 75383,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "58,590 ÷ 7",
-        "answer": 8370,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 110,
-    "date": "2026-04-20",
-    "questions": [
-      {
-        "expression": "34 + 89",
-        "answer": 123,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "777 − 488",
-        "answer": 289,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "613 + 377",
-        "answer": 990,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "176 × 15 − 360",
-        "answer": 2280,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "619 × 96 + 10 × 619",
-        "answer": 65614,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 111,
-    "date": "2026-04-21",
-    "questions": [
-      {
-        "expression": "56 + 58",
-        "answer": 114,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "339 − 171",
-        "answer": 168,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "409 − 289",
-        "answer": 120,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "634 × 91",
-        "answer": 57694,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "747,814 ÷ 93",
-        "answer": 8041,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 112,
     "date": "2026-04-22",
-    "questions": [
-      {
-        "expression": "4 × 2",
-        "answer": 8,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "211 − 151",
-        "answer": 60,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "943 + 514",
-        "answer": 1457,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "3992 + 8085 − 608",
-        "answer": 11469,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "989 × 46 + 35 × 989",
-        "answer": 80109,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 113,
-    "date": "2026-04-23",
-    "questions": [
-      {
-        "expression": "63 − 39",
-        "answer": 24,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "80 × 20",
-        "answer": 1600,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "652 − 556",
-        "answer": 96,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "5370 + 7400 − 286",
-        "answer": 12484,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "9128 × 997",
-        "answer": 9100616,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 114,
-    "date": "2026-04-24",
-    "questions": [
-      {
-        "expression": "80 − 48",
-        "answer": 32,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "481 − 416",
-        "answer": 65,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "225 − 134",
-        "answer": 91,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4541 + 9199 − 831",
-        "answer": 12909,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "587 × 84 + 54 × 587",
-        "answer": 81006,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 115,
-    "date": "2026-04-25",
-    "questions": [
-      {
-        "expression": "2 × 9",
-        "answer": 18,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "73 × 33",
-        "answer": 2409,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "926 − 186",
-        "answer": 740,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8342 + 4320 − 598",
-        "answer": 12064,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "433 × 21 + 19 × 433",
-        "answer": 17320,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 116,
-    "date": "2026-04-26",
-    "questions": [
-      {
-        "expression": "9 × 7",
-        "answer": 63,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "888 + 131",
-        "answer": 1019,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "30 × 40",
-        "answer": 1200,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "940 × 42",
-        "answer": 39480,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5653 × 730",
-        "answer": 4126690,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 117,
-    "date": "2026-04-27",
-    "questions": [
-      {
-        "expression": "54 − 37",
-        "answer": 17,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "83 × 35",
-        "answer": 2905,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "39 × 42",
-        "answer": 1638,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "958 × 72",
-        "answer": 68976,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3648 × 496",
-        "answer": 1809408,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 118,
-    "date": "2026-04-28",
-    "questions": [
-      {
-        "expression": "12 × 5",
-        "answer": 60,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "47 × 21",
-        "answer": 987,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "87 × 14",
-        "answer": 1218,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "380 × 47",
-        "answer": 17860,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "690 × 88 + 54 × 690",
-        "answer": 97980,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 119,
-    "date": "2026-04-29",
-    "questions": [
-      {
-        "expression": "48 + 44",
-        "answer": 92,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "16 × 31",
-        "answer": 496,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "105 + 889",
-        "answer": 994,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2989 + 6213 − 499",
-        "answer": 8703,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2427 × 514",
-        "answer": 1247478,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 120,
-    "date": "2026-04-30",
-    "questions": [
-      {
-        "expression": "7 × 11",
-        "answer": 77,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "65 × 38",
-        "answer": 2470,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "915 + 642",
-        "answer": 1557,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "363 × 44 − 254",
-        "answer": 15718,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "37,155 ÷ 19",
-        "answer": 1955.5,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 121,
-    "date": "2026-05-01",
-    "questions": [
-      {
-        "expression": "54 + 56",
-        "answer": 110,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "230 − 153",
-        "answer": 77,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "419 + 817",
-        "answer": 1236,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "112 × 53",
-        "answer": 5936,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "694,540 ÷ 73",
-        "answer": 9514.2,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 122,
-    "date": "2026-05-02",
-    "questions": [
-      {
-        "expression": "82 − 19",
-        "answer": 63,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "328 − 168",
-        "answer": 160,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "761 − 121",
-        "answer": 640,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1836 + 4840 − 377",
-        "answer": 6299,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2153 × 412",
-        "answer": 887036,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 123,
-    "date": "2026-05-03",
-    "questions": [
-      {
-        "expression": "26 − 10",
-        "answer": 16,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "774 − 626",
-        "answer": 148,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "84 × 14",
-        "answer": 1176,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "477 × 12 + 192",
-        "answer": 5916,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "788 × 48 + 33 × 788",
-        "answer": 63828,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 124,
-    "date": "2026-05-04",
-    "questions": [
-      {
-        "expression": "70 + 90",
-        "answer": 160,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "14 × 45",
-        "answer": 630,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "868 + 795",
-        "answer": 1663,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6857 + 1319 − 173",
-        "answer": 8003,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "663,453 ÷ 96",
-        "answer": 6911,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 125,
-    "date": "2026-05-05",
-    "questions": [
-      {
-        "expression": "2 × 4",
-        "answer": 8,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "494 + 432",
-        "answer": 926,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "152 + 903",
-        "answer": 1055,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1673 + 9284 − 676",
-        "answer": 10281,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "546 × 29 + 53 × 546",
-        "answer": 44772,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 126,
-    "date": "2026-05-06",
-    "questions": [
-      {
-        "expression": "90 + 81",
-        "answer": 171,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "287 − 130",
-        "answer": 157,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "686 − 443",
-        "answer": 243,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "5980 + 5175 − 595",
-        "answer": 10560,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "478,275 ÷ 55",
-        "answer": 8695.9,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 127,
-    "date": "2026-05-07",
-    "questions": [
-      {
-        "expression": "99 − 39",
-        "answer": 60,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "18 × 46",
-        "answer": 828,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "564 − 208",
-        "answer": 356,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "213 × 17 + 314",
-        "answer": 3935,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "586,532 ÷ 77",
-        "answer": 7617.3,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 128,
-    "date": "2026-05-08",
-    "questions": [
-      {
-        "expression": "37 + 16",
-        "answer": 53,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "58 × 32",
-        "answer": 1856,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "24 × 47",
-        "answer": 1128,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "383 × 81",
-        "answer": 31023,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "88,519 ÷ 25",
-        "answer": 3540.8,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 129,
-    "date": "2026-05-09",
-    "questions": [
-      {
-        "expression": "28 + 70",
-        "answer": 98,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "784 + 924",
-        "answer": 1708,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "294 − 137",
-        "answer": 157,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "417 × 47 + 796",
-        "answer": 20395,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "618,685 ÷ 70",
-        "answer": 8838.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 130,
-    "date": "2026-05-10",
-    "questions": [
-      {
-        "expression": "8 × 11",
-        "answer": 88,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "131 + 317",
-        "answer": 448,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "95 × 29",
-        "answer": 2755,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "125 × 60",
-        "answer": 7500,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "152,778 ÷ 39",
-        "answer": 3917.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 131,
-    "date": "2026-05-11",
-    "questions": [
-      {
-        "expression": "84 + 15",
-        "answer": 99,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "767 + 541",
-        "answer": 1308,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "378 + 798",
-        "answer": 1176,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "499 × 23 − 535",
-        "answer": 10942,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "77,363 ÷ 77",
-        "answer": 1004.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 132,
-    "date": "2026-05-12",
-    "questions": [
-      {
-        "expression": "4 × 10",
-        "answer": 40,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "58 × 31",
-        "answer": 1798,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "75 × 23",
-        "answer": 1725,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6232 + 8269 − 540",
-        "answer": 13961,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3773 × 719",
-        "answer": 2712787,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 133,
-    "date": "2026-05-13",
-    "questions": [
-      {
-        "expression": "26 + 27",
-        "answer": 53,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "84 × 44",
-        "answer": 3696,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "240 − 160",
-        "answer": 80,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "308 × 29",
-        "answer": 8932,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1455 × 611",
-        "answer": 889005,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 134,
-    "date": "2026-05-14",
-    "questions": [
-      {
-        "expression": "75 − 32",
-        "answer": 43,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "92 × 40",
-        "answer": 3680,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "724 + 331",
-        "answer": 1055,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "135 × 35",
-        "answer": 4725,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "105,906 ÷ 17",
-        "answer": 6229.8,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 135,
-    "date": "2026-05-15",
-    "questions": [
-      {
-        "expression": "3 × 8",
-        "answer": 24,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "72 × 11",
-        "answer": 792,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "933 − 750",
-        "answer": 183,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "805 × 21",
-        "answer": 16905,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "743 × 136",
-        "answer": 101048,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 136,
-    "date": "2026-05-16",
-    "questions": [
-      {
-        "expression": "78 + 38",
-        "answer": 116,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "676 − 534",
-        "answer": 142,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "581 − 495",
-        "answer": 86,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "9959 + 9378 − 701",
-        "answer": 18636,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5035 × 459",
-        "answer": 2311065,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 137,
-    "date": "2026-05-17",
-    "questions": [
-      {
-        "expression": "43 − 42",
-        "answer": 1,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "406 + 419",
-        "answer": 825,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "668 − 121",
-        "answer": 547,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "9134 + 3086 − 456",
-        "answer": 11764,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "9311 × 515",
-        "answer": 4795165,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 138,
-    "date": "2026-05-18",
-    "questions": [
-      {
-        "expression": "2 × 6",
-        "answer": 12,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "460 + 984",
-        "answer": 1444,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "888 + 184",
-        "answer": 1072,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "855 × 29",
-        "answer": 24795,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "281 × 80 + 47 × 281",
-        "answer": 35687,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 139,
-    "date": "2026-05-19",
-    "questions": [
-      {
-        "expression": "5 × 10",
-        "answer": 50,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "49 × 40",
-        "answer": 1960,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "658 + 628",
-        "answer": 1286,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "60 × 15 + 743",
-        "answer": 1643,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "7995 × 682",
-        "answer": 5452590,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 140,
-    "date": "2026-05-20",
-    "questions": [
-      {
-        "expression": "50 − 38",
-        "answer": 12,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "292 − 112",
-        "answer": 180,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "315 − 133",
-        "answer": 182,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "7657 + 9941 − 662",
-        "answer": 16936,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "91,480 ÷ 60",
-        "answer": 1524.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 141,
-    "date": "2026-05-21",
-    "questions": [
-      {
-        "expression": "89 − 67",
-        "answer": 22,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "634 + 756",
-        "answer": 1390,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "85 × 42",
-        "answer": 3570,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1067 + 6294 − 391",
-        "answer": 6970,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "4700 × 392",
-        "answer": 1842400,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 142,
-    "date": "2026-05-22",
-    "questions": [
-      {
-        "expression": "4 × 6",
-        "answer": 24,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "459 − 210",
-        "answer": 249,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "927 − 361",
-        "answer": 566,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "300 × 41 + 244",
-        "answer": 12544,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "602,398 ÷ 87",
-        "answer": 6924.1,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 143,
-    "date": "2026-05-23",
-    "questions": [
-      {
-        "expression": "3 × 3",
-        "answer": 9,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "27 × 35",
-        "answer": 945,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "367 − 308",
-        "answer": 59,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "375 × 12 + 556",
-        "answer": 5056,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "788 × 369",
-        "answer": 290772,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 144,
-    "date": "2026-05-24",
-    "questions": [
-      {
-        "expression": "25 + 97",
-        "answer": 122,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "118 + 981",
-        "answer": 1099,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "14 × 34",
-        "answer": 476,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6139 + 1838 − 288",
-        "answer": 7689,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "863 × 11 + 92 × 863",
-        "answer": 88889,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 145,
-    "date": "2026-05-25",
-    "questions": [
-      {
-        "expression": "6 × 9",
-        "answer": 54,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "530 − 260",
-        "answer": 270,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "82 × 42",
-        "answer": 3444,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "189 × 31 − 646",
-        "answer": 5213,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "240,982 ÷ 30",
-        "answer": 8032.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 146,
-    "date": "2026-05-26",
-    "questions": [
-      {
-        "expression": "41 − 13",
-        "answer": 28,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "640 + 871",
-        "answer": 1511,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "23 × 43",
-        "answer": 989,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8609 + 1508 − 863",
-        "answer": 9254,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "139 × 22 + 92 × 139",
-        "answer": 15846,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 147,
-    "date": "2026-05-27",
-    "questions": [
-      {
-        "expression": "7 × 10",
-        "answer": 70,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "57 × 19",
-        "answer": 1083,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "741 + 606",
-        "answer": 1347,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "9640 + 9850 − 495",
-        "answer": 18995,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "74,352 ÷ 21",
-        "answer": 3540.6,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 148,
-    "date": "2026-05-28",
-    "questions": [
-      {
-        "expression": "57 + 16",
-        "answer": 73,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "24 × 21",
-        "answer": 504,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "97 × 38",
-        "answer": 3686,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "73 × 30 + 484",
-        "answer": 2674,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "7492 × 698",
-        "answer": 5229416,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 149,
-    "date": "2026-05-29",
-    "questions": [
-      {
-        "expression": "68 + 45",
-        "answer": 113,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "437 − 383",
-        "answer": 54,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "959 − 397",
-        "answer": 562,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "7001 + 9958 − 309",
-        "answer": 16650,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "631,798 ÷ 79",
-        "answer": 7997.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 150,
-    "date": "2026-05-30",
-    "questions": [
-      {
-        "expression": "24 − 22",
-        "answer": 2,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "284 + 772",
-        "answer": 1056,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "621 + 242",
-        "answer": 863,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "777 × 91",
-        "answer": 70707,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "684 × 54 + 52 × 684",
-        "answer": 72504,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 151,
-    "date": "2026-05-31",
-    "questions": [
-      {
-        "expression": "53 − 28",
-        "answer": 25,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "543 − 479",
-        "answer": 64,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "572 + 368",
-        "answer": 940,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "59 × 16 − 448",
-        "answer": 496,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "353,810 ÷ 76",
-        "answer": 4655.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 152,
-    "date": "2026-06-01",
-    "questions": [
-      {
-        "expression": "47 − 41",
-        "answer": 6,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "363 + 514",
-        "answer": 877,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "62 × 17",
-        "answer": 1054,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8764 + 9540 − 234",
-        "answer": 18070,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "877 × 66 + 83 × 877",
-        "answer": 130673,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 153,
-    "date": "2026-06-02",
-    "questions": [
-      {
-        "expression": "36 − 10",
-        "answer": 26,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "591 − 111",
-        "answer": 480,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "709 − 514",
-        "answer": 195,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "375 × 27 + 707",
-        "answer": 10832,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "131,886 ÷ 35",
-        "answer": 3768.2,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 154,
-    "date": "2026-06-03",
-    "questions": [
-      {
-        "expression": "91 − 56",
-        "answer": 35,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "494 + 212",
-        "answer": 706,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "590 + 473",
-        "answer": 1063,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "194 × 40 + 589",
-        "answer": 8349,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "642,292 ÷ 75",
-        "answer": 8563.9,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 155,
-    "date": "2026-06-04",
-    "questions": [
-      {
-        "expression": "47 − 10",
-        "answer": 37,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "783 + 551",
-        "answer": 1334,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "911 + 722",
-        "answer": 1633,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "847 × 64",
-        "answer": 54208,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3929 × 982",
-        "answer": 3858278,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 156,
-    "date": "2026-06-05",
-    "questions": [
-      {
-        "expression": "5 × 11",
-        "answer": 55,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "534 − 103",
-        "answer": 431,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "501 − 411",
-        "answer": 90,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "761 × 32",
-        "answer": 24352,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2664 × 513",
-        "answer": 1366632,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 157,
-    "date": "2026-06-06",
-    "questions": [
-      {
-        "expression": "52 − 21",
-        "answer": 31,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "498 − 365",
-        "answer": 133,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "24 × 41",
-        "answer": 984,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "290 × 28 − 531",
-        "answer": 7589,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "13,528 ÷ 77",
-        "answer": 175.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 158,
-    "date": "2026-06-07",
-    "questions": [
-      {
-        "expression": "56 + 43",
-        "answer": 99,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "485 + 349",
-        "answer": 834,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "372 − 184",
-        "answer": 188,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "440 × 40 − 622",
-        "answer": 16978,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "473 × 81 + 90 × 473",
-        "answer": 80883,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 159,
-    "date": "2026-06-08",
-    "questions": [
-      {
-        "expression": "6 × 7",
-        "answer": 42,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "32 × 32",
-        "answer": 1024,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "586 − 286",
-        "answer": 300,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6328 + 6154 − 373",
-        "answer": 12109,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "822 × 91 + 88 × 822",
-        "answer": 147138,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 160,
-    "date": "2026-06-09",
-    "questions": [
-      {
-        "expression": "43 − 26",
-        "answer": 17,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "115 + 439",
-        "answer": 554,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "637 − 173",
-        "answer": 464,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8684 + 5800 − 743",
-        "answer": 13741,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "7936 × 961",
-        "answer": 7626496,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 161,
-    "date": "2026-06-10",
-    "questions": [
-      {
-        "expression": "85 + 54",
-        "answer": 139,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "290 + 812",
-        "answer": 1102,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "977 − 300",
-        "answer": 677,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "116 × 56",
-        "answer": 6496,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "319,788 ÷ 90",
-        "answer": 3553.2,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 162,
-    "date": "2026-06-11",
-    "questions": [
-      {
-        "expression": "91 + 71",
-        "answer": 162,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "720 − 421",
-        "answer": 299,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "36 × 30",
-        "answer": 1080,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "9627 + 3386 − 638",
-        "answer": 12375,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5783 × 192",
-        "answer": 1110336,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 163,
-    "date": "2026-06-12",
-    "questions": [
-      {
-        "expression": "96 + 60",
-        "answer": 156,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "80 × 22",
-        "answer": 1760,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "397 + 721",
-        "answer": 1118,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "72 × 19 − 774",
-        "answer": 594,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "6920 × 635",
-        "answer": 4394200,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 164,
-    "date": "2026-06-13",
-    "questions": [
-      {
-        "expression": "61 − 53",
-        "answer": 8,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "43 × 32",
-        "answer": 1376,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "16 × 48",
-        "answer": 768,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "9218 + 9371 − 956",
-        "answer": 17633,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "320 × 41 + 90 × 320",
-        "answer": 41920,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 165,
-    "date": "2026-06-14",
-    "questions": [
-      {
-        "expression": "55 + 13",
-        "answer": 68,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "86 × 37",
-        "answer": 3182,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "279 − 101",
-        "answer": 178,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6285 + 6241 − 139",
-        "answer": 12387,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "834 × 24 + 81 × 834",
-        "answer": 87570,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 166,
-    "date": "2026-06-15",
-    "questions": [
-      {
-        "expression": "21 − 13",
-        "answer": 8,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "510 + 608",
-        "answer": 1118,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "300 − 183",
-        "answer": 117,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "589 × 41",
-        "answer": 24149,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "237,043 ÷ 53",
-        "answer": 4472.5,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 167,
-    "date": "2026-06-16",
-    "questions": [
-      {
-        "expression": "52 + 91",
-        "answer": 143,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "53 × 35",
-        "answer": 1855,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "663 + 115",
-        "answer": 778,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "184 × 26",
-        "answer": 4784,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "36,877 ÷ 23",
-        "answer": 1603.3,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 168,
-    "date": "2026-06-17",
-    "questions": [
-      {
-        "expression": "53 − 22",
-        "answer": 31,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "533 − 398",
-        "answer": 135,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "723 − 670",
-        "answer": 53,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "9412 + 5834 − 912",
-        "answer": 14334,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "253,527 ÷ 95",
-        "answer": 2668.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 169,
-    "date": "2026-06-18",
-    "questions": [
-      {
-        "expression": "84 + 82",
-        "answer": 166,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "178 + 579",
-        "answer": 757,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "71 × 40",
-        "answer": 2840,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8259 + 7320 − 357",
-        "answer": 15222,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "26,928 ÷ 8",
-        "answer": 3366,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 170,
-    "date": "2026-06-19",
-    "questions": [
-      {
-        "expression": "9 × 7",
-        "answer": 63,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "28 × 38",
-        "answer": 1064,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "570 + 103",
-        "answer": 673,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1499 + 2006 − 968",
-        "answer": 2537,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "234,646 ÷ 35",
-        "answer": 6704.2,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 171,
-    "date": "2026-06-20",
-    "questions": [
-      {
-        "expression": "96 + 81",
-        "answer": 177,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "771 + 314",
-        "answer": 1085,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "327 + 264",
-        "answer": 591,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "3940 + 4477 − 335",
-        "answer": 8082,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "301 × 77 + 99 × 301",
-        "answer": 52976,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 172,
-    "date": "2026-06-21",
-    "questions": [
-      {
-        "expression": "11 × 10",
-        "answer": 110,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "375 + 416",
-        "answer": 791,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "468 + 720",
-        "answer": 1188,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "511 × 71",
-        "answer": 36281,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "637 × 78 + 35 × 637",
-        "answer": 71981,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 173,
-    "date": "2026-06-22",
-    "questions": [
-      {
-        "expression": "43 + 17",
-        "answer": 60,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "392 − 299",
-        "answer": 93,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "53 × 17",
-        "answer": 901,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "393 × 24",
-        "answer": 9432,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "7905 × 730",
-        "answer": 5770650,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 174,
-    "date": "2026-06-23",
-    "questions": [
-      {
-        "expression": "2 × 4",
-        "answer": 8,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "735 + 478",
-        "answer": 1213,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "38 × 33",
-        "answer": 1254,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6682 + 6800 − 221",
-        "answer": 13261,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3007 × 750",
-        "answer": 2255250,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 175,
-    "date": "2026-06-24",
-    "questions": [
-      {
-        "expression": "92 + 38",
-        "answer": 130,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "789 + 101",
-        "answer": 890,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "956 − 697",
-        "answer": 259,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "123 × 50 + 179",
-        "answer": 6329,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "748 × 96 + 80 × 748",
-        "answer": 131648,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 176,
-    "date": "2026-06-25",
-    "questions": [
-      {
-        "expression": "2 × 6",
-        "answer": 12,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "145 + 189",
-        "answer": 334,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "670 − 492",
-        "answer": 178,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "65 × 12 − 575",
-        "answer": 205,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5138 × 612",
-        "answer": 3144456,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 177,
-    "date": "2026-06-26",
-    "questions": [
-      {
-        "expression": "68 + 87",
-        "answer": 155,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "203 + 918",
-        "answer": 1121,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "699 − 449",
-        "answer": 250,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "220 × 30",
-        "answer": 6600,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "866 × 74 + 72 × 866",
-        "answer": 126436,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 178,
-    "date": "2026-06-27",
-    "questions": [
-      {
-        "expression": "41 + 72",
-        "answer": 113,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "505 − 127",
-        "answer": 378,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "64 × 20",
-        "answer": 1280,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "3340 + 9021 − 867",
-        "answer": 11494,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "252,440 ÷ 97",
-        "answer": 2602.5,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 179,
-    "date": "2026-06-28",
-    "questions": [
-      {
-        "expression": "94 − 55",
-        "answer": 39,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "765 + 885",
-        "answer": 1650,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "802 + 151",
-        "answer": 953,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "3934 + 4791 − 219",
-        "answer": 8506,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "963 × 76 + 33 × 963",
-        "answer": 104967,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 180,
-    "date": "2026-06-29",
-    "questions": [
-      {
-        "expression": "65 − 52",
-        "answer": 13,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "704 − 461",
-        "answer": 243,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "86 × 17",
-        "answer": 1462,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "5348 + 1620 − 599",
-        "answer": 6369,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "539 × 54 + 40 × 539",
-        "answer": 50666,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 181,
-    "date": "2026-06-30",
-    "questions": [
-      {
-        "expression": "2 × 4",
-        "answer": 8,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "72 × 42",
-        "answer": 3024,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "309 − 108",
-        "answer": 201,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "990 × 41",
-        "answer": 40590,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "876 × 77 + 93 × 876",
-        "answer": 148920,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 182,
-    "date": "2026-07-01",
-    "questions": [
-      {
-        "expression": "6 × 10",
-        "answer": 60,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "94 × 43",
-        "answer": 4042,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "27 × 43",
-        "answer": 1161,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "580 × 89",
-        "answer": 51620,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "857 × 84 + 15 × 857",
-        "answer": 84843,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 183,
-    "date": "2026-07-02",
-    "questions": [
-      {
-        "expression": "58 + 75",
-        "answer": 133,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "48 × 20",
-        "answer": 960,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "729 + 563",
-        "answer": 1292,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "5481 + 6325 − 207",
-        "answer": 11599,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "8012 × 583",
-        "answer": 4670996,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 184,
-    "date": "2026-07-03",
-    "questions": [
-      {
-        "expression": "40 + 77",
-        "answer": 117,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "11 × 13",
-        "answer": 143,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "34 × 45",
-        "answer": 1530,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6804 + 8934 − 350",
-        "answer": 15388,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1831 × 216",
-        "answer": 395496,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 185,
-    "date": "2026-07-04",
-    "questions": [
-      {
-        "expression": "74 − 46",
-        "answer": 28,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "266 + 465",
-        "answer": 731,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "96 × 27",
-        "answer": 2592,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "125 × 14",
-        "answer": 1750,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "835 × 61 + 24 × 835",
-        "answer": 70975,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 186,
-    "date": "2026-07-05",
-    "questions": [
-      {
-        "expression": "10 × 9",
-        "answer": 90,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "92 × 21",
-        "answer": 1932,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "841 + 871",
-        "answer": 1712,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "104 × 31 − 376",
-        "answer": 2848,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "125,058 ÷ 69",
-        "answer": 1812.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 187,
-    "date": "2026-07-06",
-    "questions": [
-      {
-        "expression": "3 × 4",
-        "answer": 12,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "641 + 536",
-        "answer": 1177,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "836 + 468",
-        "answer": 1304,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "287 × 29 + 461",
-        "answer": 8784,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "240,671 ÷ 27",
-        "answer": 8913.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 188,
-    "date": "2026-07-07",
-    "questions": [
-      {
-        "expression": "86 − 64",
-        "answer": 22,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "684 − 213",
-        "answer": 471,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "89 × 35",
-        "answer": 3115,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "250 × 34 − 840",
-        "answer": 7660,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1441 × 552",
-        "answer": 795432,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 189,
-    "date": "2026-07-08",
-    "questions": [
-      {
-        "expression": "22 − 12",
-        "answer": 10,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "710 − 496",
-        "answer": 214,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "625 − 279",
-        "answer": 346,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "7976 + 3630 − 362",
-        "answer": 11244,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "16,131 ÷ 11",
-        "answer": 1466.5,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 190,
-    "date": "2026-07-09",
-    "questions": [
-      {
-        "expression": "83 + 24",
-        "answer": 107,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "976 − 323",
-        "answer": 653,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "43 × 18",
-        "answer": 774,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "181 × 24 − 240",
-        "answer": 4104,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "161 × 59 + 77 × 161",
-        "answer": 21896,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 191,
-    "date": "2026-07-10",
-    "questions": [
-      {
-        "expression": "11 × 8",
-        "answer": 88,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "869 + 463",
-        "answer": 1332,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "840 + 187",
-        "answer": 1027,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6329 + 9729 − 214",
-        "answer": 15844,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "8025 × 324",
-        "answer": 2600100,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 192,
-    "date": "2026-07-11",
-    "questions": [
-      {
-        "expression": "21 − 13",
-        "answer": 8,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "65 × 39",
-        "answer": 2535,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "699 − 372",
-        "answer": 327,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "390 × 38 − 197",
-        "answer": 14623,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "950 × 82 + 99 × 950",
-        "answer": 171950,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 193,
-    "date": "2026-07-12",
-    "questions": [
-      {
-        "expression": "11 × 12",
-        "answer": 132,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "32 × 11",
-        "answer": 352,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "83 × 36",
-        "answer": 2988,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "294 × 13 + 441",
-        "answer": 4263,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1619 × 141",
-        "answer": 228279,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 194,
-    "date": "2026-07-13",
-    "questions": [
-      {
-        "expression": "81 + 25",
-        "answer": 106,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "450 + 111",
-        "answer": 561,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "665 − 337",
-        "answer": 328,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "420 × 43 + 531",
-        "answer": 18591,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2728 × 766",
-        "answer": 2089648,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 195,
-    "date": "2026-07-14",
-    "questions": [
-      {
-        "expression": "36 − 25",
-        "answer": 11,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "949 + 370",
-        "answer": 1319,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "678 + 589",
-        "answer": 1267,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1586 + 7897 − 229",
-        "answer": 9254,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5431 × 798",
-        "answer": 4333938,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 196,
-    "date": "2026-07-15",
-    "questions": [
-      {
-        "expression": "20 − 15",
-        "answer": 5,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "73 × 21",
-        "answer": 1533,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "40 × 44",
-        "answer": 1760,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "818 × 14",
-        "answer": 11452,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "106,029 ÷ 11",
-        "answer": 9639,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 197,
-    "date": "2026-07-16",
-    "questions": [
-      {
-        "expression": "12 × 10",
-        "answer": 120,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "682 + 615",
-        "answer": 1297,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "776 − 288",
-        "answer": 488,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2413 + 1305 − 737",
-        "answer": 2981,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "18,259 ÷ 7",
-        "answer": 2608.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 198,
-    "date": "2026-07-17",
-    "questions": [
-      {
-        "expression": "65 + 83",
-        "answer": 148,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "951 − 127",
-        "answer": 824,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "999 + 145",
-        "answer": 1144,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6747 + 4391 − 781",
-        "answer": 10357,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "9809 × 304",
-        "answer": 2981936,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 199,
-    "date": "2026-07-18",
-    "questions": [
-      {
-        "expression": "18 + 11",
-        "answer": 29,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "49 × 17",
-        "answer": 833,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "497 − 391",
-        "answer": 106,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2543 + 9402 − 732",
-        "answer": 11213,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5114 × 675",
-        "answer": 3451950,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 200,
-    "date": "2026-07-19",
-    "questions": [
-      {
-        "expression": "32 + 12",
-        "answer": 44,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "666 − 456",
-        "answer": 210,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "71 × 38",
-        "answer": 2698,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "328 × 50 − 300",
-        "answer": 16100,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "9912 × 872",
-        "answer": 8643264,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 201,
-    "date": "2026-07-20",
-    "questions": [
-      {
-        "expression": "81 − 79",
-        "answer": 2,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "531 − 282",
-        "answer": 249,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "61 × 22",
-        "answer": 1342,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "194 × 93",
-        "answer": 18042,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "471 × 485",
-        "answer": 228435,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 202,
-    "date": "2026-07-21",
-    "questions": [
-      {
-        "expression": "7 × 7",
-        "answer": 49,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "974 + 609",
-        "answer": 1583,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "12 × 31",
-        "answer": 372,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "81 × 35 + 999",
-        "answer": 3834,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "8143 × 991",
-        "answer": 8069713,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 203,
-    "date": "2026-07-22",
-    "questions": [
-      {
-        "expression": "90 + 49",
-        "answer": 139,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "93 × 39",
-        "answer": 3627,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "752 + 440",
-        "answer": 1192,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "454 × 11 − 419",
-        "answer": 4575,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "653 × 88 + 16 × 653",
-        "answer": 67912,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 204,
-    "date": "2026-07-23",
-    "questions": [
-      {
-        "expression": "87 + 37",
-        "answer": 124,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "79 × 44",
-        "answer": 3476,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "47 × 22",
-        "answer": 1034,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "3377 + 7042 − 790",
-        "answer": 9629,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "558 × 17 + 26 × 558",
-        "answer": 23994,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 205,
-    "date": "2026-07-24",
-    "questions": [
-      {
-        "expression": "2 × 9",
-        "answer": 18,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "845 − 413",
-        "answer": 432,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "93 × 11",
-        "answer": 1023,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "958 × 33",
-        "answer": 31614,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "331 × 27 + 77 × 331",
-        "answer": 34424,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 206,
-    "date": "2026-07-25",
-    "questions": [
-      {
-        "expression": "9 × 3",
-        "answer": 27,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "222 + 667",
-        "answer": 889,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "19 × 21",
-        "answer": 399,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "5306 + 5055 − 922",
-        "answer": 9439,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "511 × 96 + 99 × 511",
-        "answer": 99645,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 207,
-    "date": "2026-07-26",
-    "questions": [
-      {
-        "expression": "26 − 17",
-        "answer": 9,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "789 − 173",
-        "answer": 616,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "86 × 42",
-        "answer": 3612,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8561 + 7597 − 718",
-        "answer": 15440,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1131 × 674",
-        "answer": 762294,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 208,
-    "date": "2026-07-27",
-    "questions": [
-      {
-        "expression": "10 × 9",
-        "answer": 90,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "473 + 436",
-        "answer": 909,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "186 + 685",
-        "answer": 871,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "665 × 90",
-        "answer": 59850,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "549 × 49 + 52 × 549",
-        "answer": 55449,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 209,
-    "date": "2026-07-28",
-    "questions": [
-      {
-        "expression": "38 − 28",
-        "answer": 10,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "94 × 40",
-        "answer": 3760,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "551 + 540",
-        "answer": 1091,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "274 × 20 + 865",
-        "answer": 6345,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "346,902 ÷ 41",
-        "answer": 8461,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 210,
-    "date": "2026-07-29",
-    "questions": [
-      {
-        "expression": "24 − 22",
-        "answer": 2,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "843 + 902",
-        "answer": 1745,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "634 + 102",
-        "answer": 736,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4729 + 1088 − 696",
-        "answer": 5121,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1178 × 498",
-        "answer": 586644,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 211,
-    "date": "2026-07-30",
-    "questions": [
-      {
-        "expression": "42 + 17",
-        "answer": 59,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "754 + 796",
-        "answer": 1550,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "22 × 39",
-        "answer": 858,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "941 × 77",
-        "answer": 72457,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "358 × 30 + 99 × 358",
-        "answer": 46182,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 212,
-    "date": "2026-07-31",
-    "questions": [
-      {
-        "expression": "10 × 9",
-        "answer": 90,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "903 + 594",
-        "answer": 1497,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "60 × 34",
-        "answer": 2040,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "768 × 96",
-        "answer": 73728,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2267 × 239",
-        "answer": 541813,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 213,
-    "date": "2026-08-01",
-    "questions": [
-      {
-        "expression": "21 − 13",
-        "answer": 8,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "803 − 190",
-        "answer": 613,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "329 − 150",
-        "answer": 179,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8108 + 3787 − 493",
-        "answer": 11402,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "93,947 ÷ 10",
-        "answer": 9394.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 214,
-    "date": "2026-08-02",
-    "questions": [
-      {
-        "expression": "87 + 98",
-        "answer": 185,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "860 − 232",
-        "answer": 628,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "403 − 350",
-        "answer": 53,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1200 + 6391 − 272",
-        "answer": 7319,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "179 × 144",
-        "answer": 25776,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 215,
-    "date": "2026-08-03",
-    "questions": [
-      {
-        "expression": "32 + 20",
-        "answer": 52,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "36 × 29",
-        "answer": 1044,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "456 − 130",
-        "answer": 326,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "55 × 37 − 780",
-        "answer": 1255,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5036 × 812",
-        "answer": 4089232,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 216,
-    "date": "2026-08-04",
-    "questions": [
-      {
-        "expression": "11 × 5",
-        "answer": 55,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "611 + 788",
-        "answer": 1399,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "583 − 246",
-        "answer": 337,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "167 × 39",
-        "answer": 6513,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "931 × 97 + 99 × 931",
-        "answer": 182476,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 217,
-    "date": "2026-08-05",
-    "questions": [
-      {
-        "expression": "38 − 11",
-        "answer": 27,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "139 + 301",
-        "answer": 440,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "479 − 257",
-        "answer": 222,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "498 × 38 + 844",
-        "answer": 19768,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "694 × 85 + 36 × 694",
-        "answer": 83974,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 218,
-    "date": "2026-08-06",
-    "questions": [
-      {
-        "expression": "32 − 16",
-        "answer": 16,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "96 × 32",
-        "answer": 3072,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "452 + 354",
-        "answer": 806,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "181 × 20 + 415",
-        "answer": 4035,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "158 × 17 + 81 × 158",
-        "answer": 15484,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 219,
-    "date": "2026-08-07",
-    "questions": [
-      {
-        "expression": "91 + 92",
-        "answer": 183,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "211 + 619",
-        "answer": 830,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "715 − 413",
-        "answer": 302,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4045 + 3656 − 859",
-        "answer": 6842,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "325,120 ÷ 59",
-        "answer": 5510.5,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 220,
-    "date": "2026-08-08",
-    "questions": [
-      {
-        "expression": "11 × 3",
-        "answer": 33,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "38 × 14",
-        "answer": 532,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "771 + 680",
-        "answer": 1451,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "552 × 61",
-        "answer": 33672,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "225 × 56 + 81 × 225",
-        "answer": 30825,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 221,
-    "date": "2026-08-09",
-    "questions": [
-      {
-        "expression": "4 × 3",
-        "answer": 12,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "394 + 649",
-        "answer": 1043,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "461 + 290",
-        "answer": 751,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "208 × 36",
-        "answer": 7488,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2295 × 276",
-        "answer": 633420,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 222,
-    "date": "2026-08-10",
-    "questions": [
-      {
-        "expression": "12 × 11",
-        "answer": 132,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "322 + 391",
-        "answer": 713,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "961 + 884",
-        "answer": 1845,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "353 × 87",
-        "answer": 30711,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "461 × 80 + 48 × 461",
-        "answer": 59008,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 223,
-    "date": "2026-08-11",
-    "questions": [
-      {
-        "expression": "70 + 60",
-        "answer": 130,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "618 − 523",
-        "answer": 95,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "642 + 196",
-        "answer": 838,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "248 × 47 − 638",
-        "answer": 11018,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "4981 × 293",
-        "answer": 1459433,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 224,
-    "date": "2026-08-12",
-    "questions": [
-      {
-        "expression": "4 × 12",
-        "answer": 48,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "970 + 841",
-        "answer": 1811,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "57 × 24",
-        "answer": 1368,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1702 + 1859 − 716",
-        "answer": 2845,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3955 × 344",
-        "answer": 1360520,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 225,
-    "date": "2026-08-13",
-    "questions": [
-      {
-        "expression": "16 + 53",
-        "answer": 69,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "943 + 320",
-        "answer": 1263,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "78 × 26",
-        "answer": 2028,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6234 + 6520 − 249",
-        "answer": 12505,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "6310 × 387",
-        "answer": 2441970,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 226,
-    "date": "2026-08-14",
-    "questions": [
-      {
-        "expression": "6 × 3",
-        "answer": 18,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "49 × 40",
-        "answer": 1960,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "390 + 713",
-        "answer": 1103,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "402 × 40 − 713",
-        "answer": 15367,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "920 × 30 + 88 × 920",
-        "answer": 108560,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 227,
-    "date": "2026-08-15",
-    "questions": [
-      {
-        "expression": "2 × 7",
-        "answer": 14,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "38 × 23",
-        "answer": 874,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "187 + 225",
-        "answer": 412,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "826 × 78",
-        "answer": 64428,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "272 × 50 + 61 × 272",
-        "answer": 30192,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 228,
-    "date": "2026-08-16",
-    "questions": [
-      {
-        "expression": "87 − 30",
-        "answer": 57,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "19 × 31",
-        "answer": 589,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "552 − 254",
-        "answer": 298,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "9945 + 7318 − 435",
-        "answer": 16828,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "52,714 ÷ 10",
-        "answer": 5271.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 229,
-    "date": "2026-08-17",
-    "questions": [
-      {
-        "expression": "98 + 98",
-        "answer": 196,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "31 × 21",
-        "answer": 651,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "958 + 143",
-        "answer": 1101,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "160 × 61",
-        "answer": 9760,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5764 × 771",
-        "answer": 4444044,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 230,
-    "date": "2026-08-18",
-    "questions": [
-      {
-        "expression": "67 − 34",
-        "answer": 33,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "939 + 710",
-        "answer": 1649,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "36 × 16",
-        "answer": 576,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "338 × 46 + 428",
-        "answer": 15976,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "280 × 69 + 74 × 280",
-        "answer": 40040,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 231,
-    "date": "2026-08-19",
-    "questions": [
-      {
-        "expression": "6 × 8",
-        "answer": 48,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "615 − 271",
-        "answer": 344,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "315 − 129",
-        "answer": 186,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1591 + 3142 − 948",
-        "answer": 3785,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "186,390 ÷ 19",
-        "answer": 9810,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 232,
-    "date": "2026-08-20",
-    "questions": [
-      {
-        "expression": "6 × 7",
-        "answer": 42,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "682 − 213",
-        "answer": 469,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "307 − 177",
-        "answer": 130,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "354 × 21 + 152",
-        "answer": 7586,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "263,955 ÷ 61",
-        "answer": 4327.1,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 233,
-    "date": "2026-08-21",
-    "questions": [
-      {
-        "expression": "9 × 8",
-        "answer": 72,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "323 − 125",
-        "answer": 198,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "55 × 28",
-        "answer": 1540,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2665 + 3895 − 147",
-        "answer": 6413,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2883 × 389",
-        "answer": 1121487,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 234,
-    "date": "2026-08-22",
-    "questions": [
-      {
-        "expression": "5 × 10",
-        "answer": 50,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "961 + 464",
-        "answer": 1425,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "182 + 914",
-        "answer": 1096,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "845 × 17",
-        "answer": 14365,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3424 × 340",
-        "answer": 1164160,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 235,
-    "date": "2026-08-23",
-    "questions": [
-      {
-        "expression": "11 × 7",
-        "answer": 77,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "567 − 117",
-        "answer": 450,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "81 × 44",
-        "answer": 3564,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2929 + 3581 − 581",
-        "answer": 5929,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "733 × 57 + 77 × 733",
-        "answer": 98222,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 236,
-    "date": "2026-08-24",
-    "questions": [
-      {
-        "expression": "14 + 76",
-        "answer": 90,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "86 × 35",
-        "answer": 3010,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "649 − 189",
-        "answer": 460,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "955 × 23",
-        "answer": 21965,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "78,255 ÷ 8",
-        "answer": 9781.9,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 237,
-    "date": "2026-08-25",
-    "questions": [
-      {
-        "expression": "4 × 11",
-        "answer": 44,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "94 × 16",
-        "answer": 1504,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "50 × 34",
-        "answer": 1700,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "982 × 54",
-        "answer": 53028,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "486 × 30 + 91 × 486",
-        "answer": 58806,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 238,
-    "date": "2026-08-26",
-    "questions": [
-      {
-        "expression": "10 × 3",
-        "answer": 30,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "15 × 12",
-        "answer": 180,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "48 × 48",
-        "answer": 2304,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2544 + 2698 − 445",
-        "answer": 4797,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "597 × 52 + 14 × 597",
-        "answer": 39402,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 239,
-    "date": "2026-08-27",
-    "questions": [
-      {
-        "expression": "44 + 20",
-        "answer": 64,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "621 + 427",
-        "answer": 1048,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "792 + 490",
-        "answer": 1282,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2470 + 6983 − 123",
-        "answer": 9330,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "264,160 ÷ 33",
-        "answer": 8004.8,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 240,
-    "date": "2026-08-28",
-    "questions": [
-      {
-        "expression": "60 − 43",
-        "answer": 17,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "53 × 48",
-        "answer": 2544,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "731 + 605",
-        "answer": 1336,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "161 × 17 − 164",
-        "answer": 2573,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "4245 × 947",
-        "answer": 4020015,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 241,
-    "date": "2026-08-29",
-    "questions": [
-      {
-        "expression": "80 + 58",
-        "answer": 138,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "827 + 425",
-        "answer": 1252,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "794 − 623",
-        "answer": 171,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "72 × 18 − 672",
-        "answer": 624,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "444,892 ÷ 74",
-        "answer": 6012.1,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 242,
-    "date": "2026-08-30",
-    "questions": [
-      {
-        "expression": "60 + 26",
-        "answer": 86,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "989 − 274",
-        "answer": 715,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "623 − 470",
-        "answer": 153,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "240 × 66",
-        "answer": 15840,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "976 × 89 + 48 × 976",
-        "answer": 133712,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 243,
-    "date": "2026-08-31",
-    "questions": [
-      {
-        "expression": "76 − 33",
-        "answer": 43,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "233 − 176",
-        "answer": 57,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "52 × 19",
-        "answer": 988,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2648 + 9893 − 847",
-        "answer": 11694,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1,744 ÷ 12",
-        "answer": 145.3,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 244,
-    "date": "2026-09-01",
-    "questions": [
-      {
-        "expression": "37 − 19",
-        "answer": 18,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "567 − 124",
-        "answer": 443,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "580 − 467",
-        "answer": 113,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "301 × 93",
-        "answer": 27993,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "478 × 86 + 63 × 478",
-        "answer": 71222,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 245,
-    "date": "2026-09-02",
-    "questions": [
-      {
-        "expression": "68 + 89",
-        "answer": 157,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "545 − 407",
-        "answer": 138,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "68 × 39",
-        "answer": 2652,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2635 + 9704 − 284",
-        "answer": 12055,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "919 × 20 + 96 × 919",
-        "answer": 106604,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 246,
-    "date": "2026-09-03",
-    "questions": [
-      {
-        "expression": "7 × 12",
-        "answer": 84,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "582 + 149",
-        "answer": 731,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "437 − 277",
-        "answer": 160,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "267 × 44 − 778",
-        "answer": 10970,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "7667 × 183",
-        "answer": 1403061,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 247,
-    "date": "2026-09-04",
-    "questions": [
-      {
-        "expression": "41 − 19",
-        "answer": 22,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "769 − 613",
-        "answer": 156,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "626 + 680",
-        "answer": 1306,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "333 × 35 − 649",
-        "answer": 11006,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "203 × 478",
-        "answer": 97034,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 248,
-    "date": "2026-09-05",
-    "questions": [
-      {
-        "expression": "6 × 4",
-        "answer": 24,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "321 − 146",
-        "answer": 175,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "32 × 35",
-        "answer": 1120,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "202 × 50 − 279",
-        "answer": 9821,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1264 × 249",
-        "answer": 314736,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 249,
-    "date": "2026-09-06",
-    "questions": [
-      {
-        "expression": "52 − 22",
-        "answer": 30,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "253 + 583",
-        "answer": 836,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "834 − 259",
-        "answer": 575,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4964 + 2364 − 256",
-        "answer": 7072,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "8820 × 363",
-        "answer": 3201660,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 250,
-    "date": "2026-09-07",
-    "questions": [
-      {
-        "expression": "12 × 9",
-        "answer": 108,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "490 − 121",
-        "answer": 369,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "531 − 247",
-        "answer": 284,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6825 + 5062 − 329",
-        "answer": 11558,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "90,498 ÷ 64",
-        "answer": 1414,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 251,
-    "date": "2026-09-08",
-    "questions": [
-      {
-        "expression": "12 × 8",
-        "answer": 96,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "679 − 335",
-        "answer": 344,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "680 + 519",
-        "answer": 1199,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "723 × 61",
-        "answer": 44103,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2322 × 808",
-        "answer": 1876176,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 252,
-    "date": "2026-09-09",
-    "questions": [
-      {
-        "expression": "64 − 63",
-        "answer": 1,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "617 − 552",
-        "answer": 65,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "931 − 148",
-        "answer": 783,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "297 × 29",
-        "answer": 8613,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "407,178 ÷ 46",
-        "answer": 8851.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 253,
-    "date": "2026-09-10",
-    "questions": [
-      {
-        "expression": "4 × 2",
-        "answer": 8,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "44 × 25",
-        "answer": 1100,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "843 − 170",
-        "answer": 673,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6384 + 7877 − 250",
-        "answer": 14011,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "9587 × 269",
-        "answer": 2578903,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 254,
-    "date": "2026-09-11",
-    "questions": [
-      {
-        "expression": "83 − 53",
-        "answer": 30,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "906 − 281",
-        "answer": 625,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "247 + 719",
-        "answer": 966,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "424 × 33 − 628",
-        "answer": 13364,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "477,914 ÷ 64",
-        "answer": 7467.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 255,
-    "date": "2026-09-12",
-    "questions": [
-      {
-        "expression": "6 × 5",
-        "answer": 30,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "438 − 345",
-        "answer": 93,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "53 × 39",
-        "answer": 2067,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "73 × 45 + 930",
-        "answer": 4215,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "712 × 56 + 42 × 712",
-        "answer": 69776,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 256,
-    "date": "2026-09-13",
-    "questions": [
-      {
-        "expression": "19 + 78",
-        "answer": 97,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "557 + 736",
-        "answer": 1293,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "230 + 667",
-        "answer": 897,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "139 × 49 − 705",
-        "answer": 6106,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "480 × 600",
-        "answer": 288000,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 257,
-    "date": "2026-09-14",
-    "questions": [
-      {
-        "expression": "47 − 21",
-        "answer": 26,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "93 × 39",
-        "answer": 3627,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "792 + 972",
-        "answer": 1764,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "830 × 38",
-        "answer": 31540,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "497 × 35 + 78 × 497",
-        "answer": 56161,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 258,
-    "date": "2026-09-15",
-    "questions": [
-      {
-        "expression": "14 + 89",
-        "answer": 103,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "13 × 19",
-        "answer": 247,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "351 + 703",
-        "answer": 1054,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4579 + 8856 − 606",
-        "answer": 12829,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "247,527 ÷ 61",
-        "answer": 4057.8,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 259,
-    "date": "2026-09-16",
-    "questions": [
-      {
-        "expression": "5 × 7",
-        "answer": 35,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "748 − 655",
-        "answer": 93,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "897 − 529",
-        "answer": 368,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "991 × 60",
-        "answer": 59460,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "77,988 ÷ 74",
-        "answer": 1053.9,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 260,
-    "date": "2026-09-17",
-    "questions": [
-      {
-        "expression": "12 × 4",
-        "answer": 48,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "14 × 28",
-        "answer": 392,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "325 + 369",
-        "answer": 694,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "316 × 39 + 630",
-        "answer": 12954,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3631 × 655",
-        "answer": 2378305,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 261,
-    "date": "2026-09-18",
-    "questions": [
-      {
-        "expression": "46 − 19",
-        "answer": 27,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "716 − 332",
-        "answer": 384,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "232 − 137",
-        "answer": 95,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4081 + 7860 − 129",
-        "answer": 11812,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "409 × 64 + 96 × 409",
-        "answer": 65440,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 262,
-    "date": "2026-09-19",
-    "questions": [
-      {
-        "expression": "3 × 12",
-        "answer": 36,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "754 − 261",
-        "answer": 493,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "423 − 105",
-        "answer": 318,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "293 × 17 − 759",
-        "answer": 4222,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "141,239 ÷ 55",
-        "answer": 2568,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 263,
-    "date": "2026-09-20",
-    "questions": [
-      {
-        "expression": "17 + 77",
-        "answer": 94,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "961 + 752",
-        "answer": 1713,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "938 + 245",
-        "answer": 1183,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4882 + 4773 − 726",
-        "answer": 8929,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "284,171 ÷ 82",
-        "answer": 3465.5,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 264,
-    "date": "2026-09-21",
-    "questions": [
-      {
-        "expression": "61 − 49",
-        "answer": 12,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "812 − 429",
-        "answer": 383,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "449 − 119",
-        "answer": 330,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "230 × 39 − 164",
-        "answer": 8806,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3078 × 639",
-        "answer": 1966842,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 265,
-    "date": "2026-09-22",
-    "questions": [
-      {
-        "expression": "31 + 46",
-        "answer": 77,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "80 × 33",
-        "answer": 2640,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "284 − 156",
-        "answer": 128,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "264 × 28",
-        "answer": 7392,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1204 × 398",
-        "answer": 479192,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 266,
-    "date": "2026-09-23",
-    "questions": [
-      {
-        "expression": "11 × 10",
-        "answer": 110,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "815 − 612",
-        "answer": 203,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "283 − 209",
-        "answer": 74,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4653 + 1300 − 916",
-        "answer": 5037,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "9383 × 681",
-        "answer": 6389823,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 267,
-    "date": "2026-09-24",
-    "questions": [
-      {
-        "expression": "49 + 90",
-        "answer": 139,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "82 × 25",
-        "answer": 2050,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "65 × 19",
-        "answer": 1235,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "277 × 44 + 479",
-        "answer": 12667,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "306,832 ÷ 34",
-        "answer": 9024.5,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 268,
-    "date": "2026-09-25",
-    "questions": [
-      {
-        "expression": "13 + 88",
-        "answer": 101,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "23 × 12",
-        "answer": 276,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "427 − 116",
-        "answer": 311,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "5064 + 7052 − 826",
-        "answer": 11290,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "846 × 44 + 26 × 846",
-        "answer": 59220,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 269,
-    "date": "2026-09-26",
-    "questions": [
-      {
-        "expression": "36 − 25",
-        "answer": 11,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "346 − 222",
-        "answer": 124,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "18 × 28",
-        "answer": 504,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "480 × 12 − 561",
-        "answer": 5199,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2309 × 165",
-        "answer": 380985,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 270,
-    "date": "2026-09-27",
-    "questions": [
-      {
-        "expression": "69 + 70",
-        "answer": 139,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "997 + 660",
-        "answer": 1657,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "601 − 348",
-        "answer": 253,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "7342 + 9503 − 288",
-        "answer": 16557,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "723 × 550",
-        "answer": 397650,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 271,
-    "date": "2026-09-28",
-    "questions": [
-      {
-        "expression": "41 − 30",
-        "answer": 11,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "383 + 577",
-        "answer": 960,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "97 × 31",
-        "answer": 3007,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "744 × 56",
-        "answer": 41664,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "45,729 ÷ 7",
-        "answer": 6532.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 272,
-    "date": "2026-09-29",
-    "questions": [
-      {
-        "expression": "39 + 63",
-        "answer": 102,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "417 + 314",
-        "answer": 731,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "345 − 112",
-        "answer": 233,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "5900 + 2802 − 751",
-        "answer": 7951,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "411,257 ÷ 55",
-        "answer": 7477.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 273,
-    "date": "2026-09-30",
-    "questions": [
-      {
-        "expression": "9 × 8",
-        "answer": 72,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "296 − 202",
-        "answer": 94,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "88 × 44",
-        "answer": 3872,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4693 + 9580 − 851",
-        "answer": 13422,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "9081 × 431",
-        "answer": 3913911,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 274,
-    "date": "2026-10-01",
-    "questions": [
-      {
-        "expression": "54 + 51",
-        "answer": 105,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "357 − 149",
-        "answer": 208,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "750 − 258",
-        "answer": 492,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "713 × 47",
-        "answer": 33511,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1859 × 878",
-        "answer": 1632202,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 275,
-    "date": "2026-10-02",
-    "questions": [
-      {
-        "expression": "15 + 86",
-        "answer": 101,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "219 − 100",
-        "answer": 119,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "867 + 467",
-        "answer": 1334,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "242 × 41 − 418",
-        "answer": 9504,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "155,576 ÷ 89",
-        "answer": 1748,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 276,
-    "date": "2026-10-03",
-    "questions": [
-      {
-        "expression": "9 × 3",
-        "answer": 27,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "921 + 973",
-        "answer": 1894,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "508 + 972",
-        "answer": 1480,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "174 × 42 + 457",
-        "answer": 7765,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "9960 × 800",
-        "answer": 7968000,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 277,
-    "date": "2026-10-04",
-    "questions": [
-      {
-        "expression": "50 + 19",
-        "answer": 69,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "354 − 217",
-        "answer": 137,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "265 + 177",
-        "answer": 442,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "161 × 15",
-        "answer": 2415,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "707 × 385",
-        "answer": 272195,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 278,
-    "date": "2026-10-05",
-    "questions": [
-      {
-        "expression": "29 − 19",
-        "answer": 10,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "323 + 189",
-        "answer": 512,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "11 × 48",
-        "answer": 528,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2408 + 9986 − 971",
-        "answer": 11423,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "5894 × 981",
-        "answer": 5782014,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 279,
-    "date": "2026-10-06",
-    "questions": [
-      {
-        "expression": "38 − 21",
-        "answer": 17,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "24 × 39",
-        "answer": 936,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "542 + 463",
-        "answer": 1005,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "60 × 15 + 506",
-        "answer": 1406,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "8667 × 637",
-        "answer": 5520879,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 280,
-    "date": "2026-10-07",
-    "questions": [
-      {
-        "expression": "32 − 20",
-        "answer": 12,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "370 − 190",
-        "answer": 180,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "245 − 147",
-        "answer": 98,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "3973 + 6879 − 611",
-        "answer": 10241,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "363,344 ÷ 53",
-        "answer": 6855.5,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 281,
-    "date": "2026-10-08",
-    "questions": [
-      {
-        "expression": "43 + 78",
-        "answer": 121,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "988 − 859",
-        "answer": 129,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "484 + 416",
-        "answer": 900,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "136 × 88",
-        "answer": 11968,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "6292 × 241",
-        "answer": 1516372,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 282,
-    "date": "2026-10-09",
-    "questions": [
-      {
-        "expression": "43 + 49",
-        "answer": 92,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "495 − 380",
-        "answer": 115,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "925 − 374",
-        "answer": 551,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6851 + 1680 − 552",
-        "answer": 7979,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "806 × 61 + 49 × 806",
-        "answer": 88660,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 283,
-    "date": "2026-10-10",
-    "questions": [
-      {
-        "expression": "59 − 43",
-        "answer": 16,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "21 × 42",
-        "answer": 882,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "242 + 159",
-        "answer": 401,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "851 × 37",
-        "answer": 31487,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "457 × 16 + 19 × 457",
-        "answer": 15995,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 284,
-    "date": "2026-10-11",
-    "questions": [
-      {
-        "expression": "61 − 35",
-        "answer": 26,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "575 + 203",
-        "answer": 778,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "479 − 352",
-        "answer": 127,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "239 × 67",
-        "answer": 16013,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "4807 × 533",
-        "answer": 2562131,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 285,
-    "date": "2026-10-12",
-    "questions": [
-      {
-        "expression": "75 + 19",
-        "answer": 94,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "214 + 624",
-        "answer": 838,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "365 − 291",
-        "answer": 74,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "84 × 18 + 573",
-        "answer": 2085,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "638,051 ÷ 76",
-        "answer": 8395.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 286,
-    "date": "2026-10-13",
-    "questions": [
-      {
-        "expression": "9 × 9",
-        "answer": 81,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "291 + 933",
-        "answer": 1224,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "18 × 46",
-        "answer": 828,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "147 × 32 + 376",
-        "answer": 5080,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "7422 × 195",
-        "answer": 1447290,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 287,
-    "date": "2026-10-14",
-    "questions": [
-      {
-        "expression": "77 − 28",
-        "answer": 49,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "608 + 125",
-        "answer": 733,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "36 × 13",
-        "answer": 468,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "3995 + 4826 − 847",
-        "answer": 7974,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "87,317 ÷ 17",
-        "answer": 5136.3,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 288,
-    "date": "2026-10-15",
-    "questions": [
-      {
-        "expression": "93 + 63",
-        "answer": 156,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "93 × 29",
-        "answer": 2697,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "376 − 189",
-        "answer": 187,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4581 + 6663 − 373",
-        "answer": 10871,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "203,495 ÷ 74",
-        "answer": 2749.9,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 289,
-    "date": "2026-10-16",
-    "questions": [
-      {
-        "expression": "4 × 7",
-        "answer": 28,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "29 × 24",
-        "answer": 696,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "570 − 433",
-        "answer": 137,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "245 × 50 + 295",
-        "answer": 12545,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "625 × 66 + 57 × 625",
-        "answer": 76875,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 290,
-    "date": "2026-10-17",
-    "questions": [
-      {
-        "expression": "76 − 27",
-        "answer": 49,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "678 − 368",
-        "answer": 310,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "88 × 24",
-        "answer": 2112,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6055 + 1362 − 312",
-        "answer": 7105,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "41,043 ÷ 28",
-        "answer": 1465.8,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 291,
-    "date": "2026-10-18",
-    "questions": [
-      {
-        "expression": "19 + 89",
-        "answer": 108,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "65 × 40",
-        "answer": 2600,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "449 − 195",
-        "answer": 254,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "4548 + 5237 − 172",
-        "answer": 9613,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "195 × 50 + 80 × 195",
-        "answer": 25350,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 292,
-    "date": "2026-10-19",
-    "questions": [
-      {
-        "expression": "62 − 48",
-        "answer": 14,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "85 × 19",
-        "answer": 1615,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "94 × 31",
-        "answer": 2914,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "887 × 95",
-        "answer": 84265,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "135,215 ÷ 62",
-        "answer": 2180.9,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 293,
-    "date": "2026-10-20",
-    "questions": [
-      {
-        "expression": "3 × 2",
-        "answer": 6,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "83 × 49",
-        "answer": 4067,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "635 + 346",
-        "answer": 981,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "291 × 31 − 959",
-        "answer": 8062,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "673 × 10 + 45 × 673",
-        "answer": 37015,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 294,
-    "date": "2026-10-21",
-    "questions": [
-      {
-        "expression": "51 − 11",
-        "answer": 40,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "69 × 36",
-        "answer": 2484,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "877 − 668",
-        "answer": 209,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "406 × 41 + 503",
-        "answer": 17149,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "802 × 21 + 21 × 802",
-        "answer": 33684,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 295,
-    "date": "2026-10-22",
-    "questions": [
-      {
-        "expression": "11 × 4",
-        "answer": 44,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "650 + 443",
-        "answer": 1093,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "75 × 46",
-        "answer": 3450,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6521 + 5429 − 700",
-        "answer": 11250,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "9459 × 387",
-        "answer": 3660633,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 296,
-    "date": "2026-10-23",
-    "questions": [
-      {
-        "expression": "34 + 78",
-        "answer": 112,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "54 × 23",
-        "answer": 1242,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "384 + 340",
-        "answer": 724,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "2181 + 2642 − 136",
-        "answer": 4687,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "970 × 97 + 33 × 970",
-        "answer": 126100,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 297,
-    "date": "2026-10-24",
-    "questions": [
-      {
-        "expression": "37 − 36",
-        "answer": 1,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "957 − 269",
-        "answer": 688,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "744 − 317",
-        "answer": 427,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1485 + 9210 − 867",
-        "answer": 9828,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "4165 × 219",
-        "answer": 912135,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 298,
-    "date": "2026-10-25",
-    "questions": [
-      {
-        "expression": "9 × 12",
-        "answer": 108,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "906 − 412",
-        "answer": 494,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "321 + 865",
-        "answer": 1186,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "348 × 45 − 621",
-        "answer": 15039,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1616 × 645",
-        "answer": 1042320,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 299,
-    "date": "2026-10-26",
-    "questions": [
-      {
-        "expression": "23 − 10",
-        "answer": 13,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "86 × 15",
-        "answer": 1290,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "40 × 17",
-        "answer": 680,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "304 × 16 + 600",
-        "answer": 5464,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "408,386 ÷ 49",
-        "answer": 8334.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 300,
-    "date": "2026-10-27",
-    "questions": [
-      {
-        "expression": "40 − 28",
-        "answer": 12,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "21 × 45",
-        "answer": 945,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "629 − 196",
-        "answer": 433,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1890 + 9993 − 614",
-        "answer": 11269,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "9262 × 576",
-        "answer": 5334912,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 301,
-    "date": "2026-10-28",
-    "questions": [
-      {
-        "expression": "85 − 24",
-        "answer": 61,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "279 + 628",
-        "answer": 907,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "12 × 29",
-        "answer": 348,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "293 × 17",
-        "answer": 4981,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "291,346 ÷ 66",
-        "answer": 4414.3,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 302,
-    "date": "2026-10-29",
-    "questions": [
-      {
-        "expression": "71 + 83",
-        "answer": 154,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "452 − 329",
-        "answer": 123,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "832 − 685",
-        "answer": 147,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "303 × 21 + 197",
-        "answer": 6560,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "243,929 ÷ 95",
-        "answer": 2567.7,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 303,
-    "date": "2026-10-30",
-    "questions": [
-      {
-        "expression": "9 × 12",
-        "answer": 108,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "91 × 46",
-        "answer": 4186,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "428 − 149",
-        "answer": 279,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "941 × 91",
-        "answer": 85631,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2411 × 655",
-        "answer": 1579205,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 304,
-    "date": "2026-10-31",
-    "questions": [
-      {
-        "expression": "4 × 7",
-        "answer": 28,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "739 − 672",
-        "answer": 67,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "91 × 27",
-        "answer": 2457,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1210 + 2249 − 655",
-        "answer": 2804,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "8850 × 107",
-        "answer": 946950,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 305,
-    "date": "2026-11-01",
-    "questions": [
-      {
-        "expression": "25 − 10",
-        "answer": 15,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "281 − 103",
-        "answer": 178,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "17 × 30",
-        "answer": 510,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "234 × 25 + 239",
-        "answer": 6089,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1068 × 168",
-        "answer": 179424,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 306,
-    "date": "2026-11-02",
-    "questions": [
-      {
-        "expression": "91 + 97",
-        "answer": 188,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "872 − 165",
-        "answer": 707,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "72 × 27",
-        "answer": 1944,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "256 × 59",
-        "answer": 15104,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "106,475 ÷ 57",
-        "answer": 1868,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 307,
-    "date": "2026-11-03",
-    "questions": [
-      {
-        "expression": "8 × 8",
-        "answer": 64,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "764 + 956",
-        "answer": 1720,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "608 − 264",
-        "answer": 344,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "252 × 25 + 114",
-        "answer": 6414,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "270 × 61 + 61 × 270",
-        "answer": 32940,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 308,
-    "date": "2026-11-04",
-    "questions": [
-      {
-        "expression": "5 × 6",
-        "answer": 30,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "61 × 42",
-        "answer": 2562,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "313 + 546",
-        "answer": 859,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1833 + 8781 − 674",
-        "answer": 9940,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "4451 × 613",
-        "answer": 2728463,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 309,
-    "date": "2026-11-05",
-    "questions": [
-      {
-        "expression": "79 + 15",
-        "answer": 94,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "739 + 372",
-        "answer": 1111,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "96 × 32",
-        "answer": 3072,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "264 × 58",
-        "answer": 15312,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "2565 × 638",
-        "answer": 1636470,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 310,
-    "date": "2026-11-06",
-    "questions": [
-      {
-        "expression": "11 × 4",
-        "answer": 44,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "866 + 911",
-        "answer": 1777,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "778 − 102",
-        "answer": 676,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "310 × 36 − 525",
-        "answer": 10635,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "306,580 ÷ 69",
-        "answer": 4443.2,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 311,
-    "date": "2026-11-07",
-    "questions": [
-      {
-        "expression": "89 + 16",
-        "answer": 105,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "34 × 26",
-        "answer": 884,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "480 − 284",
-        "answer": 196,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "1238 + 8364 − 286",
-        "answer": 9316,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "673 × 51 + 95 × 673",
-        "answer": 98258,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 312,
-    "date": "2026-11-08",
-    "questions": [
-      {
-        "expression": "8 × 6",
-        "answer": 48,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "959 + 316",
-        "answer": 1275,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "567 − 157",
-        "answer": 410,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "6606 + 6428 − 757",
-        "answer": 12277,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "666 × 24 + 64 × 666",
-        "answer": 58608,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 313,
-    "date": "2026-11-09",
-    "questions": [
-      {
-        "expression": "55 − 28",
-        "answer": 27,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "511 + 730",
-        "answer": 1241,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "556 + 390",
-        "answer": 946,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "654 × 87",
-        "answer": 56898,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "61,742 ÷ 12",
-        "answer": 5145.2,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 314,
-    "date": "2026-11-10",
-    "questions": [
-      {
-        "expression": "63 + 72",
-        "answer": 135,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "995 + 592",
-        "answer": 1587,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "37 × 27",
-        "answer": 999,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "997 × 43",
-        "answer": 42871,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "760 × 51 + 16 × 760",
-        "answer": 50920,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 315,
-    "date": "2026-11-11",
-    "questions": [
-      {
-        "expression": "11 × 4",
-        "answer": 44,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "109 + 205",
-        "answer": 314,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "59 × 47",
-        "answer": 2773,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "8236 + 3905 − 611",
-        "answer": 11530,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "3363 × 357",
-        "answer": 1200591,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 316,
-    "date": "2026-11-12",
-    "questions": [
-      {
-        "expression": "2 × 10",
-        "answer": 20,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "379 − 153",
-        "answer": 226,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "51 × 26",
-        "answer": 1326,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "64 × 36 − 661",
-        "answer": 1643,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "8161 × 277",
-        "answer": 2260597,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 317,
-    "date": "2026-11-13",
-    "questions": [
-      {
-        "expression": "82 − 55",
-        "answer": 27,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "58 × 21",
-        "answer": 1218,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "54 × 49",
-        "answer": 2646,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "149 × 14",
-        "answer": 2086,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "703 × 55 + 28 × 703",
-        "answer": 58349,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 318,
-    "date": "2026-11-14",
-    "questions": [
-      {
-        "expression": "2 × 7",
-        "answer": 14,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "310 − 123",
-        "answer": 187,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "960 − 910",
-        "answer": 50,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "818 × 41",
-        "answer": 33538,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "509 × 32 + 74 × 509",
-        "answer": 53954,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 319,
-    "date": "2026-11-15",
-    "questions": [
-      {
-        "expression": "2 × 10",
-        "answer": 20,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "630 − 181",
-        "answer": 449,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "930 − 555",
-        "answer": 375,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "195 × 35 − 798",
-        "answer": 6027,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "276,380 ÷ 44",
-        "answer": 6281.4,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 320,
-    "date": "2026-11-16",
-    "questions": [
-      {
-        "expression": "76 + 54",
-        "answer": 130,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "817 − 603",
-        "answer": 214,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "450 − 174",
-        "answer": 276,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "141 × 29 − 707",
-        "answer": 3382,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "480 × 13 + 79 × 480",
-        "answer": 44160,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 321,
-    "date": "2026-11-17",
-    "questions": [
-      {
-        "expression": "31 + 92",
-        "answer": 123,
-        "difficulty": "easy"
-      },
-      {
-        "expression": "47 × 37",
-        "answer": 1739,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "17 × 41",
-        "answer": 697,
-        "difficulty": "medium"
-      },
-      {
-        "expression": "249 × 25 − 871",
-        "answer": 5354,
-        "difficulty": "hard"
-      },
-      {
-        "expression": "1297 × 932",
-        "answer": 1208804,
-        "difficulty": "extreme"
-      }
-    ]
-  },
-  {
-    "day": 322,
-    "date": "2026-11-18",
     "questions": [
       {
         "expression": "2 × 5",
@@ -9986,8 +35,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 323,
-    "date": "2026-11-19",
+    "day": 2,
+    "date": "2026-04-23",
     "questions": [
       {
         "expression": "91 − 15",
@@ -10017,8 +66,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 324,
-    "date": "2026-11-20",
+    "day": 3,
+    "date": "2026-04-24",
     "questions": [
       {
         "expression": "59 − 25",
@@ -10048,8 +97,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 325,
-    "date": "2026-11-21",
+    "day": 4,
+    "date": "2026-04-25",
     "questions": [
       {
         "expression": "29 − 22",
@@ -10079,8 +128,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 326,
-    "date": "2026-11-22",
+    "day": 5,
+    "date": "2026-04-26",
     "questions": [
       {
         "expression": "8 × 6",
@@ -10110,8 +159,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 327,
-    "date": "2026-11-23",
+    "day": 6,
+    "date": "2026-04-27",
     "questions": [
       {
         "expression": "52 + 41",
@@ -10141,8 +190,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 328,
-    "date": "2026-11-24",
+    "day": 7,
+    "date": "2026-04-28",
     "questions": [
       {
         "expression": "66 − 35",
@@ -10172,8 +221,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 329,
-    "date": "2026-11-25",
+    "day": 8,
+    "date": "2026-04-29",
     "questions": [
       {
         "expression": "3 × 5",
@@ -10203,8 +252,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 330,
-    "date": "2026-11-26",
+    "day": 9,
+    "date": "2026-04-30",
     "questions": [
       {
         "expression": "24 − 11",
@@ -10234,8 +283,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 331,
-    "date": "2026-11-27",
+    "day": 10,
+    "date": "2026-05-01",
     "questions": [
       {
         "expression": "66 − 15",
@@ -10265,8 +314,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 332,
-    "date": "2026-11-28",
+    "day": 11,
+    "date": "2026-05-02",
     "questions": [
       {
         "expression": "43 + 40",
@@ -10296,8 +345,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 333,
-    "date": "2026-11-29",
+    "day": 12,
+    "date": "2026-05-03",
     "questions": [
       {
         "expression": "28 − 25",
@@ -10327,8 +376,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 334,
-    "date": "2026-11-30",
+    "day": 13,
+    "date": "2026-05-04",
     "questions": [
       {
         "expression": "24 + 39",
@@ -10358,8 +407,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 335,
-    "date": "2026-12-01",
+    "day": 14,
+    "date": "2026-05-05",
     "questions": [
       {
         "expression": "56 − 15",
@@ -10389,8 +438,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 336,
-    "date": "2026-12-02",
+    "day": 15,
+    "date": "2026-05-06",
     "questions": [
       {
         "expression": "7 × 8",
@@ -10420,8 +469,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 337,
-    "date": "2026-12-03",
+    "day": 16,
+    "date": "2026-05-07",
     "questions": [
       {
         "expression": "88 + 47",
@@ -10451,8 +500,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 338,
-    "date": "2026-12-04",
+    "day": 17,
+    "date": "2026-05-08",
     "questions": [
       {
         "expression": "6 × 2",
@@ -10482,8 +531,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 339,
-    "date": "2026-12-05",
+    "day": 18,
+    "date": "2026-05-09",
     "questions": [
       {
         "expression": "39 + 72",
@@ -10513,8 +562,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 340,
-    "date": "2026-12-06",
+    "day": 19,
+    "date": "2026-05-10",
     "questions": [
       {
         "expression": "54 − 11",
@@ -10544,8 +593,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 341,
-    "date": "2026-12-07",
+    "day": 20,
+    "date": "2026-05-11",
     "questions": [
       {
         "expression": "97 − 66",
@@ -10575,8 +624,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 342,
-    "date": "2026-12-08",
+    "day": 21,
+    "date": "2026-05-12",
     "questions": [
       {
         "expression": "23 − 11",
@@ -10606,8 +655,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 343,
-    "date": "2026-12-09",
+    "day": 22,
+    "date": "2026-05-13",
     "questions": [
       {
         "expression": "93 + 78",
@@ -10637,8 +686,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 344,
-    "date": "2026-12-10",
+    "day": 23,
+    "date": "2026-05-14",
     "questions": [
       {
         "expression": "4 × 9",
@@ -10668,8 +717,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 345,
-    "date": "2026-12-11",
+    "day": 24,
+    "date": "2026-05-15",
     "questions": [
       {
         "expression": "8 × 8",
@@ -10699,8 +748,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 346,
-    "date": "2026-12-12",
+    "day": 25,
+    "date": "2026-05-16",
     "questions": [
       {
         "expression": "56 − 51",
@@ -10730,8 +779,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 347,
-    "date": "2026-12-13",
+    "day": 26,
+    "date": "2026-05-17",
     "questions": [
       {
         "expression": "10 × 11",
@@ -10761,8 +810,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 348,
-    "date": "2026-12-14",
+    "day": 27,
+    "date": "2026-05-18",
     "questions": [
       {
         "expression": "71 − 37",
@@ -10792,8 +841,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 349,
-    "date": "2026-12-15",
+    "day": 28,
+    "date": "2026-05-19",
     "questions": [
       {
         "expression": "28 − 26",
@@ -10823,8 +872,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 350,
-    "date": "2026-12-16",
+    "day": 29,
+    "date": "2026-05-20",
     "questions": [
       {
         "expression": "70 − 58",
@@ -10854,8 +903,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 351,
-    "date": "2026-12-17",
+    "day": 30,
+    "date": "2026-05-21",
     "questions": [
       {
         "expression": "3 × 5",
@@ -10885,8 +934,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 352,
-    "date": "2026-12-18",
+    "day": 31,
+    "date": "2026-05-22",
     "questions": [
       {
         "expression": "41 + 37",
@@ -10916,8 +965,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 353,
-    "date": "2026-12-19",
+    "day": 32,
+    "date": "2026-05-23",
     "questions": [
       {
         "expression": "91 − 53",
@@ -10947,8 +996,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 354,
-    "date": "2026-12-20",
+    "day": 33,
+    "date": "2026-05-24",
     "questions": [
       {
         "expression": "86 + 60",
@@ -10978,8 +1027,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 355,
-    "date": "2026-12-21",
+    "day": 34,
+    "date": "2026-05-25",
     "questions": [
       {
         "expression": "87 − 48",
@@ -11009,8 +1058,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 356,
-    "date": "2026-12-22",
+    "day": 35,
+    "date": "2026-05-26",
     "questions": [
       {
         "expression": "61 − 54",
@@ -11040,8 +1089,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 357,
-    "date": "2026-12-23",
+    "day": 36,
+    "date": "2026-05-27",
     "questions": [
       {
         "expression": "9 × 4",
@@ -11071,8 +1120,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 358,
-    "date": "2026-12-24",
+    "day": 37,
+    "date": "2026-05-28",
     "questions": [
       {
         "expression": "75 − 50",
@@ -11102,8 +1151,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 359,
-    "date": "2026-12-25",
+    "day": 38,
+    "date": "2026-05-29",
     "questions": [
       {
         "expression": "48 + 74",
@@ -11133,8 +1182,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 360,
-    "date": "2026-12-26",
+    "day": 39,
+    "date": "2026-05-30",
     "questions": [
       {
         "expression": "28 − 18",
@@ -11164,8 +1213,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 361,
-    "date": "2026-12-27",
+    "day": 40,
+    "date": "2026-05-31",
     "questions": [
       {
         "expression": "47 − 10",
@@ -11195,8 +1244,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 362,
-    "date": "2026-12-28",
+    "day": 41,
+    "date": "2026-06-01",
     "questions": [
       {
         "expression": "99 + 21",
@@ -11226,8 +1275,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 363,
-    "date": "2026-12-29",
+    "day": 42,
+    "date": "2026-06-02",
     "questions": [
       {
         "expression": "38 − 30",
@@ -11257,8 +1306,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 364,
-    "date": "2026-12-30",
+    "day": 43,
+    "date": "2026-06-03",
     "questions": [
       {
         "expression": "30 − 13",
@@ -11288,8 +1337,8 @@ const DAILY_CHALLENGES = [
     ]
   },
   {
-    "day": 365,
-    "date": "2026-12-31",
+    "day": 44,
+    "date": "2026-06-04",
     "questions": [
       {
         "expression": "13 + 33",
@@ -11314,6 +1363,9957 @@ const DAILY_CHALLENGES = [
       {
         "expression": "971 × 25 + 40 × 971",
         "answer": 63115,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 45,
+    "date": "2026-06-05",
+    "questions": [
+      {
+        "expression": "76 + 68",
+        "answer": 144,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "24 × 15",
+        "answer": 360,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "991 − 759",
+        "answer": 232,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "145 × 37 + 835",
+        "answer": 6200,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5959 × 311",
+        "answer": 1853249,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 46,
+    "date": "2026-06-06",
+    "questions": [
+      {
+        "expression": "37 + 43",
+        "answer": 80,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "646 + 861",
+        "answer": 1507,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "924 + 231",
+        "answer": 1155,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "206 × 20",
+        "answer": 4120,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "336,287 ÷ 80",
+        "answer": 4203.6,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 47,
+    "date": "2026-06-07",
+    "questions": [
+      {
+        "expression": "11 × 6",
+        "answer": 66,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "985 + 608",
+        "answer": 1593,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "340 − 278",
+        "answer": 62,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "552 × 13",
+        "answer": 7176,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "439 × 54 + 43 × 439",
+        "answer": 42583,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 48,
+    "date": "2026-06-08",
+    "questions": [
+      {
+        "expression": "43 − 17",
+        "answer": 26,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "473 + 333",
+        "answer": 806,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "46 × 17",
+        "answer": 782,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "118 × 95",
+        "answer": 11210,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "69,407 ÷ 97",
+        "answer": 715.5,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 49,
+    "date": "2026-06-09",
+    "questions": [
+      {
+        "expression": "36 − 23",
+        "answer": 13,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "34 × 33",
+        "answer": 1122,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "855 − 611",
+        "answer": 244,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "936 × 54",
+        "answer": 50544,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "6883 × 628",
+        "answer": 4322524,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 50,
+    "date": "2026-06-10",
+    "questions": [
+      {
+        "expression": "34 + 47",
+        "answer": 81,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "308 + 971",
+        "answer": 1279,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "11 × 43",
+        "answer": 473,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "142 × 40 + 675",
+        "answer": 6355,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "114 × 16 + 82 × 114",
+        "answer": 11172,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 51,
+    "date": "2026-06-11",
+    "questions": [
+      {
+        "expression": "98 + 26",
+        "answer": 124,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "811 + 350",
+        "answer": 1161,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "642 − 278",
+        "answer": 364,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "276 × 19",
+        "answer": 5244,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "1967 × 948",
+        "answer": 1864716,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 52,
+    "date": "2026-06-12",
+    "questions": [
+      {
+        "expression": "29 − 11",
+        "answer": 18,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "623 + 931",
+        "answer": 1554,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "963 − 552",
+        "answer": 411,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "6768 + 7992 − 697",
+        "answer": 14063,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "814 × 48 + 18 × 814",
+        "answer": 53724,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 53,
+    "date": "2026-06-13",
+    "questions": [
+      {
+        "expression": "60 − 56",
+        "answer": 4,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "122 + 983",
+        "answer": 1105,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "31 × 28",
+        "answer": 868,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "570 × 77",
+        "answer": 43890,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "134,864 ÷ 31",
+        "answer": 4350.5,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 54,
+    "date": "2026-06-14",
+    "questions": [
+      {
+        "expression": "11 × 10",
+        "answer": 110,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "382 − 252",
+        "answer": 130,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "36 × 21",
+        "answer": 756,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "489 × 85",
+        "answer": 41565,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5406 × 412",
+        "answer": 2227272,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 55,
+    "date": "2026-06-15",
+    "questions": [
+      {
+        "expression": "61 + 23",
+        "answer": 84,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "535 − 350",
+        "answer": 185,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "13 × 22",
+        "answer": 286,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "762 × 48",
+        "answer": 36576,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "132,199 ÷ 63",
+        "answer": 2098.4,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 56,
+    "date": "2026-06-16",
+    "questions": [
+      {
+        "expression": "87 − 26",
+        "answer": 61,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "287 − 195",
+        "answer": 92,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "178 + 547",
+        "answer": 725,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "1270 + 3334 − 879",
+        "answer": 3725,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3550 × 414",
+        "answer": 1469700,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 57,
+    "date": "2026-06-17",
+    "questions": [
+      {
+        "expression": "27 + 93",
+        "answer": 120,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "55 × 42",
+        "answer": 2310,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "808 − 515",
+        "answer": 293,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "450 × 46 − 256",
+        "answer": 20444,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "53,397 ÷ 15",
+        "answer": 3559.8,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 58,
+    "date": "2026-06-18",
+    "questions": [
+      {
+        "expression": "12 × 11",
+        "answer": 132,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "34 × 27",
+        "answer": 918,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "172 + 902",
+        "answer": 1074,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "6211 + 4400 − 754",
+        "answer": 9857,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "4183 × 433",
+        "answer": 1811239,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 59,
+    "date": "2026-06-19",
+    "questions": [
+      {
+        "expression": "28 − 10",
+        "answer": 18,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "478 + 413",
+        "answer": 891,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "89 × 23",
+        "answer": 2047,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "419 × 35",
+        "answer": 14665,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "467,223 ÷ 49",
+        "answer": 9535.2,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 60,
+    "date": "2026-06-20",
+    "questions": [
+      {
+        "expression": "44 − 16",
+        "answer": 28,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "947 + 342",
+        "answer": 1289,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "770 + 522",
+        "answer": 1292,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "2380 + 8842 − 314",
+        "answer": 10908,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "8264 × 520",
+        "answer": 4297280,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 61,
+    "date": "2026-06-21",
+    "questions": [
+      {
+        "expression": "48 + 38",
+        "answer": 86,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "777 + 914",
+        "answer": 1691,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "84 × 26",
+        "answer": 2184,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "921 × 19",
+        "answer": 17499,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "901 × 47 + 33 × 901",
+        "answer": 72080,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 62,
+    "date": "2026-06-22",
+    "questions": [
+      {
+        "expression": "23 − 14",
+        "answer": 9,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "410 − 301",
+        "answer": 109,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "96 × 27",
+        "answer": 2592,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "221 × 49 − 583",
+        "answer": 10246,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "8429 × 729",
+        "answer": 6144741,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 63,
+    "date": "2026-06-23",
+    "questions": [
+      {
+        "expression": "8 × 10",
+        "answer": 80,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "312 + 150",
+        "answer": 462,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "814 − 157",
+        "answer": 657,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "237 × 87",
+        "answer": 20619,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "6609 × 874",
+        "answer": 5776266,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 64,
+    "date": "2026-06-24",
+    "questions": [
+      {
+        "expression": "9 × 9",
+        "answer": 81,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "597 + 139",
+        "answer": 736,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "362 − 206",
+        "answer": 156,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "122 × 34 + 539",
+        "answer": 4687,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "563 × 83 + 45 × 563",
+        "answer": 72064,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 65,
+    "date": "2026-06-25",
+    "questions": [
+      {
+        "expression": "2 × 11",
+        "answer": 22,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "13 × 45",
+        "answer": 585,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "66 × 46",
+        "answer": 3036,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "165 × 43 − 886",
+        "answer": 6209,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "754,710 ÷ 76",
+        "answer": 9930.4,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 66,
+    "date": "2026-06-26",
+    "questions": [
+      {
+        "expression": "97 − 71",
+        "answer": 26,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "255 + 523",
+        "answer": 778,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "427 − 197",
+        "answer": 230,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "723 × 45",
+        "answer": 32535,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3393 × 877",
+        "answer": 2975661,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 67,
+    "date": "2026-06-27",
+    "questions": [
+      {
+        "expression": "52 + 26",
+        "answer": 78,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "75 × 34",
+        "answer": 2550,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "831 + 306",
+        "answer": 1137,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "198 × 24 + 583",
+        "answer": 5335,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "62,749 ÷ 95",
+        "answer": 660.5,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 68,
+    "date": "2026-06-28",
+    "questions": [
+      {
+        "expression": "39 + 74",
+        "answer": 113,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "57 × 28",
+        "answer": 1596,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "930 + 307",
+        "answer": 1237,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "275 × 29 − 196",
+        "answer": 7779,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "787,541 ÷ 82",
+        "answer": 9604.2,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 69,
+    "date": "2026-06-29",
+    "questions": [
+      {
+        "expression": "92 − 91",
+        "answer": 1,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "94 × 23",
+        "answer": 2162,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "779 + 657",
+        "answer": 1436,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "375 × 24 + 383",
+        "answer": 9383,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "375 × 34 + 53 × 375",
+        "answer": 32625,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 70,
+    "date": "2026-06-30",
+    "questions": [
+      {
+        "expression": "8 × 9",
+        "answer": 72,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "172 + 138",
+        "answer": 310,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "721 + 318",
+        "answer": 1039,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "429 × 34",
+        "answer": 14586,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "789 × 98 + 28 × 789",
+        "answer": 99414,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 71,
+    "date": "2026-07-01",
+    "questions": [
+      {
+        "expression": "69 + 93",
+        "answer": 162,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "74 × 35",
+        "answer": 2590,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "18 × 17",
+        "answer": 306,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "2368 + 7994 − 270",
+        "answer": 10092,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "244,303 ÷ 34",
+        "answer": 7185.4,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 72,
+    "date": "2026-07-02",
+    "questions": [
+      {
+        "expression": "30 − 22",
+        "answer": 8,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "432 + 292",
+        "answer": 724,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "214 + 326",
+        "answer": 540,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "512 × 83",
+        "answer": 42496,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "144,691 ÷ 31",
+        "answer": 4667.5,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 73,
+    "date": "2026-07-03",
+    "questions": [
+      {
+        "expression": "70 − 61",
+        "answer": 9,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "479 − 365",
+        "answer": 114,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "631 + 757",
+        "answer": 1388,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9584 + 1828 − 377",
+        "answer": 11035,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "657 × 90 + 80 × 657",
+        "answer": 111690,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 74,
+    "date": "2026-07-04",
+    "questions": [
+      {
+        "expression": "41 + 44",
+        "answer": 85,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "90 × 15",
+        "answer": 1350,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "97 × 36",
+        "answer": 3492,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "8465 + 6754 − 888",
+        "answer": 14331,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "648 × 772",
+        "answer": 500256,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 75,
+    "date": "2026-07-05",
+    "questions": [
+      {
+        "expression": "42 − 22",
+        "answer": 20,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "548 − 466",
+        "answer": 82,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "856 − 744",
+        "answer": 112,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "200 × 27 + 178",
+        "answer": 5578,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "137 × 53 + 27 × 137",
+        "answer": 10960,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 76,
+    "date": "2026-07-06",
+    "questions": [
+      {
+        "expression": "3 × 3",
+        "answer": 9,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "30 × 24",
+        "answer": 720,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "69 × 38",
+        "answer": 2622,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "738 × 19",
+        "answer": 14022,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "89,343 ÷ 47",
+        "answer": 1900.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 77,
+    "date": "2026-07-07",
+    "questions": [
+      {
+        "expression": "12 × 8",
+        "answer": 96,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "109 + 262",
+        "answer": 371,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "65 × 14",
+        "answer": 910,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "970 × 63",
+        "answer": 61110,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "916 × 564",
+        "answer": 516624,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 78,
+    "date": "2026-07-08",
+    "questions": [
+      {
+        "expression": "7 × 9",
+        "answer": 63,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "500 − 303",
+        "answer": 197,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "916 + 230",
+        "answer": 1146,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "116 × 94",
+        "answer": 10904,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "9806 × 138",
+        "answer": 1353228,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 79,
+    "date": "2026-07-09",
+    "questions": [
+      {
+        "expression": "33 + 68",
+        "answer": 101,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "430 + 236",
+        "answer": 666,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "38 × 45",
+        "answer": 1710,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "7725 + 7794 − 894",
+        "answer": 14625,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "452,889 ÷ 54",
+        "answer": 8386.8,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 80,
+    "date": "2026-07-10",
+    "questions": [
+      {
+        "expression": "66 + 41",
+        "answer": 107,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "310 + 597",
+        "answer": 907,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "228 − 159",
+        "answer": 69,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "101 × 19 + 474",
+        "answer": 2393,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5464 × 450",
+        "answer": 2458800,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 81,
+    "date": "2026-07-11",
+    "questions": [
+      {
+        "expression": "35 − 29",
+        "answer": 6,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "305 − 178",
+        "answer": 127,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "11 × 11",
+        "answer": 121,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "2792 + 9350 − 261",
+        "answer": 11881,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "995 × 972",
+        "answer": 967140,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 82,
+    "date": "2026-07-12",
+    "questions": [
+      {
+        "expression": "46 + 72",
+        "answer": 118,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "57 × 30",
+        "answer": 1710,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "56 × 38",
+        "answer": 2128,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "557 × 25",
+        "answer": 13925,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "228 × 28 + 48 × 228",
+        "answer": 17328,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 83,
+    "date": "2026-07-13",
+    "questions": [
+      {
+        "expression": "79 + 70",
+        "answer": 149,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "537 − 321",
+        "answer": 216,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "18 × 38",
+        "answer": 684,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "1302 + 9856 − 900",
+        "answer": 10258,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "643,406 ÷ 78",
+        "answer": 8248.8,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 84,
+    "date": "2026-07-14",
+    "questions": [
+      {
+        "expression": "4 × 12",
+        "answer": 48,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "797 − 698",
+        "answer": 99,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "954 + 310",
+        "answer": 1264,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "654 × 44",
+        "answer": 28776,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "256 × 861",
+        "answer": 220416,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 85,
+    "date": "2026-07-15",
+    "questions": [
+      {
+        "expression": "87 + 73",
+        "answer": 160,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "99 × 49",
+        "answer": 4851,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "341 − 198",
+        "answer": 143,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "3996 + 4599 − 964",
+        "answer": 7631,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "728 × 15 + 61 × 728",
+        "answer": 55328,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 86,
+    "date": "2026-07-16",
+    "questions": [
+      {
+        "expression": "71 − 36",
+        "answer": 35,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "246 − 105",
+        "answer": 141,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "90 × 37",
+        "answer": 3330,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "502 × 69",
+        "answer": 34638,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3344 × 647",
+        "answer": 2163568,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 87,
+    "date": "2026-07-17",
+    "questions": [
+      {
+        "expression": "39 + 70",
+        "answer": 109,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "50 × 47",
+        "answer": 2350,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "89 × 45",
+        "answer": 4005,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "709 × 24",
+        "answer": 17016,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "8532 × 522",
+        "answer": 4453704,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 88,
+    "date": "2026-07-18",
+    "questions": [
+      {
+        "expression": "74 − 27",
+        "answer": 47,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "212 − 153",
+        "answer": 59,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "34 × 22",
+        "answer": 748,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "90 × 37 − 882",
+        "answer": 2448,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "2197 × 145",
+        "answer": 318565,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 89,
+    "date": "2026-07-19",
+    "questions": [
+      {
+        "expression": "87 − 34",
+        "answer": 53,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "602 − 544",
+        "answer": 58,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "55 × 40",
+        "answer": 2200,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "200 × 30",
+        "answer": 6000,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "843 × 98 + 70 × 843",
+        "answer": 141624,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 90,
+    "date": "2026-07-20",
+    "questions": [
+      {
+        "expression": "89 + 70",
+        "answer": 159,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "40 × 11",
+        "answer": 440,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "41 × 45",
+        "answer": 1845,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "433 × 22 + 217",
+        "answer": 9743,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5884 × 884",
+        "answer": 5201456,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 91,
+    "date": "2026-07-21",
+    "questions": [
+      {
+        "expression": "76 − 72",
+        "answer": 4,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "89 × 23",
+        "answer": 2047,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "90 × 16",
+        "answer": 1440,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "500 × 26 − 406",
+        "answer": 12594,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "95,861 ÷ 16",
+        "answer": 5991.3,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 92,
+    "date": "2026-07-22",
+    "questions": [
+      {
+        "expression": "12 × 5",
+        "answer": 60,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "641 − 154",
+        "answer": 487,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "744 − 263",
+        "answer": 481,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "303 × 29 − 538",
+        "answer": 8249,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "437 × 60 + 75 × 437",
+        "answer": 58995,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 93,
+    "date": "2026-07-23",
+    "questions": [
+      {
+        "expression": "82 + 12",
+        "answer": 94,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "235 − 141",
+        "answer": 94,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "297 + 571",
+        "answer": 868,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "8278 + 2629 − 237",
+        "answer": 10670,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5166 × 983",
+        "answer": 5078178,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 94,
+    "date": "2026-07-24",
+    "questions": [
+      {
+        "expression": "5 × 5",
+        "answer": 25,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "63 × 34",
+        "answer": 2142,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "975 − 450",
+        "answer": 525,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "343 × 26 − 782",
+        "answer": 8136,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "18,099 ÷ 30",
+        "answer": 603.3,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 95,
+    "date": "2026-07-25",
+    "questions": [
+      {
+        "expression": "8 × 7",
+        "answer": 56,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "44 × 26",
+        "answer": 1144,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "381 + 884",
+        "answer": 1265,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "937 × 83",
+        "answer": 77771,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "868 × 76 + 77 × 868",
+        "answer": 132804,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 96,
+    "date": "2026-07-26",
+    "questions": [
+      {
+        "expression": "43 + 91",
+        "answer": 134,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "858 − 696",
+        "answer": 162,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "133 + 474",
+        "answer": 607,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9512 + 2592 − 920",
+        "answer": 11184,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "159 × 98 + 10 × 159",
+        "answer": 17172,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 97,
+    "date": "2026-07-27",
+    "questions": [
+      {
+        "expression": "10 × 7",
+        "answer": 70,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "85 × 27",
+        "answer": 2295,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "825 − 410",
+        "answer": 415,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "8833 + 7028 − 170",
+        "answer": 15691,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "9548 × 209",
+        "answer": 1995532,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 98,
+    "date": "2026-07-28",
+    "questions": [
+      {
+        "expression": "87 + 68",
+        "answer": 155,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "680 − 365",
+        "answer": 315,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "63 × 19",
+        "answer": 1197,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "690 × 45",
+        "answer": 31050,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "442 × 60 + 44 × 442",
+        "answer": 45968,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 99,
+    "date": "2026-07-29",
+    "questions": [
+      {
+        "expression": "87 + 73",
+        "answer": 160,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "539 − 122",
+        "answer": 417,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "682 − 446",
+        "answer": 236,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "227 × 54",
+        "answer": 12258,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "323 × 74 + 93 × 323",
+        "answer": 53941,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 100,
+    "date": "2026-07-30",
+    "questions": [
+      {
+        "expression": "45 − 21",
+        "answer": 24,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "618 − 180",
+        "answer": 438,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "44 × 15",
+        "answer": 660,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "157 × 14 − 504",
+        "answer": 1694,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "1965 × 544",
+        "answer": 1068960,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 101,
+    "date": "2026-07-31",
+    "questions": [
+      {
+        "expression": "46 − 24",
+        "answer": 22,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "508 − 384",
+        "answer": 124,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "469 + 865",
+        "answer": 1334,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "432 × 37",
+        "answer": 15984,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "290,534 ÷ 97",
+        "answer": 2995.2,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 102,
+    "date": "2026-08-01",
+    "questions": [
+      {
+        "expression": "45 − 21",
+        "answer": 24,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "611 − 378",
+        "answer": 233,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "90 × 11",
+        "answer": 990,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "198 × 41 + 517",
+        "answer": 8635,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "256 × 77 + 75 × 256",
+        "answer": 38912,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 103,
+    "date": "2026-08-02",
+    "questions": [
+      {
+        "expression": "83 − 50",
+        "answer": 33,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "49 × 36",
+        "answer": 1764,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "159 + 280",
+        "answer": 439,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "479 × 94",
+        "answer": 45026,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "53,312 ÷ 74",
+        "answer": 720.4,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 104,
+    "date": "2026-08-03",
+    "questions": [
+      {
+        "expression": "20 + 21",
+        "answer": 41,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "508 − 329",
+        "answer": 179,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "933 − 587",
+        "answer": 346,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "681 × 87",
+        "answer": 59247,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "361,568 ÷ 42",
+        "answer": 8608.8,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 105,
+    "date": "2026-08-04",
+    "questions": [
+      {
+        "expression": "4 × 3",
+        "answer": 12,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "947 + 926",
+        "answer": 1873,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "644 − 586",
+        "answer": 58,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "2229 + 4236 − 624",
+        "answer": 5841,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "142 × 35 + 40 × 142",
+        "answer": 10650,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 106,
+    "date": "2026-08-05",
+    "questions": [
+      {
+        "expression": "54 + 47",
+        "answer": 101,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "254 − 129",
+        "answer": 125,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "436 − 216",
+        "answer": 220,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "175 × 43 − 976",
+        "answer": 6549,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "621 × 37 + 20 × 621",
+        "answer": 35397,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 107,
+    "date": "2026-08-06",
+    "questions": [
+      {
+        "expression": "72 + 80",
+        "answer": 152,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "448 − 367",
+        "answer": 81,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "11 × 39",
+        "answer": 429,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "1056 + 6708 − 482",
+        "answer": 7282,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "4935 × 336",
+        "answer": 1658160,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 108,
+    "date": "2026-08-07",
+    "questions": [
+      {
+        "expression": "76 − 59",
+        "answer": 17,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "208 − 123",
+        "answer": 85,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "39 × 44",
+        "answer": 1716,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4886 + 6672 − 427",
+        "answer": 11131,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "66,809 ÷ 15",
+        "answer": 4453.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 109,
+    "date": "2026-08-08",
+    "questions": [
+      {
+        "expression": "2 × 12",
+        "answer": 24,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "306 − 146",
+        "answer": 160,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "24 × 28",
+        "answer": 672,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "172 × 13 + 619",
+        "answer": 2855,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "107,963 ÷ 15",
+        "answer": 7197.5,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 110,
+    "date": "2026-08-09",
+    "questions": [
+      {
+        "expression": "5 × 9",
+        "answer": 45,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "685 − 174",
+        "answer": 511,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "86 × 22",
+        "answer": 1892,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9619 + 2310 − 427",
+        "answer": 11502,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "892 × 96 + 81 × 892",
+        "answer": 157884,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 111,
+    "date": "2026-08-10",
+    "questions": [
+      {
+        "expression": "10 × 7",
+        "answer": 70,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "706 − 297",
+        "answer": 409,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "685 + 505",
+        "answer": 1190,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "228 × 47 + 285",
+        "answer": 11001,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "139,509 ÷ 49",
+        "answer": 2847.1,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 112,
+    "date": "2026-08-11",
+    "questions": [
+      {
+        "expression": "71 − 18",
+        "answer": 53,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "820 + 940",
+        "answer": 1760,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "725 + 314",
+        "answer": 1039,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "143 × 44 + 532",
+        "answer": 6824,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "875 × 15 + 61 × 875",
+        "answer": 66500,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 113,
+    "date": "2026-08-12",
+    "questions": [
+      {
+        "expression": "80 − 50",
+        "answer": 30,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "710 + 581",
+        "answer": 1291,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "129 + 377",
+        "answer": 506,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "488 × 49 + 233",
+        "answer": 24145,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "474,591 ÷ 88",
+        "answer": 5393.1,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 114,
+    "date": "2026-08-13",
+    "questions": [
+      {
+        "expression": "84 − 19",
+        "answer": 65,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "653 − 124",
+        "answer": 529,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "364 − 144",
+        "answer": 220,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "400 × 22 − 814",
+        "answer": 7986,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "6687 × 748",
+        "answer": 5001876,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 115,
+    "date": "2026-08-14",
+    "questions": [
+      {
+        "expression": "11 × 6",
+        "answer": 66,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "248 − 128",
+        "answer": 120,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "12 × 24",
+        "answer": 288,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "491 × 21",
+        "answer": 10311,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "718 × 52 + 62 × 718",
+        "answer": 81852,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 116,
+    "date": "2026-08-15",
+    "questions": [
+      {
+        "expression": "54 + 63",
+        "answer": 117,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "40 × 28",
+        "answer": 1120,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "234 − 116",
+        "answer": 118,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "6565 + 9717 − 830",
+        "answer": 15452,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "107 × 31 + 18 × 107",
+        "answer": 5243,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 117,
+    "date": "2026-08-16",
+    "questions": [
+      {
+        "expression": "30 + 44",
+        "answer": 74,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "799 − 153",
+        "answer": 646,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "313 − 240",
+        "answer": 73,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4380 + 6609 − 306",
+        "answer": 10683,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5294 × 485",
+        "answer": 2567590,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 118,
+    "date": "2026-08-17",
+    "questions": [
+      {
+        "expression": "10 + 11",
+        "answer": 21,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "848 − 503",
+        "answer": 345,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "435 − 199",
+        "answer": 236,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "282 × 20 − 180",
+        "answer": 5460,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "749 × 20 + 11 × 749",
+        "answer": 23219,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 119,
+    "date": "2026-08-18",
+    "questions": [
+      {
+        "expression": "16 + 62",
+        "answer": 78,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "19 × 47",
+        "answer": 893,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "35 × 35",
+        "answer": 1225,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "7632 + 5328 − 683",
+        "answer": 12277,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3,761 ÷ 8",
+        "answer": 470.1,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 120,
+    "date": "2026-08-19",
+    "questions": [
+      {
+        "expression": "16 + 11",
+        "answer": 27,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "363 − 310",
+        "answer": 53,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "91 × 18",
+        "answer": 1638,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "5597 + 4511 − 869",
+        "answer": 9239,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "2748 × 859",
+        "answer": 2360532,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 121,
+    "date": "2026-08-20",
+    "questions": [
+      {
+        "expression": "8 × 10",
+        "answer": 80,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "22 × 33",
+        "answer": 726,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "28 × 43",
+        "answer": 1204,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "356 × 54",
+        "answer": 19224,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "6334 × 844",
+        "answer": 5345896,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 122,
+    "date": "2026-08-21",
+    "questions": [
+      {
+        "expression": "69 + 21",
+        "answer": 90,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "627 − 501",
+        "answer": 126,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "295 + 457",
+        "answer": 752,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "350 × 11 − 665",
+        "answer": 3185,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "559,810 ÷ 91",
+        "answer": 6151.8,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 123,
+    "date": "2026-08-22",
+    "questions": [
+      {
+        "expression": "62 + 15",
+        "answer": 77,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "36 × 19",
+        "answer": 684,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "36 × 31",
+        "answer": 1116,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "2210 + 5425 − 208",
+        "answer": 7427,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "674 × 57 + 67 × 674",
+        "answer": 83576,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 124,
+    "date": "2026-08-23",
+    "questions": [
+      {
+        "expression": "8 × 6",
+        "answer": 48,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "527 + 868",
+        "answer": 1395,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "37 × 35",
+        "answer": 1295,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "209 × 30 + 364",
+        "answer": 6634,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "83,416 ÷ 10",
+        "answer": 8341.6,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 125,
+    "date": "2026-08-24",
+    "questions": [
+      {
+        "expression": "10 × 4",
+        "answer": 40,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "13 × 39",
+        "answer": 507,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "863 − 600",
+        "answer": 263,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "457 × 30 − 581",
+        "answer": 13129,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "498,387 ÷ 67",
+        "answer": 7438.6,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 126,
+    "date": "2026-08-25",
+    "questions": [
+      {
+        "expression": "7 × 2",
+        "answer": 14,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "214 − 146",
+        "answer": 68,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "220 + 272",
+        "answer": 492,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "367 × 78",
+        "answer": 28626,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "9458 × 508",
+        "answer": 4804664,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 127,
+    "date": "2026-08-26",
+    "questions": [
+      {
+        "expression": "12 + 34",
+        "answer": 46,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "342 − 112",
+        "answer": 230,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "246 + 479",
+        "answer": 725,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "148 × 40",
+        "answer": 5920,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "916 × 48 + 79 × 916",
+        "answer": 116332,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 128,
+    "date": "2026-08-27",
+    "questions": [
+      {
+        "expression": "84 + 60",
+        "answer": 144,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "274 + 674",
+        "answer": 948,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "29 × 40",
+        "answer": 1160,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "5628 + 6734 − 859",
+        "answer": 11503,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "263 × 22 + 28 × 263",
+        "answer": 13150,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 129,
+    "date": "2026-08-28",
+    "questions": [
+      {
+        "expression": "57 + 87",
+        "answer": 144,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "13 × 43",
+        "answer": 559,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "50 × 36",
+        "answer": 1800,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "521 × 94",
+        "answer": 48974,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "858 × 41 + 82 × 858",
+        "answer": 105534,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 130,
+    "date": "2026-08-29",
+    "questions": [
+      {
+        "expression": "7 × 12",
+        "answer": 84,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "93 × 36",
+        "answer": 3348,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "624 + 291",
+        "answer": 915,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "72 × 16 − 605",
+        "answer": 547,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "8599 × 787",
+        "answer": 6767413,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 131,
+    "date": "2026-08-30",
+    "questions": [
+      {
+        "expression": "9 × 11",
+        "answer": 99,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "615 − 131",
+        "answer": 484,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "225 − 142",
+        "answer": 83,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "181 × 23 + 149",
+        "answer": 4312,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "211,998 ÷ 61",
+        "answer": 3475.4,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 132,
+    "date": "2026-08-31",
+    "questions": [
+      {
+        "expression": "3 × 4",
+        "answer": 12,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "78 × 37",
+        "answer": 2886,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "807 − 713",
+        "answer": 94,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "408 × 41 + 901",
+        "answer": 17629,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "1252 × 530",
+        "answer": 663560,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 133,
+    "date": "2026-09-01",
+    "questions": [
+      {
+        "expression": "59 − 51",
+        "answer": 8,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "48 × 12",
+        "answer": 576,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "557 + 787",
+        "answer": 1344,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "871 × 95",
+        "answer": 82745,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "101,658 ÷ 61",
+        "answer": 1666.5,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 134,
+    "date": "2026-09-02",
+    "questions": [
+      {
+        "expression": "32 − 18",
+        "answer": 14,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "97 × 48",
+        "answer": 4656,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "27 × 16",
+        "answer": 432,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "324 × 57",
+        "answer": 18468,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "954 × 57 + 88 × 954",
+        "answer": 138330,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 135,
+    "date": "2026-09-03",
+    "questions": [
+      {
+        "expression": "62 + 73",
+        "answer": 135,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "939 + 808",
+        "answer": 1747,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "65 × 49",
+        "answer": 3185,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "163 × 13 + 548",
+        "answer": 2667,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "4355 × 667",
+        "answer": 2904785,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 136,
+    "date": "2026-09-04",
+    "questions": [
+      {
+        "expression": "49 − 39",
+        "answer": 10,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "79 × 19",
+        "answer": 1501,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "54 × 21",
+        "answer": 1134,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "348 × 17 + 322",
+        "answer": 6238,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "867 × 28 + 63 × 867",
+        "answer": 78897,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 137,
+    "date": "2026-09-05",
+    "questions": [
+      {
+        "expression": "37 − 28",
+        "answer": 9,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "25 × 27",
+        "answer": 675,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "404 − 313",
+        "answer": 91,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "381 × 27 − 579",
+        "answer": 9708,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "236 × 27 + 59 × 236",
+        "answer": 20296,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 138,
+    "date": "2026-09-06",
+    "questions": [
+      {
+        "expression": "8 × 12",
+        "answer": 96,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "653 − 595",
+        "answer": 58,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "24 × 20",
+        "answer": 480,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4393 + 8211 − 880",
+        "answer": 11724,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "774 × 484",
+        "answer": 374616,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 139,
+    "date": "2026-09-07",
+    "questions": [
+      {
+        "expression": "67 + 22",
+        "answer": 89,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "875 − 366",
+        "answer": 509,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "805 − 659",
+        "answer": 146,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "325 × 38 − 997",
+        "answer": 11353,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "806 × 47 + 70 × 806",
+        "answer": 94302,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 140,
+    "date": "2026-09-08",
+    "questions": [
+      {
+        "expression": "52 + 44",
+        "answer": 96,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "985 + 218",
+        "answer": 1203,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "89 × 19",
+        "answer": 1691,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "5172 + 3894 − 417",
+        "answer": 8649,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "456 × 14 + 52 × 456",
+        "answer": 30096,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 141,
+    "date": "2026-09-09",
+    "questions": [
+      {
+        "expression": "97 − 46",
+        "answer": 51,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "771 − 271",
+        "answer": 500,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "244 − 154",
+        "answer": 90,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "323 × 25 − 571",
+        "answer": 7504,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "399 × 33 + 35 × 399",
+        "answer": 27132,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 142,
+    "date": "2026-09-10",
+    "questions": [
+      {
+        "expression": "47 − 31",
+        "answer": 16,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "866 − 338",
+        "answer": 528,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "565 − 458",
+        "answer": 107,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "6499 + 4053 − 219",
+        "answer": 10333,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "443 × 79 + 56 × 443",
+        "answer": 59805,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 143,
+    "date": "2026-09-11",
+    "questions": [
+      {
+        "expression": "56 − 41",
+        "answer": 15,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "692 − 256",
+        "answer": 436,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "994 − 502",
+        "answer": 492,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "327 × 34 + 328",
+        "answer": 11446,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "425 × 84 + 24 × 425",
+        "answer": 45900,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 144,
+    "date": "2026-09-12",
+    "questions": [
+      {
+        "expression": "9 × 11",
+        "answer": 99,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "675 + 101",
+        "answer": 776,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "724 + 974",
+        "answer": 1698,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "667 × 56",
+        "answer": 37352,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "977 × 14 + 52 × 977",
+        "answer": 64482,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 145,
+    "date": "2026-09-13",
+    "questions": [
+      {
+        "expression": "23 − 22",
+        "answer": 1,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "733 − 498",
+        "answer": 235,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "951 + 720",
+        "answer": 1671,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "601 × 90",
+        "answer": 54090,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "432,280 ÷ 96",
+        "answer": 4502.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 146,
+    "date": "2026-09-14",
+    "questions": [
+      {
+        "expression": "11 × 2",
+        "answer": 22,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "481 + 262",
+        "answer": 743,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "348 + 139",
+        "answer": 487,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "3215 + 3412 − 380",
+        "answer": 6247,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "488 × 89 + 53 × 488",
+        "answer": 69296,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 147,
+    "date": "2026-09-15",
+    "questions": [
+      {
+        "expression": "87 − 85",
+        "answer": 2,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "390 − 267",
+        "answer": 123,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "798 − 291",
+        "answer": 507,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "256 × 64",
+        "answer": 16384,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "884 × 87 + 63 × 884",
+        "answer": 132600,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 148,
+    "date": "2026-09-16",
+    "questions": [
+      {
+        "expression": "94 + 50",
+        "answer": 144,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "214 + 490",
+        "answer": 704,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "96 × 14",
+        "answer": 1344,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4656 + 4580 − 880",
+        "answer": 8356,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3592 × 859",
+        "answer": 3085528,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 149,
+    "date": "2026-09-17",
+    "questions": [
+      {
+        "expression": "7 × 9",
+        "answer": 63,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "39 × 13",
+        "answer": 507,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "445 + 691",
+        "answer": 1136,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "309 × 40 + 867",
+        "answer": 13227,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "73,108 ÷ 13",
+        "answer": 5623.7,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 150,
+    "date": "2026-09-18",
+    "questions": [
+      {
+        "expression": "2 × 12",
+        "answer": 24,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "57 × 15",
+        "answer": 855,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "502 − 273",
+        "answer": 229,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "653 × 78",
+        "answer": 50934,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "292,049 ÷ 46",
+        "answer": 6348.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 151,
+    "date": "2026-09-19",
+    "questions": [
+      {
+        "expression": "83 − 44",
+        "answer": 39,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "288 − 154",
+        "answer": 134,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "62 × 25",
+        "answer": 1550,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "732 × 12",
+        "answer": 8784,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "895 × 93 + 46 × 895",
+        "answer": 124405,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 152,
+    "date": "2026-09-20",
+    "questions": [
+      {
+        "expression": "64 − 28",
+        "answer": 36,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "84 × 48",
+        "answer": 4032,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "999 + 719",
+        "answer": 1718,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "414 × 98",
+        "answer": 40572,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "676 × 81 + 20 × 676",
+        "answer": 68276,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 153,
+    "date": "2026-09-21",
+    "questions": [
+      {
+        "expression": "87 − 51",
+        "answer": 36,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "59 × 47",
+        "answer": 2773,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "40 × 34",
+        "answer": 1360,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "139 × 17 + 949",
+        "answer": 3312,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3312 × 279",
+        "answer": 924048,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 154,
+    "date": "2026-09-22",
+    "questions": [
+      {
+        "expression": "50 − 48",
+        "answer": 2,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "697 + 247",
+        "answer": 944,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "339 + 411",
+        "answer": 750,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "976 × 12",
+        "answer": 11712,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5574 × 726",
+        "answer": 4046724,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 155,
+    "date": "2026-09-23",
+    "questions": [
+      {
+        "expression": "11 × 4",
+        "answer": 44,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "40 × 25",
+        "answer": 1000,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "75 × 35",
+        "answer": 2625,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "3248 + 4400 − 619",
+        "answer": 7029,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "264 × 41 + 30 × 264",
+        "answer": 18744,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 156,
+    "date": "2026-09-24",
+    "questions": [
+      {
+        "expression": "5 × 11",
+        "answer": 55,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "756 + 235",
+        "answer": 991,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "48 × 12",
+        "answer": 576,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9129 + 6671 − 989",
+        "answer": 14811,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "492 × 69 + 39 × 492",
+        "answer": 53136,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 157,
+    "date": "2026-09-25",
+    "questions": [
+      {
+        "expression": "75 + 76",
+        "answer": 151,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "37 × 31",
+        "answer": 1147,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "88 × 23",
+        "answer": 2024,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "361 × 32 − 431",
+        "answer": 11121,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "444,008 ÷ 47",
+        "answer": 9447,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 158,
+    "date": "2026-09-26",
+    "questions": [
+      {
+        "expression": "80 − 32",
+        "answer": 48,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "626 + 184",
+        "answer": 810,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "826 − 128",
+        "answer": 698,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9065 + 1582 − 892",
+        "answer": 9755,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "898,176 ÷ 91",
+        "answer": 9870.1,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 159,
+    "date": "2026-09-27",
+    "questions": [
+      {
+        "expression": "46 + 23",
+        "answer": 69,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "651 − 431",
+        "answer": 220,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "21 × 34",
+        "answer": 714,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "6071 + 4806 − 980",
+        "answer": 9897,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "139,449 ÷ 17",
+        "answer": 8202.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 160,
+    "date": "2026-09-28",
+    "questions": [
+      {
+        "expression": "22 + 35",
+        "answer": 57,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "506 − 419",
+        "answer": 87,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "484 + 206",
+        "answer": 690,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "394 × 33",
+        "answer": 13002,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5405 × 388",
+        "answer": 2097140,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 161,
+    "date": "2026-09-29",
+    "questions": [
+      {
+        "expression": "82 + 67",
+        "answer": 149,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "968 + 418",
+        "answer": 1386,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "640 + 302",
+        "answer": 942,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4466 + 9286 − 685",
+        "answer": 13067,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "325,039 ÷ 41",
+        "answer": 7927.8,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 162,
+    "date": "2026-09-30",
+    "questions": [
+      {
+        "expression": "43 − 16",
+        "answer": 27,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "45 × 22",
+        "answer": 990,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "40 × 37",
+        "answer": 1480,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "401 × 27 + 496",
+        "answer": 11323,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "4060 × 794",
+        "answer": 3223640,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 163,
+    "date": "2026-10-01",
+    "questions": [
+      {
+        "expression": "12 × 8",
+        "answer": 96,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "560 − 427",
+        "answer": 133,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "573 − 241",
+        "answer": 332,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "863 × 97",
+        "answer": 83711,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "584 × 839",
+        "answer": 489976,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 164,
+    "date": "2026-10-02",
+    "questions": [
+      {
+        "expression": "89 − 61",
+        "answer": 28,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "818 − 164",
+        "answer": 654,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "638 − 307",
+        "answer": 331,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "370 × 33",
+        "answer": 12210,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "408 × 27 + 35 × 408",
+        "answer": 25296,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 165,
+    "date": "2026-10-03",
+    "questions": [
+      {
+        "expression": "40 − 21",
+        "answer": 19,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "731 + 131",
+        "answer": 862,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "792 + 911",
+        "answer": 1703,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "167 × 29 + 636",
+        "answer": 5479,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "367,164 ÷ 64",
+        "answer": 5736.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 166,
+    "date": "2026-10-04",
+    "questions": [
+      {
+        "expression": "28 − 10",
+        "answer": 18,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "524 − 281",
+        "answer": 243,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "355 − 212",
+        "answer": 143,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "435 × 49 + 842",
+        "answer": 22157,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "701 × 74 + 63 × 701",
+        "answer": 96037,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 167,
+    "date": "2026-10-05",
+    "questions": [
+      {
+        "expression": "59 − 34",
+        "answer": 25,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "90 × 22",
+        "answer": 1980,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "836 − 674",
+        "answer": 162,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "6647 + 1580 − 811",
+        "answer": 7416,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "673,815 ÷ 77",
+        "answer": 8750.8,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 168,
+    "date": "2026-10-06",
+    "questions": [
+      {
+        "expression": "64 − 59",
+        "answer": 5,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "344 − 259",
+        "answer": 85,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "768 + 550",
+        "answer": 1318,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "164 × 35",
+        "answer": 5740,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "386 × 67 + 97 × 386",
+        "answer": 63304,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 169,
+    "date": "2026-10-07",
+    "questions": [
+      {
+        "expression": "38 + 62",
+        "answer": 100,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "208 + 164",
+        "answer": 372,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "178 + 255",
+        "answer": 433,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4466 + 5710 − 937",
+        "answer": 9239,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3588 × 610",
+        "answer": 2188680,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 170,
+    "date": "2026-10-08",
+    "questions": [
+      {
+        "expression": "3 × 5",
+        "answer": 15,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "995 − 610",
+        "answer": 385,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "407 − 116",
+        "answer": 291,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "258 × 26 + 663",
+        "answer": 7371,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "7435 × 300",
+        "answer": 2230500,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 171,
+    "date": "2026-10-09",
+    "questions": [
+      {
+        "expression": "10 × 9",
+        "answer": 90,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "666 − 105",
+        "answer": 561,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "845 + 243",
+        "answer": 1088,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4119 + 3555 − 905",
+        "answer": 6769,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "303 × 97 + 96 × 303",
+        "answer": 58479,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 172,
+    "date": "2026-10-10",
+    "questions": [
+      {
+        "expression": "60 − 51",
+        "answer": 9,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "266 − 205",
+        "answer": 61,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "78 × 40",
+        "answer": 3120,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "207 × 41 + 422",
+        "answer": 8909,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "186,889 ÷ 62",
+        "answer": 3014.3,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 173,
+    "date": "2026-10-11",
+    "questions": [
+      {
+        "expression": "76 + 87",
+        "answer": 163,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "108 + 295",
+        "answer": 403,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "640 − 352",
+        "answer": 288,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "261 × 41",
+        "answer": 10701,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "801 × 34 + 64 × 801",
+        "answer": 78498,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 174,
+    "date": "2026-10-12",
+    "questions": [
+      {
+        "expression": "11 + 80",
+        "answer": 91,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "68 × 28",
+        "answer": 1904,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "495 + 972",
+        "answer": 1467,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "1076 + 3073 − 334",
+        "answer": 3815,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "4616 × 312",
+        "answer": 1440192,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 175,
+    "date": "2026-10-13",
+    "questions": [
+      {
+        "expression": "11 × 7",
+        "answer": 77,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "983 + 219",
+        "answer": 1202,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "74 × 14",
+        "answer": 1036,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "8081 + 4029 − 805",
+        "answer": 11305,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "146,806 ÷ 57",
+        "answer": 2575.5,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 176,
+    "date": "2026-10-14",
+    "questions": [
+      {
+        "expression": "9 × 2",
+        "answer": 18,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "271 − 211",
+        "answer": 60,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "820 + 766",
+        "answer": 1586,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "213 × 90",
+        "answer": 19170,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "171,211 ÷ 21",
+        "answer": 8152.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 177,
+    "date": "2026-10-15",
+    "questions": [
+      {
+        "expression": "22 + 12",
+        "answer": 34,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "63 × 22",
+        "answer": 1386,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "619 + 389",
+        "answer": 1008,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "59 × 14 + 375",
+        "answer": 1201,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "153,789 ÷ 26",
+        "answer": 5915,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 178,
+    "date": "2026-10-16",
+    "questions": [
+      {
+        "expression": "26 + 45",
+        "answer": 71,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "92 × 48",
+        "answer": 4416,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "42 × 38",
+        "answer": 1596,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "6222 + 5188 − 511",
+        "answer": 10899,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5971 × 581",
+        "answer": 3469151,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 179,
+    "date": "2026-10-17",
+    "questions": [
+      {
+        "expression": "11 × 4",
+        "answer": 44,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "315 − 130",
+        "answer": 185,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "619 − 227",
+        "answer": 392,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "262 × 15",
+        "answer": 3930,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "9259 × 219",
+        "answer": 2027721,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 180,
+    "date": "2026-10-18",
+    "questions": [
+      {
+        "expression": "5 × 2",
+        "answer": 10,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "438 − 378",
+        "answer": 60,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "894 − 695",
+        "answer": 199,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9042 + 2319 − 587",
+        "answer": 10774,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "1718 × 484",
+        "answer": 831512,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 181,
+    "date": "2026-10-19",
+    "questions": [
+      {
+        "expression": "4 × 10",
+        "answer": 40,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "953 + 534",
+        "answer": 1487,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "994 + 104",
+        "answer": 1098,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "484 × 32",
+        "answer": 15488,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "373,544 ÷ 50",
+        "answer": 7470.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 182,
+    "date": "2026-10-20",
+    "questions": [
+      {
+        "expression": "36 + 80",
+        "answer": 116,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "181 + 124",
+        "answer": 305,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "482 − 402",
+        "answer": 80,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "173 × 24 + 405",
+        "answer": 4557,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "613,181 ÷ 76",
+        "answer": 8068.2,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 183,
+    "date": "2026-10-21",
+    "questions": [
+      {
+        "expression": "14 + 56",
+        "answer": 70,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "37 × 36",
+        "answer": 1332,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "976 − 790",
+        "answer": 186,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "3345 + 4161 − 451",
+        "answer": 7055,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "1209 × 678",
+        "answer": 819702,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 184,
+    "date": "2026-10-22",
+    "questions": [
+      {
+        "expression": "32 − 12",
+        "answer": 20,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "344 − 251",
+        "answer": 93,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "527 − 315",
+        "answer": 212,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "159 × 81",
+        "answer": 12879,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "441,911 ÷ 53",
+        "answer": 8337.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 185,
+    "date": "2026-10-23",
+    "questions": [
+      {
+        "expression": "8 × 2",
+        "answer": 16,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "680 + 997",
+        "answer": 1677,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "82 × 14",
+        "answer": 1148,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "876 × 27",
+        "answer": 23652,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "9686 × 263",
+        "answer": 2547418,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 186,
+    "date": "2026-10-24",
+    "questions": [
+      {
+        "expression": "96 − 79",
+        "answer": 17,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "999 + 670",
+        "answer": 1669,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "91 × 29",
+        "answer": 2639,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "457 × 42 − 707",
+        "answer": 18487,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "991 × 52 + 45 × 991",
+        "answer": 96127,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 187,
+    "date": "2026-10-25",
+    "questions": [
+      {
+        "expression": "50 − 44",
+        "answer": 6,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "547 + 401",
+        "answer": 948,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "943 + 301",
+        "answer": 1244,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "327 × 44",
+        "answer": 14388,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "965,238 ÷ 99",
+        "answer": 9749.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 188,
+    "date": "2026-10-26",
+    "questions": [
+      {
+        "expression": "45 + 10",
+        "answer": 55,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "681 − 415",
+        "answer": 266,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "769 + 264",
+        "answer": 1033,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "801 × 82",
+        "answer": 65682,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "950 × 41 + 21 × 950",
+        "answer": 58900,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 189,
+    "date": "2026-10-27",
+    "questions": [
+      {
+        "expression": "71 + 12",
+        "answer": 83,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "83 × 39",
+        "answer": 3237,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "572 − 135",
+        "answer": 437,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "298 × 65",
+        "answer": 19370,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3671 × 881",
+        "answer": 3234151,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 190,
+    "date": "2026-10-28",
+    "questions": [
+      {
+        "expression": "13 + 65",
+        "answer": 78,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "15 × 14",
+        "answer": 210,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "361 − 262",
+        "answer": 99,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "444 × 38 − 528",
+        "answer": 16344,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "1990 × 580",
+        "answer": 1154200,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 191,
+    "date": "2026-10-29",
+    "questions": [
+      {
+        "expression": "6 × 5",
+        "answer": 30,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "85 × 11",
+        "answer": 935,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "34 × 38",
+        "answer": 1292,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "125 × 28",
+        "answer": 3500,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "24,672 ÷ 22",
+        "answer": 1121.5,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 192,
+    "date": "2026-10-30",
+    "questions": [
+      {
+        "expression": "83 − 54",
+        "answer": 29,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "948 − 479",
+        "answer": 469,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "248 − 153",
+        "answer": 95,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "392 × 88",
+        "answer": 34496,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "143,232 ÷ 65",
+        "answer": 2203.6,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 193,
+    "date": "2026-10-31",
+    "questions": [
+      {
+        "expression": "97 − 80",
+        "answer": 17,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "34 × 29",
+        "answer": 986,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "46 × 26",
+        "answer": 1196,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "151 × 19",
+        "answer": 2869,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3441 × 483",
+        "answer": 1662003,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 194,
+    "date": "2026-11-01",
+    "questions": [
+      {
+        "expression": "55 + 89",
+        "answer": 144,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "98 × 26",
+        "answer": 2548,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "681 − 144",
+        "answer": 537,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "199 × 23 + 327",
+        "answer": 4904,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "475,975 ÷ 59",
+        "answer": 8067.4,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 195,
+    "date": "2026-11-02",
+    "questions": [
+      {
+        "expression": "44 + 10",
+        "answer": 54,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "784 + 175",
+        "answer": 959,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "980 − 669",
+        "answer": 311,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "425 × 57",
+        "answer": 24225,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "799 × 30 + 85 × 799",
+        "answer": 91885,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 196,
+    "date": "2026-11-03",
+    "questions": [
+      {
+        "expression": "12 × 11",
+        "answer": 132,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "677 − 364",
+        "answer": 313,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "28 × 24",
+        "answer": 672,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "543 × 67",
+        "answer": 36381,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "6814 × 505",
+        "answer": 3441070,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 197,
+    "date": "2026-11-04",
+    "questions": [
+      {
+        "expression": "25 − 14",
+        "answer": 11,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "50 × 32",
+        "answer": 1600,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "623 − 317",
+        "answer": 306,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "633 × 64",
+        "answer": 40512,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "287,067 ÷ 31",
+        "answer": 9260.2,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 198,
+    "date": "2026-11-05",
+    "questions": [
+      {
+        "expression": "73 − 28",
+        "answer": 45,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "663 + 632",
+        "answer": 1295,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "57 × 15",
+        "answer": 855,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "2963 + 1989 − 689",
+        "answer": 4263,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "7577 × 599",
+        "answer": 4538623,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 199,
+    "date": "2026-11-06",
+    "questions": [
+      {
+        "expression": "30 − 18",
+        "answer": 12,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "721 − 493",
+        "answer": 228,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "920 + 633",
+        "answer": 1553,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "187 × 14 + 308",
+        "answer": 2926,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "495,978 ÷ 76",
+        "answer": 6526,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 200,
+    "date": "2026-11-07",
+    "questions": [
+      {
+        "expression": "6 × 9",
+        "answer": 54,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "481 − 112",
+        "answer": 369,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "20 × 25",
+        "answer": 500,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "850 × 66",
+        "answer": 56100,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "198,646 ÷ 21",
+        "answer": 9459.3,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 201,
+    "date": "2026-11-08",
+    "questions": [
+      {
+        "expression": "10 × 12",
+        "answer": 120,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "751 − 338",
+        "answer": 413,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "910 − 386",
+        "answer": 524,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4370 + 1056 − 703",
+        "answer": 4723,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "276,654 ÷ 71",
+        "answer": 3896.5,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 202,
+    "date": "2026-11-09",
+    "questions": [
+      {
+        "expression": "9 × 6",
+        "answer": 54,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "549 + 966",
+        "answer": 1515,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "737 + 614",
+        "answer": 1351,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "7186 + 8492 − 604",
+        "answer": 15074,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "632,686 ÷ 90",
+        "answer": 7029.8,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 203,
+    "date": "2026-11-10",
+    "questions": [
+      {
+        "expression": "64 + 30",
+        "answer": 94,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "34 × 42",
+        "answer": 1428,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "931 − 543",
+        "answer": 388,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "2499 + 2302 − 577",
+        "answer": 4224,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "107,997 ÷ 15",
+        "answer": 7199.8,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 204,
+    "date": "2026-11-11",
+    "questions": [
+      {
+        "expression": "73 − 48",
+        "answer": 25,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "511 + 857",
+        "answer": 1368,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "957 + 303",
+        "answer": 1260,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "334 × 12 + 641",
+        "answer": 4649,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "109,502 ÷ 71",
+        "answer": 1542.3,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 205,
+    "date": "2026-11-12",
+    "questions": [
+      {
+        "expression": "32 − 25",
+        "answer": 7,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "751 − 547",
+        "answer": 204,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "68 × 19",
+        "answer": 1292,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "360 × 62",
+        "answer": 22320,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "987 × 49 + 40 × 987",
+        "answer": 87843,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 206,
+    "date": "2026-11-13",
+    "questions": [
+      {
+        "expression": "63 + 78",
+        "answer": 141,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "883 + 180",
+        "answer": 1063,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "215 + 853",
+        "answer": 1068,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "248 × 32 + 594",
+        "answer": 8530,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "7249 × 404",
+        "answer": 2928596,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 207,
+    "date": "2026-11-14",
+    "questions": [
+      {
+        "expression": "76 − 25",
+        "answer": 51,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "495 − 267",
+        "answer": 228,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "788 + 176",
+        "answer": 964,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "272 × 49 − 579",
+        "answer": 12749,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "208,072 ÷ 39",
+        "answer": 5335.2,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 208,
+    "date": "2026-11-15",
+    "questions": [
+      {
+        "expression": "2 × 12",
+        "answer": 24,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "321 + 764",
+        "answer": 1085,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "72 × 27",
+        "answer": 1944,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "2742 + 2124 − 265",
+        "answer": 4601,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "118,653 ÷ 21",
+        "answer": 5650.1,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 209,
+    "date": "2026-11-16",
+    "questions": [
+      {
+        "expression": "81 − 63",
+        "answer": 18,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "944 + 432",
+        "answer": 1376,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "666 + 372",
+        "answer": 1038,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "432 × 39 − 787",
+        "answer": 16061,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "8632 × 729",
+        "answer": 6292728,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 210,
+    "date": "2026-11-17",
+    "questions": [
+      {
+        "expression": "12 × 12",
+        "answer": 144,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "218 + 576",
+        "answer": 794,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "689 − 207",
+        "answer": 482,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "392 × 39",
+        "answer": 15288,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "193,914 ÷ 74",
+        "answer": 2620.5,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 211,
+    "date": "2026-11-18",
+    "questions": [
+      {
+        "expression": "5 × 8",
+        "answer": 40,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "48 × 34",
+        "answer": 1632,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "428 − 226",
+        "answer": 202,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "232 × 35 + 525",
+        "answer": 8645,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3488 × 959",
+        "answer": 3344992,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 212,
+    "date": "2026-11-19",
+    "questions": [
+      {
+        "expression": "11 × 11",
+        "answer": 121,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "344 + 314",
+        "answer": 658,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "264 + 840",
+        "answer": 1104,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "5685 + 7581 − 971",
+        "answer": 12295,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "149 × 38 + 69 × 149",
+        "answer": 15943,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 213,
+    "date": "2026-11-20",
+    "questions": [
+      {
+        "expression": "5 × 11",
+        "answer": 55,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "887 − 664",
+        "answer": 223,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "55 × 39",
+        "answer": 2145,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "1513 + 2058 − 363",
+        "answer": 3208,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "25,453 ÷ 7",
+        "answer": 3636.1,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 214,
+    "date": "2026-11-21",
+    "questions": [
+      {
+        "expression": "71 + 98",
+        "answer": 169,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "205 + 719",
+        "answer": 924,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "29 × 13",
+        "answer": 377,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "216 × 20 − 152",
+        "answer": 4168,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "2944 × 726",
+        "answer": 2137344,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 215,
+    "date": "2026-11-22",
+    "questions": [
+      {
+        "expression": "66 − 15",
+        "answer": 51,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "831 − 652",
+        "answer": 179,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "990 + 771",
+        "answer": 1761,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "957 × 56",
+        "answer": 53592,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "44,468 ÷ 11",
+        "answer": 4042.5,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 216,
+    "date": "2026-11-23",
+    "questions": [
+      {
+        "expression": "3 × 2",
+        "answer": 6,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "31 × 34",
+        "answer": 1054,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "484 + 206",
+        "answer": 690,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "2851 + 7255 − 975",
+        "answer": 9131,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "955 × 33 + 11 × 955",
+        "answer": 42020,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 217,
+    "date": "2026-11-24",
+    "questions": [
+      {
+        "expression": "22 − 11",
+        "answer": 11,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "40 × 12",
+        "answer": 480,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "707 + 625",
+        "answer": 1332,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "128 × 37 + 241",
+        "answer": 4977,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "7816 × 912",
+        "answer": 7128192,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 218,
+    "date": "2026-11-25",
+    "questions": [
+      {
+        "expression": "12 × 10",
+        "answer": 120,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "785 − 213",
+        "answer": 572,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "586 − 492",
+        "answer": 94,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4479 + 9203 − 798",
+        "answer": 12884,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "814 × 23 + 42 × 814",
+        "answer": 52910,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 219,
+    "date": "2026-11-26",
+    "questions": [
+      {
+        "expression": "45 + 28",
+        "answer": 73,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "345 + 633",
+        "answer": 978,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "71 × 22",
+        "answer": 1562,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "750 × 49",
+        "answer": 36750,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "978 × 46 + 79 × 978",
+        "answer": 122250,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 220,
+    "date": "2026-11-27",
+    "questions": [
+      {
+        "expression": "82 − 81",
+        "answer": 1,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "946 + 826",
+        "answer": 1772,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "717 + 982",
+        "answer": 1699,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9006 + 2926 − 596",
+        "answer": 11336,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "432 × 74 + 84 × 432",
+        "answer": 68256,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 221,
+    "date": "2026-11-28",
+    "questions": [
+      {
+        "expression": "81 + 46",
+        "answer": 127,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "792 + 240",
+        "answer": 1032,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "90 × 32",
+        "answer": 2880,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "105 × 58",
+        "answer": 6090,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "898 × 89 + 26 × 898",
+        "answer": 103270,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 222,
+    "date": "2026-11-29",
+    "questions": [
+      {
+        "expression": "6 × 5",
+        "answer": 30,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "271 − 120",
+        "answer": 151,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "113 + 550",
+        "answer": 663,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "610 × 69",
+        "answer": 42090,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "2005 × 837",
+        "answer": 1678185,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 223,
+    "date": "2026-11-30",
+    "questions": [
+      {
+        "expression": "7 × 11",
+        "answer": 77,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "508 + 586",
+        "answer": 1094,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "44 × 49",
+        "answer": 2156,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "455 × 32 − 803",
+        "answer": 13757,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "410,007 ÷ 45",
+        "answer": 9111.3,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 224,
+    "date": "2026-12-01",
+    "questions": [
+      {
+        "expression": "33 − 27",
+        "answer": 6,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "135 + 377",
+        "answer": 512,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "38 × 45",
+        "answer": 1710,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "655 × 65",
+        "answer": 42575,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "728,064 ÷ 91",
+        "answer": 8000.7,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 225,
+    "date": "2026-12-02",
+    "questions": [
+      {
+        "expression": "12 × 9",
+        "answer": 108,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "238 − 127",
+        "answer": 111,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "611 − 259",
+        "answer": 352,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "155 × 22 + 740",
+        "answer": 4150,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "107 × 75 + 99 × 107",
+        "answer": 18618,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 226,
+    "date": "2026-12-03",
+    "questions": [
+      {
+        "expression": "89 − 14",
+        "answer": 75,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "704 + 178",
+        "answer": 882,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "634 + 263",
+        "answer": 897,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "240 × 16 − 189",
+        "answer": 3651,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "219,669 ÷ 49",
+        "answer": 4483,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 227,
+    "date": "2026-12-04",
+    "questions": [
+      {
+        "expression": "4 × 11",
+        "answer": 44,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "62 × 21",
+        "answer": 1302,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "922 − 260",
+        "answer": 662,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "599 × 21",
+        "answer": 12579,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "945 × 39 + 13 × 945",
+        "answer": 49140,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 228,
+    "date": "2026-12-05",
+    "questions": [
+      {
+        "expression": "9 × 6",
+        "answer": 54,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "75 × 42",
+        "answer": 3150,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "646 + 608",
+        "answer": 1254,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "353 × 23 − 520",
+        "answer": 7599,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "185 × 12 + 92 × 185",
+        "answer": 19240,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 229,
+    "date": "2026-12-06",
+    "questions": [
+      {
+        "expression": "95 − 31",
+        "answer": 64,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "76 × 22",
+        "answer": 1672,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "94 × 30",
+        "answer": 2820,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "784 × 54",
+        "answer": 42336,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "4407 × 712",
+        "answer": 3137784,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 230,
+    "date": "2026-12-07",
+    "questions": [
+      {
+        "expression": "94 + 95",
+        "answer": 189,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "78 × 40",
+        "answer": 3120,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "374 + 208",
+        "answer": 582,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "638 × 65",
+        "answer": 41470,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "173,807 ÷ 39",
+        "answer": 4456.6,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 231,
+    "date": "2026-12-08",
+    "questions": [
+      {
+        "expression": "44 − 19",
+        "answer": 25,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "951 + 471",
+        "answer": 1422,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "851 + 350",
+        "answer": 1201,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "303 × 37 + 502",
+        "answer": 11713,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "849 × 27 + 28 × 849",
+        "answer": 46695,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 232,
+    "date": "2026-12-09",
+    "questions": [
+      {
+        "expression": "73 + 14",
+        "answer": 87,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "32 × 14",
+        "answer": 448,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "692 − 254",
+        "answer": 438,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4679 + 5405 − 639",
+        "answer": 9445,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3073 × 872",
+        "answer": 2679656,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 233,
+    "date": "2026-12-10",
+    "questions": [
+      {
+        "expression": "28 + 32",
+        "answer": 60,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "806 + 929",
+        "answer": 1735,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "678 + 148",
+        "answer": 826,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "373 × 74",
+        "answer": 27602,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5691 × 481",
+        "answer": 2737371,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 234,
+    "date": "2026-12-11",
+    "questions": [
+      {
+        "expression": "20 − 18",
+        "answer": 2,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "504 − 320",
+        "answer": 184,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "795 + 223",
+        "answer": 1018,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "5183 + 2660 − 770",
+        "answer": 7073,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "706 × 57 + 71 × 706",
+        "answer": 90368,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 235,
+    "date": "2026-12-12",
+    "questions": [
+      {
+        "expression": "4 × 5",
+        "answer": 20,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "655 − 436",
+        "answer": 219,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "48 × 47",
+        "answer": 2256,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "7753 + 2599 − 229",
+        "answer": 10123,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "930 × 71 + 14 × 930",
+        "answer": 79050,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 236,
+    "date": "2026-12-13",
+    "questions": [
+      {
+        "expression": "95 − 67",
+        "answer": 28,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "79 × 46",
+        "answer": 3634,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "72 × 35",
+        "answer": 2520,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "423 × 41 − 304",
+        "answer": 17039,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "566 × 52 + 47 × 566",
+        "answer": 56034,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 237,
+    "date": "2026-12-14",
+    "questions": [
+      {
+        "expression": "9 × 6",
+        "answer": 54,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "37 × 26",
+        "answer": 962,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "568 − 462",
+        "answer": 106,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "322 × 48 − 228",
+        "answer": 15228,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "189,604 ÷ 46",
+        "answer": 4121.8,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 238,
+    "date": "2026-12-15",
+    "questions": [
+      {
+        "expression": "62 − 19",
+        "answer": 43,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "766 − 274",
+        "answer": 492,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "768 − 398",
+        "answer": 370,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "959 × 18",
+        "answer": 17262,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "439,265 ÷ 45",
+        "answer": 9761.4,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 239,
+    "date": "2026-12-16",
+    "questions": [
+      {
+        "expression": "96 + 35",
+        "answer": 131,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "571 − 396",
+        "answer": 175,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "67 × 32",
+        "answer": 2144,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "5628 + 1399 − 586",
+        "answer": 6441,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "430 × 87 + 29 × 430",
+        "answer": 49880,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 240,
+    "date": "2026-12-17",
+    "questions": [
+      {
+        "expression": "53 − 26",
+        "answer": 27,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "460 − 156",
+        "answer": 304,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "44 × 28",
+        "answer": 1232,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "597 × 79",
+        "answer": 47163,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "8529 × 667",
+        "answer": 5688843,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 241,
+    "date": "2026-12-18",
+    "questions": [
+      {
+        "expression": "5 × 7",
+        "answer": 35,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "326 + 935",
+        "answer": 1261,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "578 + 804",
+        "answer": 1382,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "799 × 30",
+        "answer": 23970,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "90,358 ÷ 22",
+        "answer": 4107.2,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 242,
+    "date": "2026-12-19",
+    "questions": [
+      {
+        "expression": "94 − 90",
+        "answer": 4,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "763 − 412",
+        "answer": 351,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "351 + 229",
+        "answer": 580,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "3591 + 5888 − 829",
+        "answer": 8650,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "585 × 15 + 74 × 585",
+        "answer": 52065,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 243,
+    "date": "2026-12-20",
+    "questions": [
+      {
+        "expression": "7 × 11",
+        "answer": 77,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "477 − 255",
+        "answer": 222,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "48 × 11",
+        "answer": 528,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "404 × 34 − 207",
+        "answer": 13529,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "232,862 ÷ 34",
+        "answer": 6848.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 244,
+    "date": "2026-12-21",
+    "questions": [
+      {
+        "expression": "56 − 32",
+        "answer": 24,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "602 − 102",
+        "answer": 500,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "709 − 318",
+        "answer": 391,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "155 × 35 + 122",
+        "answer": 5547,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "865 × 90 + 96 × 865",
+        "answer": 160890,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 245,
+    "date": "2026-12-22",
+    "questions": [
+      {
+        "expression": "6 × 8",
+        "answer": 48,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "453 − 379",
+        "answer": 74,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "528 − 430",
+        "answer": 98,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "324 × 32 + 694",
+        "answer": 11062,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "157,104 ÷ 54",
+        "answer": 2909.3,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 246,
+    "date": "2026-12-23",
+    "questions": [
+      {
+        "expression": "63 − 59",
+        "answer": 4,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "267 − 209",
+        "answer": 58,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "56 × 49",
+        "answer": 2744,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "472 × 25 − 844",
+        "answer": 10956,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "861 × 93 + 24 × 861",
+        "answer": 100737,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 247,
+    "date": "2026-12-24",
+    "questions": [
+      {
+        "expression": "43 + 44",
+        "answer": 87,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "878 + 195",
+        "answer": 1073,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "513 − 180",
+        "answer": 333,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "348 × 21 − 341",
+        "answer": 6967,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "514,088 ÷ 55",
+        "answer": 9347.1,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 248,
+    "date": "2026-12-25",
+    "questions": [
+      {
+        "expression": "58 − 35",
+        "answer": 23,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "411 − 350",
+        "answer": 61,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "782 − 111",
+        "answer": 671,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9846 + 3784 − 189",
+        "answer": 13441,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "567 × 49 + 34 × 567",
+        "answer": 47061,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 249,
+    "date": "2026-12-26",
+    "questions": [
+      {
+        "expression": "5 × 12",
+        "answer": 60,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "973 − 491",
+        "answer": 482,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "943 − 734",
+        "answer": 209,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "1680 + 5328 − 363",
+        "answer": 6645,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "893 × 87 + 66 × 893",
+        "answer": 136629,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 250,
+    "date": "2026-12-27",
+    "questions": [
+      {
+        "expression": "8 × 8",
+        "answer": 64,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "731 + 404",
+        "answer": 1135,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "287 + 423",
+        "answer": 710,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "1965 + 4348 − 837",
+        "answer": 5476,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "7944 × 907",
+        "answer": 7205208,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 251,
+    "date": "2026-12-28",
+    "questions": [
+      {
+        "expression": "97 + 12",
+        "answer": 109,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "981 + 839",
+        "answer": 1820,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "424 + 793",
+        "answer": 1217,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4181 + 6563 − 189",
+        "answer": 10555,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "34,189 ÷ 78",
+        "answer": 438.3,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 252,
+    "date": "2026-12-29",
+    "questions": [
+      {
+        "expression": "52 + 58",
+        "answer": 110,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "44 × 25",
+        "answer": 1100,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "680 − 349",
+        "answer": 331,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "55 × 38 + 491",
+        "answer": 2581,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "205,326 ÷ 31",
+        "answer": 6623.4,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 253,
+    "date": "2026-12-30",
+    "questions": [
+      {
+        "expression": "86 − 39",
+        "answer": 47,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "724 − 290",
+        "answer": 434,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "145 + 416",
+        "answer": 561,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "51 × 24 + 370",
+        "answer": 1594,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5699 × 354",
+        "answer": 2017446,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 254,
+    "date": "2026-12-31",
+    "questions": [
+      {
+        "expression": "2 × 10",
+        "answer": 20,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "912 − 625",
+        "answer": 287,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "369 + 579",
+        "answer": 948,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "8913 + 7263 − 947",
+        "answer": 15229,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "697,673 ÷ 82",
+        "answer": 8508.2,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 255,
+    "date": "2027-01-01",
+    "questions": [
+      {
+        "expression": "52 + 56",
+        "answer": 108,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "99 × 12",
+        "answer": 1188,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "336 + 244",
+        "answer": 580,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "276 × 48",
+        "answer": 13248,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "847 × 72 + 17 × 847",
+        "answer": 75383,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 256,
+    "date": "2027-01-02",
+    "questions": [
+      {
+        "expression": "9 × 3",
+        "answer": 27,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "837 + 554",
+        "answer": 1391,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "591 + 667",
+        "answer": 1258,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "792 × 83",
+        "answer": 65736,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "354 × 61 + 43 × 354",
+        "answer": 36816,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 257,
+    "date": "2027-01-03",
+    "questions": [
+      {
+        "expression": "58 − 25",
+        "answer": 33,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "911 + 989",
+        "answer": 1900,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "131 + 642",
+        "answer": 773,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "844 × 65",
+        "answer": 54860,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "727 × 77 + 28 × 727",
+        "answer": 76335,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 258,
+    "date": "2027-01-04",
+    "questions": [
+      {
+        "expression": "12 × 10",
+        "answer": 120,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "57 × 36",
+        "answer": 2052,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "446 + 460",
+        "answer": 906,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "7822 + 8107 − 639",
+        "answer": 15290,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "692,006 ÷ 93",
+        "answer": 7440.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 259,
+    "date": "2027-01-05",
+    "questions": [
+      {
+        "expression": "52 − 28",
+        "answer": 24,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "513 − 117",
+        "answer": 396,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "436 + 849",
+        "answer": 1285,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "368 × 30 + 920",
+        "answer": 11960,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "264 × 69 + 14 × 264",
+        "answer": 21912,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 260,
+    "date": "2027-01-06",
+    "questions": [
+      {
+        "expression": "85 + 21",
+        "answer": 106,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "82 × 45",
+        "answer": 3690,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "399 − 299",
+        "answer": 100,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "473 × 16 + 444",
+        "answer": 8012,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "204,443 ÷ 69",
+        "answer": 2962.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 261,
+    "date": "2027-01-07",
+    "questions": [
+      {
+        "expression": "55 − 27",
+        "answer": 28,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "526 + 387",
+        "answer": 913,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "452 − 333",
+        "answer": 119,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4277 + 5354 − 975",
+        "answer": 8656,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "138 × 90 + 32 × 138",
+        "answer": 16836,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 262,
+    "date": "2027-01-08",
+    "questions": [
+      {
+        "expression": "90 − 14",
+        "answer": 76,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "472 − 268",
+        "answer": 204,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "208 − 101",
+        "answer": 107,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9576 + 6477 − 837",
+        "answer": 15216,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "388 × 68 + 76 × 388",
+        "answer": 55872,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 263,
+    "date": "2027-01-09",
+    "questions": [
+      {
+        "expression": "6 × 5",
+        "answer": 30,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "813 − 676",
+        "answer": 137,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "11 × 24",
+        "answer": 264,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "222 × 32 − 559",
+        "answer": 6545,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "776,332 ÷ 93",
+        "answer": 8347.7,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 264,
+    "date": "2027-01-10",
+    "questions": [
+      {
+        "expression": "5 × 6",
+        "answer": 30,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "483 − 182",
+        "answer": 301,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "812 + 971",
+        "answer": 1783,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "483 × 18",
+        "answer": 8694,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5819 × 252",
+        "answer": 1466388,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 265,
+    "date": "2027-01-11",
+    "questions": [
+      {
+        "expression": "91 − 60",
+        "answer": 31,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "411 + 905",
+        "answer": 1316,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "558 + 540",
+        "answer": 1098,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "2982 + 3182 − 272",
+        "answer": 5892,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "559,163 ÷ 98",
+        "answer": 5705.7,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 266,
+    "date": "2027-01-12",
+    "questions": [
+      {
+        "expression": "42 + 37",
+        "answer": 79,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "73 × 42",
+        "answer": 3066,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "65 × 12",
+        "answer": 780,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "267 × 38 − 423",
+        "answer": 9723,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "226 × 65 + 16 × 226",
+        "answer": 18306,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 267,
+    "date": "2027-01-13",
+    "questions": [
+      {
+        "expression": "4 × 10",
+        "answer": 40,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "305 − 116",
+        "answer": 189,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "845 − 473",
+        "answer": 372,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "582 × 63",
+        "answer": 36666,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "33,164 ÷ 38",
+        "answer": 872.7,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 268,
+    "date": "2027-01-14",
+    "questions": [
+      {
+        "expression": "72 − 69",
+        "answer": 3,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "96 × 29",
+        "answer": 2784,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "214 + 431",
+        "answer": 645,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "914 × 72",
+        "answer": 65808,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "1154 × 180",
+        "answer": 207720,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 269,
+    "date": "2027-01-15",
+    "questions": [
+      {
+        "expression": "83 + 46",
+        "answer": 129,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "216 + 881",
+        "answer": 1097,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "515 + 253",
+        "answer": 768,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "440 × 62",
+        "answer": 27280,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "705 × 20 + 58 × 705",
+        "answer": 54990,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 270,
+    "date": "2027-01-16",
+    "questions": [
+      {
+        "expression": "12 × 10",
+        "answer": 120,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "13 × 27",
+        "answer": 351,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "997 + 662",
+        "answer": 1659,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9037 + 6969 − 272",
+        "answer": 15734,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "50,547 ÷ 23",
+        "answer": 2197.7,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 271,
+    "date": "2027-01-17",
+    "questions": [
+      {
+        "expression": "38 − 37",
+        "answer": 1,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "539 − 143",
+        "answer": 396,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "52 × 18",
+        "answer": 936,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "358 × 44",
+        "answer": 15752,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "621 × 69 + 30 × 621",
+        "answer": 61479,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 272,
+    "date": "2027-01-18",
+    "questions": [
+      {
+        "expression": "47 − 39",
+        "answer": 8,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "167 + 121",
+        "answer": 288,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "29 × 49",
+        "answer": 1421,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "578 × 92",
+        "answer": 53176,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "8797 × 753",
+        "answer": 6624141,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 273,
+    "date": "2027-01-19",
+    "questions": [
+      {
+        "expression": "28 − 16",
+        "answer": 12,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "558 + 876",
+        "answer": 1434,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "16 × 46",
+        "answer": 736,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "7159 + 8682 − 441",
+        "answer": 15400,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "583,462 ÷ 72",
+        "answer": 8103.6,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 274,
+    "date": "2027-01-20",
+    "questions": [
+      {
+        "expression": "50 + 41",
+        "answer": 91,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "274 − 102",
+        "answer": 172,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "95 × 13",
+        "answer": 1235,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "1493 + 1451 − 154",
+        "answer": 2790,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "637 × 82 + 50 × 637",
+        "answer": 84084,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 275,
+    "date": "2027-01-21",
+    "questions": [
+      {
+        "expression": "95 + 96",
+        "answer": 191,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "264 + 504",
+        "answer": 768,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "45 × 42",
+        "answer": 1890,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "6646 + 3411 − 448",
+        "answer": 9609,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "4855 × 148",
+        "answer": 718540,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 276,
+    "date": "2027-01-22",
+    "questions": [
+      {
+        "expression": "91 − 16",
+        "answer": 75,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "864 − 693",
+        "answer": 171,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "952 + 589",
+        "answer": 1541,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "313 × 36 + 572",
+        "answer": 11840,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "4931 × 547",
+        "answer": 2697257,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 277,
+    "date": "2027-01-23",
+    "questions": [
+      {
+        "expression": "83 + 53",
+        "answer": 136,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "628 − 222",
+        "answer": 406,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "478 − 194",
+        "answer": 284,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "119 × 40",
+        "answer": 4760,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "8473 × 290",
+        "answer": 2457170,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 278,
+    "date": "2027-01-24",
+    "questions": [
+      {
+        "expression": "25 + 61",
+        "answer": 86,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "661 − 229",
+        "answer": 432,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "60 × 17",
+        "answer": 1020,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "846 × 72",
+        "answer": 60912,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "362 × 95 + 78 × 362",
+        "answer": 62626,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 279,
+    "date": "2027-01-25",
+    "questions": [
+      {
+        "expression": "6 × 8",
+        "answer": 48,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "54 × 14",
+        "answer": 756,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "934 + 106",
+        "answer": 1040,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "3999 + 4550 − 758",
+        "answer": 7791,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "951 × 78 + 71 × 951",
+        "answer": 141699,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 280,
+    "date": "2027-01-26",
+    "questions": [
+      {
+        "expression": "4 × 9",
+        "answer": 36,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "60 × 26",
+        "answer": 1560,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "412 + 939",
+        "answer": 1351,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "196 × 50 − 253",
+        "answer": 9547,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "4649 × 566",
+        "answer": 2631334,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 281,
+    "date": "2027-01-27",
+    "questions": [
+      {
+        "expression": "55 + 71",
+        "answer": 126,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "723 + 905",
+        "answer": 1628,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "671 + 717",
+        "answer": 1388,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4155 + 6273 − 279",
+        "answer": 10149,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "279 × 91 + 81 × 279",
+        "answer": 47988,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 282,
+    "date": "2027-01-28",
+    "questions": [
+      {
+        "expression": "11 × 9",
+        "answer": 99,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "76 × 15",
+        "answer": 1140,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "448 − 294",
+        "answer": 154,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "459 × 12 + 822",
+        "answer": 6330,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "6438 × 894",
+        "answer": 5755572,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 283,
+    "date": "2027-01-29",
+    "questions": [
+      {
+        "expression": "40 + 41",
+        "answer": 81,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "73 × 13",
+        "answer": 949,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "98 × 38",
+        "answer": 3724,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "841 × 23",
+        "answer": 19343,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5527 × 266",
+        "answer": 1470182,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 284,
+    "date": "2027-01-30",
+    "questions": [
+      {
+        "expression": "89 + 51",
+        "answer": 140,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "59 × 18",
+        "answer": 1062,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "20 × 15",
+        "answer": 300,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "442 × 44 + 874",
+        "answer": 20322,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5401 × 229",
+        "answer": 1236829,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 285,
+    "date": "2027-01-31",
+    "questions": [
+      {
+        "expression": "6 × 6",
+        "answer": 36,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "553 − 147",
+        "answer": 406,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "57 × 40",
+        "answer": 2280,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "113 × 22 − 951",
+        "answer": 1535,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "1217 × 509",
+        "answer": 619453,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 286,
+    "date": "2027-02-01",
+    "questions": [
+      {
+        "expression": "40 − 20",
+        "answer": 20,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "944 − 823",
+        "answer": 121,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "710 + 860",
+        "answer": 1570,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "6572 + 9259 − 581",
+        "answer": 15250,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "7059 × 825",
+        "answer": 5823675,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 287,
+    "date": "2027-02-02",
+    "questions": [
+      {
+        "expression": "79 + 54",
+        "answer": 133,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "268 − 108",
+        "answer": 160,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "773 − 533",
+        "answer": 240,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "194 × 16",
+        "answer": 3104,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "4740 × 593",
+        "answer": 2810820,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 288,
+    "date": "2027-02-03",
+    "questions": [
+      {
+        "expression": "8 × 10",
+        "answer": 80,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "632 − 445",
+        "answer": 187,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "932 + 463",
+        "answer": 1395,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "522 × 37",
+        "answer": 19314,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3178 × 114",
+        "answer": 362292,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 289,
+    "date": "2027-02-04",
+    "questions": [
+      {
+        "expression": "15 + 80",
+        "answer": 95,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "452 − 340",
+        "answer": 112,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "82 × 13",
+        "answer": 1066,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "284 × 18 + 514",
+        "answer": 5626,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "1332 × 460",
+        "answer": 612720,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 290,
+    "date": "2027-02-05",
+    "questions": [
+      {
+        "expression": "71 + 85",
+        "answer": 156,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "495 − 358",
+        "answer": 137,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "82 × 24",
+        "answer": 1968,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "682 × 88",
+        "answer": 60016,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "1666 × 221",
+        "answer": 368186,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 291,
+    "date": "2027-02-06",
+    "questions": [
+      {
+        "expression": "58 − 18",
+        "answer": 40,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "880 − 535",
+        "answer": 345,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "268 + 419",
+        "answer": 687,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "6781 + 8125 − 694",
+        "answer": 14212,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "119,638 ÷ 52",
+        "answer": 2300.7,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 292,
+    "date": "2027-02-07",
+    "questions": [
+      {
+        "expression": "31 − 28",
+        "answer": 3,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "60 × 11",
+        "answer": 660,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "814 + 167",
+        "answer": 981,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "7547 + 1707 − 200",
+        "answer": 9054,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "7788 × 162",
+        "answer": 1261656,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 293,
+    "date": "2027-02-08",
+    "questions": [
+      {
+        "expression": "85 + 63",
+        "answer": 148,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "798 − 587",
+        "answer": 211,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "129 + 713",
+        "answer": 842,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "391 × 29 − 947",
+        "answer": 10392,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "337,435 ÷ 87",
+        "answer": 3878.6,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 294,
+    "date": "2027-02-09",
+    "questions": [
+      {
+        "expression": "53 + 79",
+        "answer": 132,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "541 + 690",
+        "answer": 1231,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "50 × 31",
+        "answer": 1550,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9191 + 9337 − 744",
+        "answer": 17784,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "207,321 ÷ 58",
+        "answer": 3574.5,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 295,
+    "date": "2027-02-10",
+    "questions": [
+      {
+        "expression": "9 × 9",
+        "answer": 81,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "949 + 456",
+        "answer": 1405,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "333 + 732",
+        "answer": 1065,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "5758 + 3413 − 248",
+        "answer": 8923,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "514 × 10 + 44 × 514",
+        "answer": 27756,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 296,
+    "date": "2027-02-11",
+    "questions": [
+      {
+        "expression": "10 × 10",
+        "answer": 100,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "362 + 630",
+        "answer": 992,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "995 + 690",
+        "answer": 1685,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "386 × 44 − 740",
+        "answer": 16244,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "184,197 ÷ 51",
+        "answer": 3611.7,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 297,
+    "date": "2027-02-12",
+    "questions": [
+      {
+        "expression": "99 − 76",
+        "answer": 23,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "56 × 28",
+        "answer": 1568,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "99 × 12",
+        "answer": 1188,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "5838 + 7009 − 442",
+        "answer": 12405,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "730 × 98 + 33 × 730",
+        "answer": 95630,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 298,
+    "date": "2027-02-13",
+    "questions": [
+      {
+        "expression": "46 − 16",
+        "answer": 30,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "85 × 12",
+        "answer": 1020,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "599 + 348",
+        "answer": 947,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "5625 + 3699 − 521",
+        "answer": 8803,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "938 × 26 + 90 × 938",
+        "answer": 108808,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 299,
+    "date": "2027-02-14",
+    "questions": [
+      {
+        "expression": "11 × 2",
+        "answer": 22,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "92 × 28",
+        "answer": 2576,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "566 − 218",
+        "answer": 348,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "362 × 13 + 713",
+        "answer": 5419,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "129 × 17 + 31 × 129",
+        "answer": 6192,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 300,
+    "date": "2027-02-15",
+    "questions": [
+      {
+        "expression": "66 + 96",
+        "answer": 162,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "40 × 12",
+        "answer": 480,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "63 × 37",
+        "answer": 2331,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "649 × 39",
+        "answer": 25311,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "442 × 49 + 22 × 442",
+        "answer": 31382,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 301,
+    "date": "2027-02-16",
+    "questions": [
+      {
+        "expression": "39 + 36",
+        "answer": 75,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "506 − 318",
+        "answer": 188,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "917 + 824",
+        "answer": 1741,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "598 × 39",
+        "answer": 23322,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "1851 × 117",
+        "answer": 216567,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 302,
+    "date": "2027-02-17",
+    "questions": [
+      {
+        "expression": "56 + 95",
+        "answer": 151,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "82 × 25",
+        "answer": 2050,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "668 − 164",
+        "answer": 504,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "830 × 80",
+        "answer": 66400,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3912 × 955",
+        "answer": 3735960,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 303,
+    "date": "2027-02-18",
+    "questions": [
+      {
+        "expression": "88 − 76",
+        "answer": 12,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "97 × 45",
+        "answer": 4365,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "79 × 26",
+        "answer": 2054,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "370 × 27 + 408",
+        "answer": 10398,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "846 × 48 + 44 × 846",
+        "answer": 77832,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 304,
+    "date": "2027-02-19",
+    "questions": [
+      {
+        "expression": "43 + 37",
+        "answer": 80,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "733 − 675",
+        "answer": 58,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "78 × 47",
+        "answer": 3666,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4213 + 7138 − 942",
+        "answer": 10409,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "123,530 ÷ 67",
+        "answer": 1843.7,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 305,
+    "date": "2027-02-20",
+    "questions": [
+      {
+        "expression": "5 × 12",
+        "answer": 60,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "119 + 727",
+        "answer": 846,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "521 − 422",
+        "answer": 99,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "8905 + 4672 − 743",
+        "answer": 12834,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "881,460 ÷ 89",
+        "answer": 9904,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 306,
+    "date": "2027-02-21",
+    "questions": [
+      {
+        "expression": "53 − 40",
+        "answer": 13,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "468 + 844",
+        "answer": 1312,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "81 × 49",
+        "answer": 3969,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "758 × 34",
+        "answer": 25772,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "113 × 77 + 81 × 113",
+        "answer": 17854,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 307,
+    "date": "2027-02-22",
+    "questions": [
+      {
+        "expression": "7 × 6",
+        "answer": 42,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "19 × 47",
+        "answer": 893,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "508 − 256",
+        "answer": 252,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "268 × 14",
+        "answer": 3752,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "759 × 94 + 72 × 759",
+        "answer": 125994,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 308,
+    "date": "2027-02-23",
+    "questions": [
+      {
+        "expression": "78 − 43",
+        "answer": 35,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "633 − 219",
+        "answer": 414,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "764 + 822",
+        "answer": 1586,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "827 × 95",
+        "answer": 78565,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "133,970 ÷ 15",
+        "answer": 8931.3,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 309,
+    "date": "2027-02-24",
+    "questions": [
+      {
+        "expression": "28 − 26",
+        "answer": 2,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "708 + 513",
+        "answer": 1221,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "68 × 19",
+        "answer": 1292,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9678 + 9148 − 264",
+        "answer": 18562,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "141,690 ÷ 18",
+        "answer": 7871.7,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 310,
+    "date": "2027-02-25",
+    "questions": [
+      {
+        "expression": "45 + 47",
+        "answer": 92,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "258 + 160",
+        "answer": 418,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "36 × 20",
+        "answer": 720,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "323 × 14 − 490",
+        "answer": 4032,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "596,208 ÷ 63",
+        "answer": 9463.6,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 311,
+    "date": "2027-02-26",
+    "questions": [
+      {
+        "expression": "10 × 9",
+        "answer": 90,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "39 × 22",
+        "answer": 858,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "915 − 741",
+        "answer": 174,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "2651 + 3549 − 107",
+        "answer": 6093,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "4640 × 471",
+        "answer": 2185440,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 312,
+    "date": "2027-02-27",
+    "questions": [
+      {
+        "expression": "84 + 67",
+        "answer": 151,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "600 − 150",
+        "answer": 450,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "326 + 924",
+        "answer": 1250,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "8597 + 2242 − 446",
+        "answer": 10393,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "4446 × 149",
+        "answer": 662454,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 313,
+    "date": "2027-02-28",
+    "questions": [
+      {
+        "expression": "74 + 51",
+        "answer": 125,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "853 + 916",
+        "answer": 1769,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "278 + 822",
+        "answer": 1100,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "3478 + 8246 − 193",
+        "answer": 11531,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "661 × 89 + 17 × 661",
+        "answer": 70066,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 314,
+    "date": "2027-03-01",
+    "questions": [
+      {
+        "expression": "85 + 39",
+        "answer": 124,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "84 × 39",
+        "answer": 3276,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "646 − 320",
+        "answer": 326,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "554 × 44",
+        "answer": 24376,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "478,198 ÷ 52",
+        "answer": 9196.1,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 315,
+    "date": "2027-03-02",
+    "questions": [
+      {
+        "expression": "84 + 90",
+        "answer": 174,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "405 + 697",
+        "answer": 1102,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "11 × 38",
+        "answer": 418,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "307 × 45 − 568",
+        "answer": 13247,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "556 × 95 + 57 × 556",
+        "answer": 84512,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 316,
+    "date": "2027-03-03",
+    "questions": [
+      {
+        "expression": "10 × 12",
+        "answer": 120,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "912 − 251",
+        "answer": 661,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "593 − 179",
+        "answer": 414,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "463 × 31 − 112",
+        "answer": 14241,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "143 × 45 + 78 × 143",
+        "answer": 17589,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 317,
+    "date": "2027-03-04",
+    "questions": [
+      {
+        "expression": "5 × 12",
+        "answer": 60,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "528 + 345",
+        "answer": 873,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "52 × 34",
+        "answer": 1768,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "423 × 29 + 334",
+        "answer": 12601,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "484,178 ÷ 91",
+        "answer": 5320.6,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 318,
+    "date": "2027-03-05",
+    "questions": [
+      {
+        "expression": "5 × 11",
+        "answer": 55,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "760 − 513",
+        "answer": 247,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "472 + 528",
+        "answer": 1000,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "147 × 47 + 851",
+        "answer": 7760,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "529 × 96 + 79 × 529",
+        "answer": 92575,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 319,
+    "date": "2027-03-06",
+    "questions": [
+      {
+        "expression": "24 − 16",
+        "answer": 8,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "977 + 472",
+        "answer": 1449,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "787 + 476",
+        "answer": 1263,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "608 × 55",
+        "answer": 33440,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "664 × 82 + 51 × 664",
+        "answer": 88312,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 320,
+    "date": "2027-03-07",
+    "questions": [
+      {
+        "expression": "52 + 82",
+        "answer": 134,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "73 × 17",
+        "answer": 1241,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "598 − 420",
+        "answer": 178,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "67 × 26 − 586",
+        "answer": 1156,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "708 × 78 + 99 × 708",
+        "answer": 125316,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 321,
+    "date": "2027-03-08",
+    "questions": [
+      {
+        "expression": "58 + 48",
+        "answer": 106,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "805 + 202",
+        "answer": 1007,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "349 − 288",
+        "answer": 61,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "530 × 33",
+        "answer": 17490,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "85,549 ÷ 9",
+        "answer": 9505.4,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 322,
+    "date": "2027-03-09",
+    "questions": [
+      {
+        "expression": "83 + 60",
+        "answer": 143,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "34 × 25",
+        "answer": 850,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "735 − 580",
+        "answer": 155,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "6247 + 8241 − 777",
+        "answer": 13711,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "6919 × 974",
+        "answer": 6739106,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 323,
+    "date": "2027-03-10",
+    "questions": [
+      {
+        "expression": "93 − 79",
+        "answer": 14,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "31 × 48",
+        "answer": 1488,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "795 − 675",
+        "answer": 120,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "435 × 24 − 304",
+        "answer": 10136,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "728 × 44 + 67 × 728",
+        "answer": 80808,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 324,
+    "date": "2027-03-11",
+    "questions": [
+      {
+        "expression": "48 + 80",
+        "answer": 128,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "778 + 438",
+        "answer": 1216,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "924 + 339",
+        "answer": 1263,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "325 × 40 + 543",
+        "answer": 13543,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3070 × 454",
+        "answer": 1393780,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 325,
+    "date": "2027-03-12",
+    "questions": [
+      {
+        "expression": "6 × 6",
+        "answer": 36,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "481 − 304",
+        "answer": 177,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "849 − 209",
+        "answer": 640,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "2830 + 9390 − 647",
+        "answer": 11573,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "293,289 ÷ 42",
+        "answer": 6983.1,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 326,
+    "date": "2027-03-13",
+    "questions": [
+      {
+        "expression": "80 − 76",
+        "answer": 4,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "57 × 21",
+        "answer": 1197,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "777 + 504",
+        "answer": 1281,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "81 × 17 − 816",
+        "answer": 561,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "8815 × 647",
+        "answer": 5703305,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 327,
+    "date": "2027-03-14",
+    "questions": [
+      {
+        "expression": "81 − 76",
+        "answer": 5,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "56 × 28",
+        "answer": 1568,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "162 + 122",
+        "answer": 284,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "468 × 95",
+        "answer": 44460,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "5632 × 593",
+        "answer": 3339776,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 328,
+    "date": "2027-03-15",
+    "questions": [
+      {
+        "expression": "5 × 7",
+        "answer": 35,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "748 − 630",
+        "answer": 118,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "73 × 41",
+        "answer": 2993,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "8419 + 7483 − 333",
+        "answer": 15569,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "45,721 ÷ 76",
+        "answer": 601.6,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 329,
+    "date": "2027-03-16",
+    "questions": [
+      {
+        "expression": "21 + 18",
+        "answer": 39,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "447 + 952",
+        "answer": 1399,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "615 − 125",
+        "answer": 490,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "321 × 26 + 607",
+        "answer": 8953,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "100,243 ÷ 35",
+        "answer": 2864.1,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 330,
+    "date": "2027-03-17",
+    "questions": [
+      {
+        "expression": "52 + 22",
+        "answer": 74,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "410 − 343",
+        "answer": 67,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "751 − 522",
+        "answer": 229,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "632 × 84",
+        "answer": 53088,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "157,256 ÷ 18",
+        "answer": 8736.4,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 331,
+    "date": "2027-03-18",
+    "questions": [
+      {
+        "expression": "2 × 8",
+        "answer": 16,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "684 − 257",
+        "answer": 427,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "910 − 441",
+        "answer": 469,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "169 × 25 − 332",
+        "answer": 3893,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "392,579 ÷ 93",
+        "answer": 4221.3,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 332,
+    "date": "2027-03-19",
+    "questions": [
+      {
+        "expression": "50 − 10",
+        "answer": 40,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "264 + 899",
+        "answer": 1163,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "198 + 166",
+        "answer": 364,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "499 × 93",
+        "answer": 46407,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "297 × 13 + 65 × 297",
+        "answer": 23166,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 333,
+    "date": "2027-03-20",
+    "questions": [
+      {
+        "expression": "9 × 12",
+        "answer": 108,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "860 + 769",
+        "answer": 1629,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "756 − 283",
+        "answer": 473,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "943 × 57",
+        "answer": 53751,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "2109 × 451",
+        "answer": 951159,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 334,
+    "date": "2027-03-21",
+    "questions": [
+      {
+        "expression": "27 + 20",
+        "answer": 47,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "11 × 42",
+        "answer": 462,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "211 − 110",
+        "answer": 101,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "111 × 15 − 488",
+        "answer": 1177,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "7018 × 561",
+        "answer": 3937098,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 335,
+    "date": "2027-03-22",
+    "questions": [
+      {
+        "expression": "3 × 11",
+        "answer": 33,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "689 − 333",
+        "answer": 356,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "609 − 230",
+        "answer": 379,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "258 × 25 + 653",
+        "answer": 7103,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "653 × 31 + 10 × 653",
+        "answer": 26773,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 336,
+    "date": "2027-03-23",
+    "questions": [
+      {
+        "expression": "69 + 65",
+        "answer": 134,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "590 − 449",
+        "answer": 141,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "63 × 42",
+        "answer": 2646,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "2024 + 8149 − 322",
+        "answer": 9851,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "10,607 ÷ 11",
+        "answer": 964.3,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 337,
+    "date": "2027-03-24",
+    "questions": [
+      {
+        "expression": "82 + 92",
+        "answer": 174,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "429 − 323",
+        "answer": 106,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "965 − 815",
+        "answer": 150,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "89 × 38 + 777",
+        "answer": 4159,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "105,280 ÷ 80",
+        "answer": 1316,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 338,
+    "date": "2027-03-25",
+    "questions": [
+      {
+        "expression": "11 × 2",
+        "answer": 22,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "383 − 172",
+        "answer": 211,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "653 − 283",
+        "answer": 370,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "373 × 41 + 791",
+        "answer": 16084,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "569 × 81 + 95 × 569",
+        "answer": 100144,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 339,
+    "date": "2027-03-26",
+    "questions": [
+      {
+        "expression": "4 × 6",
+        "answer": 24,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "34 × 15",
+        "answer": 510,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "612 − 173",
+        "answer": 439,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "505 × 52",
+        "answer": 26260,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "4204 × 770",
+        "answer": 3237080,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 340,
+    "date": "2027-03-27",
+    "questions": [
+      {
+        "expression": "10 × 9",
+        "answer": 90,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "11 × 34",
+        "answer": 374,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "85 × 29",
+        "answer": 2465,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "304 × 48 − 839",
+        "answer": 13753,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "619 × 40 + 65 × 619",
+        "answer": 64995,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 341,
+    "date": "2027-03-28",
+    "questions": [
+      {
+        "expression": "69 − 60",
+        "answer": 9,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "29 × 19",
+        "answer": 551,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "857 + 414",
+        "answer": 1271,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "92 × 21 + 706",
+        "answer": 2638,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "171,685 ÷ 74",
+        "answer": 2320.1,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 342,
+    "date": "2027-03-29",
+    "questions": [
+      {
+        "expression": "62 − 24",
+        "answer": 38,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "882 − 108",
+        "answer": 774,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "997 − 782",
+        "answer": 215,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "370 × 19 − 469",
+        "answer": 6561,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "7509 × 117",
+        "answer": 878553,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 343,
+    "date": "2027-03-30",
+    "questions": [
+      {
+        "expression": "8 × 4",
+        "answer": 32,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "459 + 141",
+        "answer": 600,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "990 − 348",
+        "answer": 642,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "210 × 40 + 517",
+        "answer": 8917,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "874 × 26 + 73 × 874",
+        "answer": 86526,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 344,
+    "date": "2027-03-31",
+    "questions": [
+      {
+        "expression": "17 + 15",
+        "answer": 32,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "205 − 151",
+        "answer": 54,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "412 + 175",
+        "answer": 587,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "389 × 43 − 632",
+        "answer": 16095,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "1716 × 940",
+        "answer": 1613040,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 345,
+    "date": "2027-04-01",
+    "questions": [
+      {
+        "expression": "9 × 11",
+        "answer": 99,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "67 × 32",
+        "answer": 2144,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "867 + 340",
+        "answer": 1207,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "548 × 12",
+        "answer": 6576,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "3026 × 354",
+        "answer": 1071204,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 346,
+    "date": "2027-04-02",
+    "questions": [
+      {
+        "expression": "93 + 85",
+        "answer": 178,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "847 + 961",
+        "answer": 1808,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "65 × 43",
+        "answer": 2795,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "117 × 63",
+        "answer": 7371,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "313 × 98 + 43 × 313",
+        "answer": 44133,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 347,
+    "date": "2027-04-03",
+    "questions": [
+      {
+        "expression": "17 + 47",
+        "answer": 64,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "93 × 46",
+        "answer": 4278,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "844 + 771",
+        "answer": 1615,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "310 × 36 − 755",
+        "answer": 10405,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "449 × 32 + 73 × 449",
+        "answer": 47145,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 348,
+    "date": "2027-04-04",
+    "questions": [
+      {
+        "expression": "73 − 66",
+        "answer": 7,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "715 − 162",
+        "answer": 553,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "771 − 713",
+        "answer": 58,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "62 × 25 + 296",
+        "answer": 1846,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "228,268 ÷ 70",
+        "answer": 3261,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 349,
+    "date": "2027-04-05",
+    "questions": [
+      {
+        "expression": "8 × 6",
+        "answer": 48,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "525 + 447",
+        "answer": 972,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "271 + 891",
+        "answer": 1162,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "163 × 56",
+        "answer": 9128,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "594 × 46 + 24 × 594",
+        "answer": 41580,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 350,
+    "date": "2027-04-06",
+    "questions": [
+      {
+        "expression": "5 × 9",
+        "answer": 45,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "85 × 28",
+        "answer": 2380,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "945 + 625",
+        "answer": 1570,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "6254 + 3139 − 653",
+        "answer": 8740,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "448 × 822",
+        "answer": 368256,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 351,
+    "date": "2027-04-07",
+    "questions": [
+      {
+        "expression": "92 − 24",
+        "answer": 68,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "122 + 642",
+        "answer": 764,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "716 + 264",
+        "answer": 980,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "7212 + 4114 − 919",
+        "answer": 10407,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "2683 × 745",
+        "answer": 1998835,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 352,
+    "date": "2027-04-08",
+    "questions": [
+      {
+        "expression": "48 + 30",
+        "answer": 78,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "479 + 789",
+        "answer": 1268,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "11 × 24",
+        "answer": 264,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "485 × 11 + 446",
+        "answer": 5781,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "455 × 45 + 74 × 455",
+        "answer": 54145,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 353,
+    "date": "2027-04-09",
+    "questions": [
+      {
+        "expression": "36 + 21",
+        "answer": 57,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "954 + 201",
+        "answer": 1155,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "759 + 677",
+        "answer": 1436,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4125 + 4143 − 929",
+        "answer": 7339,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "286 × 91 + 18 × 286",
+        "answer": 31174,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 354,
+    "date": "2027-04-10",
+    "questions": [
+      {
+        "expression": "41 − 23",
+        "answer": 18,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "17 × 26",
+        "answer": 442,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "36 × 31",
+        "answer": 1116,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "292 × 57",
+        "answer": 16644,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "662 × 41 + 53 × 662",
+        "answer": 62228,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 355,
+    "date": "2027-04-11",
+    "questions": [
+      {
+        "expression": "7 × 3",
+        "answer": 21,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "335 − 123",
+        "answer": 212,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "374 − 183",
+        "answer": 191,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "4287 + 5798 − 931",
+        "answer": 9154,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "349 × 52 + 88 × 349",
+        "answer": 48860,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 356,
+    "date": "2027-04-12",
+    "questions": [
+      {
+        "expression": "86 + 54",
+        "answer": 140,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "704 − 558",
+        "answer": 146,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "725 + 752",
+        "answer": 1477,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9718 + 9548 − 426",
+        "answer": 18840,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "109 × 88 + 15 × 109",
+        "answer": 11227,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 357,
+    "date": "2027-04-13",
+    "questions": [
+      {
+        "expression": "48 + 42",
+        "answer": 90,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "37 × 19",
+        "answer": 703,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "213 + 207",
+        "answer": 420,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "7147 + 6158 − 664",
+        "answer": 12641,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "687 × 42 + 70 × 687",
+        "answer": 76944,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 358,
+    "date": "2027-04-14",
+    "questions": [
+      {
+        "expression": "26 + 11",
+        "answer": 37,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "408 + 947",
+        "answer": 1355,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "608 + 836",
+        "answer": 1444,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "1888 + 8165 − 700",
+        "answer": 9353,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "461,545 ÷ 77",
+        "answer": 5994.1,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 359,
+    "date": "2027-04-15",
+    "questions": [
+      {
+        "expression": "10 × 6",
+        "answer": 60,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "483 − 114",
+        "answer": 369,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "999 + 162",
+        "answer": 1161,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "9203 + 8291 − 955",
+        "answer": 16539,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "7312 × 450",
+        "answer": 3290400,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 360,
+    "date": "2027-04-16",
+    "questions": [
+      {
+        "expression": "52 − 17",
+        "answer": 35,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "663 − 187",
+        "answer": 476,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "777 + 983",
+        "answer": 1760,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "1926 + 4048 − 565",
+        "answer": 5409,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "170,156 ÷ 33",
+        "answer": 5156.2,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 361,
+    "date": "2027-04-17",
+    "questions": [
+      {
+        "expression": "30 − 16",
+        "answer": 14,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "981 + 816",
+        "answer": 1797,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "646 + 733",
+        "answer": 1379,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "5910 + 2620 − 419",
+        "answer": 8111,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "85,784 ÷ 16",
+        "answer": 5361.5,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 362,
+    "date": "2027-04-18",
+    "questions": [
+      {
+        "expression": "5 × 9",
+        "answer": 45,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "842 + 359",
+        "answer": 1201,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "75 × 49",
+        "answer": 3675,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "960 × 13",
+        "answer": 12480,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "737,570 ÷ 93",
+        "answer": 7930.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 363,
+    "date": "2027-04-19",
+    "questions": [
+      {
+        "expression": "42 − 20",
+        "answer": 22,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "453 + 632",
+        "answer": 1085,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "809 + 573",
+        "answer": 1382,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "8179 + 7934 − 375",
+        "answer": 15738,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "2408 × 320",
+        "answer": 770560,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 364,
+    "date": "2027-04-20",
+    "questions": [
+      {
+        "expression": "86 − 66",
+        "answer": 20,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "13 × 29",
+        "answer": 377,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "528 − 234",
+        "answer": 294,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "591 × 59",
+        "answer": 34869,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "78,464 ÷ 70",
+        "answer": 1120.9,
+        "difficulty": "extreme"
+      }
+    ]
+  },
+  {
+    "day": 365,
+    "date": "2027-04-21",
+    "questions": [
+      {
+        "expression": "90 + 65",
+        "answer": 155,
+        "difficulty": "easy"
+      },
+      {
+        "expression": "52 × 30",
+        "answer": 1560,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "16 × 15",
+        "answer": 240,
+        "difficulty": "medium"
+      },
+      {
+        "expression": "153 × 40 − 613",
+        "answer": 5507,
+        "difficulty": "hard"
+      },
+      {
+        "expression": "25,063 ÷ 12",
+        "answer": 2088.6,
         "difficulty": "extreme"
       }
     ]

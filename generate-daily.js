@@ -112,8 +112,8 @@ const EXTREME_GENS = [genExtremeLargeMul, genExtremeChained, genExtremeDivision]
 
 // --- Generate 365 daily sets ---
 
-const SEED_BASE = 20260101; // Deterministic seed base
-const START_DATE = new Date(2026, 0, 1); // Jan 1, 2026
+const SEED_BASE = 20260422; // Deterministic seed base
+const START_DATE = new Date(2026, 3, 22); // Apr 22, 2026 (launch day)
 
 const challenges = [];
 
